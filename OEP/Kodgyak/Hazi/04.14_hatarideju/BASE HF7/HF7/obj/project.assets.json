@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Hazi\\04.14_hatarideju\\BASE HF7\\HF7\\HF7.csproj",
+      "projectUniqueName": "C:\\Users\\jeney\\Documents\\ELTE (uj github rendszerhez, II. felevtol)\\2. szemeszter\\OEP\\Kodgyak\\Hazi\\04.14_hatarideju\\BASE HF7\\HF7\\HF7.csproj",
       "projectName": "HF7",
-      "projectPath": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Hazi\\04.14_hatarideju\\BASE HF7\\HF7\\HF7.csproj",
+      "projectPath": "C:\\Users\\jeney\\Documents\\ELTE (uj github rendszerhez, II. felevtol)\\2. szemeszter\\OEP\\Kodgyak\\Hazi\\04.14_hatarideju\\BASE HF7\\HF7\\HF7.csproj",
       "packagesPath": "C:\\Users\\jeney\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Hazi\\04.14_hatarideju\\BASE HF7\\HF7\\obj\\",
+      "outputPath": "C:\\Users\\jeney\\Documents\\ELTE (uj github rendszerhez, II. felevtol)\\2. szemeszter\\OEP\\Kodgyak\\Hazi\\04.14_hatarideju\\BASE HF7\\HF7\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jeney\\AppData\\Roaming\\NuGet\\NuGet.Config",

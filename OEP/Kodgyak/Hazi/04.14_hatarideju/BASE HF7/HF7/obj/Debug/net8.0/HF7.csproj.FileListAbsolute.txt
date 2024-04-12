@@ -1,0 +1,5 @@
+C:\Users\jeney\Documents\ELTE (uj github rendszerhez, II. felevtol)\2. szemeszter\OEP\Kodgyak\Hazi\04.14_hatarideju\BASE HF7\HF7\obj\Debug\net8.0\HF7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeney\Documents\ELTE (uj github rendszerhez, II. felevtol)\2. szemeszter\OEP\Kodgyak\Hazi\04.14_hatarideju\BASE HF7\HF7\obj\Debug\net8.0\HF7.AssemblyInfoInputs.cache
+C:\Users\jeney\Documents\ELTE (uj github rendszerhez, II. felevtol)\2. szemeszter\OEP\Kodgyak\Hazi\04.14_hatarideju\BASE HF7\HF7\obj\Debug\net8.0\HF7.AssemblyInfo.cs
+C:\Users\jeney\Documents\ELTE (uj github rendszerhez, II. felevtol)\2. szemeszter\OEP\Kodgyak\Hazi\04.14_hatarideju\BASE HF7\HF7\obj\Debug\net8.0\HF7.csproj.CoreCompileInputs.cache
+C:\Users\jeney\Documents\ELTE (uj github rendszerhez, II. felevtol)\2. szemeszter\OEP\Kodgyak\Hazi\04.14_hatarideju\BASE HF7\HF7\obj\Debug\net8.0\HF7.sourcelink.json

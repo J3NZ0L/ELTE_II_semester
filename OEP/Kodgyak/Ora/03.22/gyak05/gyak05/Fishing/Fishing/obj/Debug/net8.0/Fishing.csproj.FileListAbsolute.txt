@@ -1,0 +1,16 @@
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Fishing\Fishing\bin\Debug\net8.0\Fishing.exe
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Fishing\Fishing\bin\Debug\net8.0\Fishing.deps.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Fishing\Fishing\bin\Debug\net8.0\Fishing.runtimeconfig.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Fishing\Fishing\bin\Debug\net8.0\Fishing.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Fishing\Fishing\bin\Debug\net8.0\Fishing.pdb
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Fishing\Fishing\obj\Debug\net8.0\Fishing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Fishing\Fishing\obj\Debug\net8.0\Fishing.AssemblyInfoInputs.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Fishing\Fishing\obj\Debug\net8.0\Fishing.AssemblyInfo.cs
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Fishing\Fishing\obj\Debug\net8.0\Fishing.csproj.CoreCompileInputs.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Fishing\Fishing\obj\Debug\net8.0\Fishing.sourcelink.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Fishing\Fishing\obj\Debug\net8.0\Fishing.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Fishing\Fishing\obj\Debug\net8.0\refint\Fishing.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Fishing\Fishing\obj\Debug\net8.0\Fishing.pdb
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Fishing\Fishing\obj\Debug\net8.0\Fishing.genruntimeconfig.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Fishing\Fishing\obj\Debug\net8.0\ref\Fishing.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Fishing\Fishing\bin\Debug\net8.0\input_fishing.txt

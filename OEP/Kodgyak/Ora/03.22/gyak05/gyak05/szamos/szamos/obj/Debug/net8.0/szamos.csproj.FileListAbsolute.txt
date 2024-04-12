@@ -1,0 +1,15 @@
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\szamos\szamos\bin\Debug\net8.0\szamos.exe
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\szamos\szamos\bin\Debug\net8.0\szamos.deps.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\szamos\szamos\bin\Debug\net8.0\szamos.runtimeconfig.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\szamos\szamos\bin\Debug\net8.0\szamos.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\szamos\szamos\bin\Debug\net8.0\szamos.pdb
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\szamos\szamos\obj\Debug\net8.0\szamos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\szamos\szamos\obj\Debug\net8.0\szamos.AssemblyInfoInputs.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\szamos\szamos\obj\Debug\net8.0\szamos.AssemblyInfo.cs
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\szamos\szamos\obj\Debug\net8.0\szamos.csproj.CoreCompileInputs.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\szamos\szamos\obj\Debug\net8.0\szamos.sourcelink.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\szamos\szamos\obj\Debug\net8.0\szamos.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\szamos\szamos\obj\Debug\net8.0\refint\szamos.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\szamos\szamos\obj\Debug\net8.0\szamos.pdb
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\szamos\szamos\obj\Debug\net8.0\szamos.genruntimeconfig.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\szamos\szamos\obj\Debug\net8.0\ref\szamos.dll

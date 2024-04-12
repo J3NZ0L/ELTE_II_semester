@@ -1,0 +1,15 @@
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.05\Bevasarlas\bin\Debug\net8.0\Bevasarlas.exe
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.05\Bevasarlas\bin\Debug\net8.0\Bevasarlas.deps.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.05\Bevasarlas\bin\Debug\net8.0\Bevasarlas.runtimeconfig.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.05\Bevasarlas\bin\Debug\net8.0\Bevasarlas.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.05\Bevasarlas\bin\Debug\net8.0\Bevasarlas.pdb
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.05\Bevasarlas\obj\Debug\net8.0\Bevasarlas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.05\Bevasarlas\obj\Debug\net8.0\Bevasarlas.AssemblyInfoInputs.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.05\Bevasarlas\obj\Debug\net8.0\Bevasarlas.AssemblyInfo.cs
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.05\Bevasarlas\obj\Debug\net8.0\Bevasarlas.csproj.CoreCompileInputs.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.05\Bevasarlas\obj\Debug\net8.0\Bevasarlas.sourcelink.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.05\Bevasarlas\obj\Debug\net8.0\Bevasarlas.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.05\Bevasarlas\obj\Debug\net8.0\refint\Bevasarlas.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.05\Bevasarlas\obj\Debug\net8.0\Bevasarlas.pdb
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.05\Bevasarlas\obj\Debug\net8.0\Bevasarlas.genruntimeconfig.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.05\Bevasarlas\obj\Debug\net8.0\ref\Bevasarlas.dll

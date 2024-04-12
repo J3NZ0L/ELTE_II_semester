@@ -1,0 +1,15 @@
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\03.01\Base HF3\Base\obj\Debug\net7.0\HF3.csproj.AssemblyReference.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\03.01\Base HF3\Base\obj\Debug\net7.0\HF3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\03.01\Base HF3\Base\obj\Debug\net7.0\HF3.AssemblyInfoInputs.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\03.01\Base HF3\Base\obj\Debug\net7.0\HF3.AssemblyInfo.cs
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\03.01\Base HF3\Base\obj\Debug\net7.0\HF3.csproj.CoreCompileInputs.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\03.01\Base HF3\Base\bin\Debug\net7.0\HF3.exe
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\03.01\Base HF3\Base\bin\Debug\net7.0\HF3.deps.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\03.01\Base HF3\Base\bin\Debug\net7.0\HF3.runtimeconfig.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\03.01\Base HF3\Base\bin\Debug\net7.0\HF3.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\03.01\Base HF3\Base\bin\Debug\net7.0\HF3.pdb
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\03.01\Base HF3\Base\obj\Debug\net7.0\HF3.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\03.01\Base HF3\Base\obj\Debug\net7.0\refint\HF3.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\03.01\Base HF3\Base\obj\Debug\net7.0\HF3.pdb
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\03.01\Base HF3\Base\obj\Debug\net7.0\HF3.genruntimeconfig.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\03.01\Base HF3\Base\obj\Debug\net7.0\ref\HF3.dll

@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{724E17BB-4D4A-4070-BC0D-7D1E072398E3}|Garden\\Garden.csproj|c:\\users\\jeney\\documents\\elte\\2. szemeszter\\oep\\kodgyak\\ora\\04.12\\gyak07\\gyak07\\garden_skel\\garden\\garden\\gardener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724E17BB-4D4A-4070-BC0D-7D1E072398E3}|Garden\\Garden.csproj|solutionrelative:garden\\gardener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724E17BB-4D4A-4070-BC0D-7D1E072398E3}|Garden\\Garden.csproj|c:\\users\\jeney\\documents\\elte\\2. szemeszter\\oep\\kodgyak\\ora\\04.12\\gyak07\\gyak07\\garden_skel\\garden\\garden\\potato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724E17BB-4D4A-4070-BC0D-7D1E072398E3}|Garden\\Garden.csproj|solutionrelative:garden\\potato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724E17BB-4D4A-4070-BC0D-7D1E072398E3}|Garden\\Garden.csproj|c:\\users\\jeney\\documents\\elte\\2. szemeszter\\oep\\kodgyak\\ora\\04.12\\gyak07\\gyak07\\garden_skel\\garden\\garden\\rose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724E17BB-4D4A-4070-BC0D-7D1E072398E3}|Garden\\Garden.csproj|solutionrelative:garden\\rose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724E17BB-4D4A-4070-BC0D-7D1E072398E3}|Garden\\Garden.csproj|c:\\users\\jeney\\documents\\elte\\2. szemeszter\\oep\\kodgyak\\ora\\04.12\\gyak07\\gyak07\\garden_skel\\garden\\garden\\onion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724E17BB-4D4A-4070-BC0D-7D1E072398E3}|Garden\\Garden.csproj|solutionrelative:garden\\onion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724E17BB-4D4A-4070-BC0D-7D1E072398E3}|Garden\\Garden.csproj|c:\\users\\jeney\\documents\\elte\\2. szemeszter\\oep\\kodgyak\\ora\\04.12\\gyak07\\gyak07\\garden_skel\\garden\\garden\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724E17BB-4D4A-4070-BC0D-7D1E072398E3}|Garden\\Garden.csproj|solutionrelative:garden\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724E17BB-4D4A-4070-BC0D-7D1E072398E3}|Garden\\Garden.csproj|c:\\users\\jeney\\documents\\elte\\2. szemeszter\\oep\\kodgyak\\ora\\04.12\\gyak07\\gyak07\\garden_skel\\garden\\garden\\peas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724E17BB-4D4A-4070-BC0D-7D1E072398E3}|Garden\\Garden.csproj|solutionrelative:garden\\peas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724E17BB-4D4A-4070-BC0D-7D1E072398E3}|Garden\\Garden.csproj|c:\\users\\jeney\\documents\\elte\\2. szemeszter\\oep\\kodgyak\\ora\\04.12\\gyak07\\gyak07\\garden_skel\\garden\\garden\\tulip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724E17BB-4D4A-4070-BC0D-7D1E072398E3}|Garden\\Garden.csproj|solutionrelative:garden\\tulip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724E17BB-4D4A-4070-BC0D-7D1E072398E3}|Garden\\Garden.csproj|c:\\users\\jeney\\documents\\elte\\2. szemeszter\\oep\\kodgyak\\ora\\04.12\\gyak07\\gyak07\\garden_skel\\garden\\garden\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724E17BB-4D4A-4070-BC0D-7D1E072398E3}|Garden\\Garden.csproj|solutionrelative:garden\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724E17BB-4D4A-4070-BC0D-7D1E072398E3}|Garden\\Garden.csproj|c:\\users\\jeney\\documents\\elte\\2. szemeszter\\oep\\kodgyak\\ora\\04.12\\gyak07\\gyak07\\garden_skel\\garden\\garden\\vegetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724E17BB-4D4A-4070-BC0D-7D1E072398E3}|Garden\\Garden.csproj|solutionrelative:garden\\vegetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Peas.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Peas.cs",
+              "RelativeDocumentMoniker": "Garden\\Peas.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Peas.cs",
+              "RelativeToolTip": "Garden\\Peas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T11:00:11.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Potato.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Potato.cs",
+              "RelativeDocumentMoniker": "Garden\\Potato.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Potato.cs",
+              "RelativeToolTip": "Garden\\Potato.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T11:00:05.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rose.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Rose.cs",
+              "RelativeDocumentMoniker": "Garden\\Rose.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Rose.cs",
+              "RelativeToolTip": "Garden\\Rose.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T11:00:03.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Tulip.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Tulip.cs",
+              "RelativeDocumentMoniker": "Garden\\Tulip.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Tulip.cs",
+              "RelativeToolTip": "Garden\\Tulip.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T11:00:00.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Vegetable.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Vegetable.cs",
+              "RelativeDocumentMoniker": "Garden\\Vegetable.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Vegetable.cs",
+              "RelativeToolTip": "Garden\\Vegetable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T10:53:12.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Plant.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Plant.cs",
+              "RelativeDocumentMoniker": "Garden\\Plant.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Plant.cs",
+              "RelativeToolTip": "Garden\\Plant.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T10:53:11.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Program.cs",
+              "RelativeDocumentMoniker": "Garden\\Program.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Program.cs",
+              "RelativeToolTip": "Garden\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T10:52:18.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Onion.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Onion.cs",
+              "RelativeDocumentMoniker": "Garden\\Onion.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Onion.cs",
+              "RelativeToolTip": "Garden\\Onion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T10:51:33.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Gardener.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Gardener.cs",
+              "RelativeDocumentMoniker": "Garden\\Gardener.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Gardener.cs",
+              "RelativeToolTip": "Garden\\Gardener.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T10:51:14.578Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

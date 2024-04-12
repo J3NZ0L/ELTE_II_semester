@@ -1,0 +1,15 @@
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\02.23\gyak02\gyak02\Complex_skel\Complex\obj\Debug\net7.0\Complex.csproj.AssemblyReference.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\02.23\gyak02\gyak02\Complex_skel\Complex\obj\Debug\net7.0\Complex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\02.23\gyak02\gyak02\Complex_skel\Complex\obj\Debug\net7.0\Complex.AssemblyInfoInputs.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\02.23\gyak02\gyak02\Complex_skel\Complex\obj\Debug\net7.0\Complex.AssemblyInfo.cs
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\02.23\gyak02\gyak02\Complex_skel\Complex\obj\Debug\net7.0\Complex.csproj.CoreCompileInputs.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\02.23\gyak02\gyak02\Complex_skel\Complex\bin\Debug\net7.0\Complex.exe
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\02.23\gyak02\gyak02\Complex_skel\Complex\bin\Debug\net7.0\Complex.deps.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\02.23\gyak02\gyak02\Complex_skel\Complex\bin\Debug\net7.0\Complex.runtimeconfig.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\02.23\gyak02\gyak02\Complex_skel\Complex\bin\Debug\net7.0\Complex.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\02.23\gyak02\gyak02\Complex_skel\Complex\bin\Debug\net7.0\Complex.pdb
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\02.23\gyak02\gyak02\Complex_skel\Complex\obj\Debug\net7.0\Complex.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\02.23\gyak02\gyak02\Complex_skel\Complex\obj\Debug\net7.0\refint\Complex.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\02.23\gyak02\gyak02\Complex_skel\Complex\obj\Debug\net7.0\Complex.pdb
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\02.23\gyak02\gyak02\Complex_skel\Complex\obj\Debug\net7.0\Complex.genruntimeconfig.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\02.23\gyak02\gyak02\Complex_skel\Complex\obj\Debug\net7.0\ref\Complex.dll

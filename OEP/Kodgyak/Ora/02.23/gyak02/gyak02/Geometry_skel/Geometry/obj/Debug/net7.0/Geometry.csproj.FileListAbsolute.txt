@@ -1,0 +1,5 @@
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\02.23\gyak02\gyak02\Geometry_skel\Geometry\obj\Debug\net7.0\Geometry.csproj.AssemblyReference.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\02.23\gyak02\gyak02\Geometry_skel\Geometry\obj\Debug\net7.0\Geometry.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\02.23\gyak02\gyak02\Geometry_skel\Geometry\obj\Debug\net7.0\Geometry.AssemblyInfoInputs.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\02.23\gyak02\gyak02\Geometry_skel\Geometry\obj\Debug\net7.0\Geometry.AssemblyInfo.cs
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\02.23\gyak02\gyak02\Geometry_skel\Geometry\obj\Debug\net7.0\Geometry.csproj.CoreCompileInputs.cache

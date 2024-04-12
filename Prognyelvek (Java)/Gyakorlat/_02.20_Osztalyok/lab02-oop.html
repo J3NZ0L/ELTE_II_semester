@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="hu" xml:lang="hu">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="ELTE Informatikai Kar" />
+  <title>Programozási nyelvek Java</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <style type="text/css">
+  body {
+      max-width: 100% !important;
+  }
+
+  pre > code
+  {
+      all: unset;
+  }
+
+  code
+  {
+      color: blue;
+      font-size: 14px;
+      white-space: pre;
+      border-radius: 3px;
+      font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+      padding: 2px 4px;
+
+      display: inline-block;
+
+      background-image: radial-gradient(ellipse farthest-corner at 50% 50%, #e4e4e4, #ffffff);
+  }
+
+
+  pre
+  {
+    	margin-left: 3em;
+    	padding: 0.5em;
+
+    	border: 0.1em green solid !important;
+
+      display: inline-block;
+  }
+
+  table {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 24px;
+      border-spacing: 0;
+      border-bottom: 2px solid black;
+      border-top: 2px solid black;
+      width: auto !important;
+  }
+
+  table th {
+      padding: 3px 10px;
+      background-color: white;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 1px solid black;
+  }
+
+  table td {
+      padding: 3px 10px;
+      border-top: none;
+      border-left: none;
+      border-bottom: none;
+      border-right: none;
+  }
+
+  nav#TOC {
+      position: absolute;
+      top: 1em;
+      right: 1em;
+      border: 1px solid black;
+  }
+
+  </style>
+
+  <script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 class="hu" id="egységbe-zárás-osztály-adattag-metódus">Egységbe
+zárás: osztály, adattag, metódus</h1>
+<h2 class="en hu" id="demo-2">Demo</h2>
+<h3 class="hu" id="feladat">1. feladat</h3>
+<p>Készítsen egy <code>Point</code> osztályt <code>double</code> típusú
+<code>x</code> és <code>y</code> mezőkkel. Írja meg a
+<code>move(dx,dy)</code> műveletet, mellyel egy pontot el lehet tolni
+<code>dx</code> és <code>dy</code> koordinátákkal, valamint a
+<code>mirror(cx,cy)</code> műveletet, mely egy <code>cx</code> és
+<code>cy</code> koordinátájú pontra való tükrözést valósít meg.</p>
+<p>Készítsen <code>PointMain</code> néven Java programot, amelyben
+bemutatja a <code>Point</code> osztály használatát.</p>
+<h2 class="hu" id="feladatok-2">Feladatok</h2>
+<h3 class="hu" id="feladat-1">2. feladat</h3>
+<p>Módosítsa a <code>Point</code> osztályban a <code>mirror(p)</code>
+műveletet úgy, hogy paramétere (a tükrözési középpont) egy
+<code>Point</code> objektum legyen!</p>
+<p>Írjon <code>distance(p)</code> műveletet is, mely kiszámolja az adott
+pont távolságát egy paraméterként kapott <code>p</code> ponttól.
+Használja a <code>Math.sqrt(...)</code> függvényt és a Pitagorasz
+tételt!</p>
+<p>Frissítse a <code>PointMain</code> osztályt az új műveletekkel!</p>
+<h3 class="hu" id="feladat-2">3. feladat</h3>
+<p>Javasoljuk ezt a feladatot önállóan megoldani.</p>
+<p>Valósítsa meg a <code>Complex</code> osztályt <code>double</code>
+típusú valós és képzetes résszel! Írjon <code>abs()</code> metódust,
+amely kiszámolja a komplex szám abszolút értékét. Valósítsa meg az
+<code>add(c)</code>, a <code>sub(c)</code> és a <code>mul(c)</code>
+műveleteket oly módon, hogy az <code>add</code> adja hozzá a komplex
+számhoz a paraméterként kapott <code>c</code> komplex számot, a
+<code>sub</code> vonja ki belőle, a <code>mul</code> pedig szorozza
+hozzá.</p>
+<p>Készítsen <code>ComplexMain</code> néven Java programot, amelyben
+bemutatja a <code>Complex</code> osztály használatát. Példa:</p>
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode java"><code class="sourceCode java"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>alpha<span class="op">.</span><span class="fu">re</span> <span class="op">=</span> <span class="dv">3</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>alpha<span class="op">.</span><span class="fu">im</span> <span class="op">=</span> <span class="dv">2</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>beta<span class="op">.</span><span class="fu">re</span> <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>beta<span class="op">.</span><span class="fu">im</span> <span class="op">=</span> <span class="dv">2</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>alpha<span class="op">.</span><span class="fu">add</span><span class="op">(</span>beta<span class="op">)</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="co">// alpha.re == 4 &amp;&amp; alpha.im == 4 &amp;&amp; beta.re == 1 &amp;&amp; beta.im == 2</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>alpha<span class="op">.</span><span class="fu">sub</span><span class="op">(</span>beta<span class="op">)</span></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="co">// alpha.re == 3 &amp;&amp; alpha.im == 2 &amp;&amp; beta.re == 1 &amp;&amp; beta.im == 2</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>alpha<span class="op">.</span><span class="fu">mul</span><span class="op">(</span>beta<span class="op">)</span></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a><span class="co">// alpha.re == -1 &amp;&amp; alpha.im == 8 &amp;&amp; beta.re == 1 &amp;&amp; beta.im == 2</span></span></code></pre></div>
+<h3 class="hu" id="feladat-3">4. feladat</h3>
+<p>Készítsen <code>Circle</code> néven kört reprezentáló osztályt. Egy
+körnek van középpontja (<code>x</code> és <code>y</code> nevű,
+<code>double</code> típusú adattag) és sugara (<code>radius</code>).</p>
+<p>Írjon <code>enlarge(f)</code> metódust, amellyel a kör sugarát
+<code>f</code>-szeresére változtatja, illetve <code>getArea()</code>
+metódust, amely megadja a kör területét. Használjuk a
+<code>Math.PI</code> értéket!</p>
+<h3 class="hu" id="feladat-4">5. feladat</h3>
+<p>Készítsen egy <code>Distance</code> programot. Ez a parancssori
+paramétereket pontoknak értelmezi: a pontok szóközzel elválasztva vannak
+felsorolva, minden pontnál elöl az <code>x</code>, utána az
+<code>y</code> koordináta (ezek is szóközzel elválasztva).</p>
+<p>Feltételezhetjük, hogy páros számú paraméter van, amelyek mind egész
+számok.</p>
+<p>A program a <code>Point</code> osztály felhasználásával számítsa ki
+és adja össze az egymás mellett lévő pontok távolságát (pl. 3 pont
+esetén az 1. és a 2. pont távolságához hozzá kell adni a 2. és a 3. pont
+távolságát), majd az eredményt írja ki.</p>
+<p>Példák:</p>
+<pre><code>&gt; java Distance
+0.0
+&gt; java Distance 1 2
+0.0
+&gt; java Distance 0 0 3 4
+5.0
+&gt; java Distance 1 2 4 6
+5.0
+&gt; java Distance 1 2 4 6 7 6
+8.0</code></pre>
+<h2 class="hu" id="gyakorló-feladatok-2">Gyakorló feladatok</h2>
+<h3 class="hu" id="gyakorló-feladat">1. gyakorló feladat</h3>
+<p>Készítsük el a Complex osztályba a <code>conjugate()</code>
+műveletet, mely a komplex számot átalakítja a komplex konjugáltjára.
+Készítsük el a <code>reciprocate()</code> metódust, mely a komplex
+számot reciprokára alakítja. Definiáljuk a <code>div(c)</code> művelet,
+mely elosztja a komplex számot a paraméterként kapott <code>c</code>
+komplex számmal.</p>
+<h3 class="hu" id="gyakorló-feladat-1">2. gyakorló feladat</h3>
+<p>Készítse el a <code>Line</code> osztályt, mellyel egy adott sík
+egyeneseit reprezentálhatjuk. Egy egyenest az <span
+class="math inline">\(ax + by = c\)</span> összefüggés ír le, ahol
+<code>a</code>, <code>b</code> és <code>c</code> számok
+<code>double</code> típusúak. (Ezek lesznek az osztály adattagjai.)</p>
+<p>Írjon az osztályba egy <code>contains(p)</code> műveletet, mely
+eldönti, hogy egy <code>p</code> pont rajta van-e az egyenesen!</p>
+<p>Írjon egy <code>isParallelWith(l)</code> és egy
+<code>isOrthogonalTo(l)</code> metódust, melyek eldöntik, hogy az
+egyenes párhuzamos-e a paraméterként kapott <code>l</code> egyenessel,
+illetve merőleges-e rá!</p>
+<h3 class="hu" id="gyakorló-feladat-2">3. gyakorló feladat</h3>
+<p>Készítse el a <code>Segment</code> osztályt, mely egy szakaszt
+reprezentál. A szakasz objektumok ábrázolásához a két végpont
+koordinátáit tároljuk el. Az adattagok <code>x1</code>, <code>y1</code>,
+<code>x2</code>, <code>y2</code> legyenek, mind <code>double</code>
+típusú.</p>
+<p>Írjon az osztályba egy <code>line()</code> metódust, mely visszaad
+egy olyan <code>Line</code> objektumot, amely a szakaszra illeszkedő
+egyenest reprezentál.</p>
+<p>Írjon az osztályba egy <code>contains(p)</code> műveletet, mely
+eldönti, hogy egy <code>p</code> pont rajta van-e a szakaszon!</p>
+<p>Készítsen <code>orientation(p)</code> metódust a <code>Segment</code>
+osztályba, mely eldönti, hogy a szakasz kezdőpontjából a végpontjába
+mutató vektor, valamint a szakasz végpontjából a paraméterként kapott
+<code>p</code> pontba mutató vektor milyen orientációjú. A metódus adjon
+vissza 0-t, ha a <code>p</code> rajta van a szakasz által meghatározott
+egyenesen, adjon vissza pozitív értéket, ha a két vektor az óramutató
+járásával megegyező irányban van egymással, illetve negatív értéket, ha
+az óramutató járásával ellenkező irányú. Ez elég egyszerű: ha a
+<code>p</code> pont koordinátáit <span
+class="math inline">\(x_3\)</span> és <span
+class="math inline">\(y_3\)</span> jelöli, akkor a metódus az alábbi
+kifejezést adja vissza.</p>
+<p><span class="math display">\[(y_2 - y_1)(x_3 - x_2) - (y_3 - y_2)(x_2
+- x_1)\]</span></p>
+<p>Készítsen egy <code>intersects(s)</code> metódust, mely visszaadja,
+hogy a szakasznak van-e közös pontja a paraméterként kapott
+<code>s</code> szakasszal! A megoldáshoz használja az alábbi
+segítséget!</p>
+<p><a href="http://www.dcs.gla.ac.uk/~pat/52233/slides/Geometry1x1.pdf"
+class="uri">http://www.dcs.gla.ac.uk/~pat/52233/slides/Geometry1x1.pdf</a>
+</p>
+<h3 class="hu" id="gyakorló-feladat-3">4. gyakorló feladat</h3>
+<p>Készítsük el a <code>Rectangle</code> osztályt, mely a
+koordinátatengelyekkel párhuzamos oldalú téglalapok ábrázolására
+alkalmas! A <code>Rectangle</code> objektumukban tároljuk el valamelyik
+csúcspontjuk <code>x</code> és <code>y</code> koordinátáját, valamint a
+téglalap szélességét és magasságát. Ez négy adattagot jelent:
+<code>x</code>, <code>y</code>, <code>width</code> és
+<code>height</code>. Legyen mindegyik típusa dupla-pontosságú
+lebegőpontos típus.</p>
+<p>A szélesség és a magasság felvehet negatív értéket is. Legyen például
+az <code>r</code> négy adattagja rendre 1, 5, 6, -2. Ekkor az
+<code>r</code> bal alsó csúcsának koordinátái 1 és 3 lesznek.</p>
+<p>Definiáljuk a <code>Rectangle</code> objektumokon a
+<code>topLeft()</code>, a <code>topRight()</code>, a
+<code>bottomLeft()</code> és a <code>bottomRight()</code> metódusokat,
+melyek mindegyike egy <code>Point</code> objektumot ad vissza,
+értelemszerűen a téglalap megfelelő csúcsának a koordinátáit.</p>
+<p>A <code>Rectangle</code> osztályhoz készítsünk egy főprogramot, mely
+meghatározza a parancssori argumentumaként kapott téglalapok befoglaló
+téglalapjának csúcspontjait. A főprogram parancssori argumentumai számok
+legyenek (legalább 4). Minden számnégyes egy <code>Rectangle</code>
+objektumot határoz meg. Ezeket kell feldolgozni, és a végén kiírni a
+befoglaló téglalap bal alsó és jobb felső csúcsainak koordinátáit.</p>
+<pre><code>$ java RectangleMain 3 5 1 -7 2 5 8 8
+Bounding rectangle: 2.0;-2.0 - 10.0;13.0</code></pre>
+<p>A fenti példa két téglalap befoglaló téglalapját határozza meg. Az
+első téglalap egyik csúcsa (3,5) koordinátájú, szélessége 1, magassága
+-7. A másik téglalap egyik csúcsa (2,5) koordinátájú, szélessége és
+magassága egyaránt 8. Az eredményként kapott befoglaló téglalap bal alsó
+csúcsa (2,-2), jobb felső csúcsa (10,13), amely egyébként a második
+kapott téglalap jobb felső csúcsa is.</p>
+<p>Segítség: a befoglaló téglalap bal alsó csúcsának x-koordinátájának
+meghatározásához keressük meg a legkisebb értéket a kapott téglalapok
+bal alsó csúcsának x-koordinátái között, stb.</p>
+</body>
+</html>

@@ -1,0 +1,3 @@
+Oracle java doku.: https://docs.oracle.com/javase/8/docs/api/
+vagy csak jre (keves)
+jdk kell helyette java development kit

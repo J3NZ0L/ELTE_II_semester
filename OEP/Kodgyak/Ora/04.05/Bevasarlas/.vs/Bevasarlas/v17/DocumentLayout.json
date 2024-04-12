@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.05\\Bevasarlas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{536AB4F9-3470-4BA4-A835-C95C347FA16B}|Bevasarlas.csproj|c:\\users\\jeney\\documents\\elte\\2. szemeszter\\oep\\kodgyak\\ora\\04.05\\bevasarlas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536AB4F9-3470-4BA4-A835-C95C347FA16B}|Bevasarlas.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536AB4F9-3470-4BA4-A835-C95C347FA16B}|Bevasarlas.csproj|c:\\users\\jeney\\documents\\elte\\2. szemeszter\\oep\\kodgyak\\ora\\04.05\\bevasarlas\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536AB4F9-3470-4BA4-A835-C95C347FA16B}|Bevasarlas.csproj|solutionrelative:customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536AB4F9-3470-4BA4-A835-C95C347FA16B}|Bevasarlas.csproj|c:\\users\\jeney\\documents\\elte\\2. szemeszter\\oep\\kodgyak\\ora\\04.05\\bevasarlas\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536AB4F9-3470-4BA4-A835-C95C347FA16B}|Bevasarlas.csproj|solutionrelative:store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536AB4F9-3470-4BA4-A835-C95C347FA16B}|Bevasarlas.csproj|c:\\users\\jeney\\documents\\elte\\2. szemeszter\\oep\\kodgyak\\ora\\04.05\\bevasarlas\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536AB4F9-3470-4BA4-A835-C95C347FA16B}|Bevasarlas.csproj|solutionrelative:department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536AB4F9-3470-4BA4-A835-C95C347FA16B}|Bevasarlas.csproj|c:\\users\\jeney\\documents\\elte\\2. szemeszter\\oep\\kodgyak\\ora\\04.05\\bevasarlas\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536AB4F9-3470-4BA4-A835-C95C347FA16B}|Bevasarlas.csproj|solutionrelative:product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.05\\Bevasarlas\\Product.cs",
+              "RelativeDocumentMoniker": "Product.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.05\\Bevasarlas\\Product.cs",
+              "RelativeToolTip": "Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T10:16:12.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Store.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.05\\Bevasarlas\\Store.cs",
+              "RelativeDocumentMoniker": "Store.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.05\\Bevasarlas\\Store.cs",
+              "RelativeToolTip": "Store.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T10:16:00.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.05\\Bevasarlas\\Department.cs",
+              "RelativeDocumentMoniker": "Department.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.05\\Bevasarlas\\Department.cs",
+              "RelativeToolTip": "Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T10:15:45.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.05\\Bevasarlas\\Customer.cs",
+              "RelativeDocumentMoniker": "Customer.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.05\\Bevasarlas\\Customer.cs",
+              "RelativeToolTip": "Customer.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFIAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T10:15:26.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.05\\Bevasarlas\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.05\\Bevasarlas\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T10:14:32.576Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

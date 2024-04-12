@@ -1,0 +1,16 @@
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\04.01\Homerseklet\bin\Debug\net8.0\Homerseklet.exe
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\04.01\Homerseklet\bin\Debug\net8.0\Homerseklet.deps.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\04.01\Homerseklet\bin\Debug\net8.0\Homerseklet.runtimeconfig.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\04.01\Homerseklet\bin\Debug\net8.0\Homerseklet.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\04.01\Homerseklet\bin\Debug\net8.0\Homerseklet.pdb
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\04.01\Homerseklet\obj\Debug\net8.0\Homerseklet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\04.01\Homerseklet\obj\Debug\net8.0\Homerseklet.AssemblyInfoInputs.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\04.01\Homerseklet\obj\Debug\net8.0\Homerseklet.AssemblyInfo.cs
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\04.01\Homerseklet\obj\Debug\net8.0\Homerseklet.csproj.CoreCompileInputs.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\04.01\Homerseklet\obj\Debug\net8.0\Homerseklet.sourcelink.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\04.01\Homerseklet\obj\Debug\net8.0\Homerseklet.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\04.01\Homerseklet\obj\Debug\net8.0\refint\Homerseklet.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\04.01\Homerseklet\obj\Debug\net8.0\Homerseklet.pdb
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\04.01\Homerseklet\obj\Debug\net8.0\Homerseklet.genruntimeconfig.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\04.01\Homerseklet\obj\Debug\net8.0\ref\Homerseklet.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\04.01\Homerseklet\bin\Debug\net8.0\be.txt

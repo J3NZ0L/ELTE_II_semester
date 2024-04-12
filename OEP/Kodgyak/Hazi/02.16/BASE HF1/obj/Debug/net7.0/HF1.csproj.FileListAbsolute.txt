@@ -1,0 +1,15 @@
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\02.16\BASE HF1\bin\Debug\net7.0\HF1.exe
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\02.16\BASE HF1\bin\Debug\net7.0\HF1.deps.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\02.16\BASE HF1\bin\Debug\net7.0\HF1.runtimeconfig.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\02.16\BASE HF1\bin\Debug\net7.0\HF1.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\02.16\BASE HF1\bin\Debug\net7.0\HF1.pdb
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\02.16\BASE HF1\obj\Debug\net7.0\HF1.csproj.AssemblyReference.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\02.16\BASE HF1\obj\Debug\net7.0\HF1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\02.16\BASE HF1\obj\Debug\net7.0\HF1.AssemblyInfoInputs.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\02.16\BASE HF1\obj\Debug\net7.0\HF1.AssemblyInfo.cs
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\02.16\BASE HF1\obj\Debug\net7.0\HF1.csproj.CoreCompileInputs.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\02.16\BASE HF1\obj\Debug\net7.0\HF1.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\02.16\BASE HF1\obj\Debug\net7.0\refint\HF1.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\02.16\BASE HF1\obj\Debug\net7.0\HF1.pdb
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\02.16\BASE HF1\obj\Debug\net7.0\HF1.genruntimeconfig.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Hazi\02.16\BASE HF1\obj\Debug\net7.0\ref\HF1.dll

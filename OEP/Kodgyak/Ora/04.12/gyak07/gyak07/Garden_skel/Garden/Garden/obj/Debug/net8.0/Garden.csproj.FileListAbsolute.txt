@@ -1,0 +1,15 @@
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.12\gyak07\gyak07\Garden_skel\Garden\Garden\bin\Debug\net8.0\Garden.exe
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.12\gyak07\gyak07\Garden_skel\Garden\Garden\bin\Debug\net8.0\Garden.deps.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.12\gyak07\gyak07\Garden_skel\Garden\Garden\bin\Debug\net8.0\Garden.runtimeconfig.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.12\gyak07\gyak07\Garden_skel\Garden\Garden\bin\Debug\net8.0\Garden.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.12\gyak07\gyak07\Garden_skel\Garden\Garden\bin\Debug\net8.0\Garden.pdb
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.12\gyak07\gyak07\Garden_skel\Garden\Garden\obj\Debug\net8.0\Garden.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.12\gyak07\gyak07\Garden_skel\Garden\Garden\obj\Debug\net8.0\Garden.AssemblyInfoInputs.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.12\gyak07\gyak07\Garden_skel\Garden\Garden\obj\Debug\net8.0\Garden.AssemblyInfo.cs
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.12\gyak07\gyak07\Garden_skel\Garden\Garden\obj\Debug\net8.0\Garden.csproj.CoreCompileInputs.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.12\gyak07\gyak07\Garden_skel\Garden\Garden\obj\Debug\net8.0\Garden.sourcelink.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.12\gyak07\gyak07\Garden_skel\Garden\Garden\obj\Debug\net8.0\Garden.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.12\gyak07\gyak07\Garden_skel\Garden\Garden\obj\Debug\net8.0\refint\Garden.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.12\gyak07\gyak07\Garden_skel\Garden\Garden\obj\Debug\net8.0\Garden.pdb
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.12\gyak07\gyak07\Garden_skel\Garden\Garden\obj\Debug\net8.0\Garden.genruntimeconfig.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\04.12\gyak07\gyak07\Garden_skel\Garden\Garden\obj\Debug\net8.0\ref\Garden.dll

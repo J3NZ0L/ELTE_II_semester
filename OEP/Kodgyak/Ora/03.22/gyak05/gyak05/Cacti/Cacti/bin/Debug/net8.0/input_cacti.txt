@@ -1,0 +1,6 @@
+karacsonyi	piros		mexiko		3
+nyusziful	sarga		mexiko		50
+E.chamacereus	piros		argentina	2
+csillagkaktusz	feher		mexiko		2
+holdkaktusz	piros		paraguay	1
+saguaro		sarga		arizona		150

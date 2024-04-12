@@ -1,0 +1,16 @@
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Cacti\Cacti\bin\Debug\net8.0\Cacti.exe
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Cacti\Cacti\bin\Debug\net8.0\Cacti.deps.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Cacti\Cacti\bin\Debug\net8.0\Cacti.runtimeconfig.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Cacti\Cacti\bin\Debug\net8.0\Cacti.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Cacti\Cacti\bin\Debug\net8.0\Cacti.pdb
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Cacti\Cacti\obj\Debug\net8.0\Cacti.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Cacti\Cacti\obj\Debug\net8.0\Cacti.AssemblyInfoInputs.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Cacti\Cacti\obj\Debug\net8.0\Cacti.AssemblyInfo.cs
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Cacti\Cacti\obj\Debug\net8.0\Cacti.csproj.CoreCompileInputs.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Cacti\Cacti\obj\Debug\net8.0\Cacti.sourcelink.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Cacti\Cacti\obj\Debug\net8.0\Cacti.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Cacti\Cacti\obj\Debug\net8.0\refint\Cacti.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Cacti\Cacti\obj\Debug\net8.0\Cacti.pdb
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Cacti\Cacti\obj\Debug\net8.0\Cacti.genruntimeconfig.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Cacti\Cacti\obj\Debug\net8.0\ref\Cacti.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.22\gyak05\gyak05\Cacti\Cacti\bin\Debug\net8.0\input_cacti.txt

@@ -1,0 +1,24 @@
+Java új feladat megoldási checklist
+1) Elolvasom a feladatot
+2) Felépítem a munka mappámban a könyvtárszerkezetet
+	- package nevek alapján a mappákat létrehozom
+	- a feladathoz tartozó teszt fájlokat a helyükre másolom (Structure, Suite)
+3) Teszt fájlok hangolása
+	- package -ek a fájlok elejére (összes bemásolt java fájl!)
+	- struktúrális tesztnél a vizsgált class teljesen minősített nevének igazítása a projekthez
+4) Kért class elkészítése
+	- <név>.java fájlt létrehozom
+	- strukturális teszt fájl alapján megszerkeztem
+		- struktúrális teszt fordít, futtat
+	- metódusokat kitöltöm, befejezem a feladat leírás alapján
+5) Funkcionális teszt elkészítése
+	- <név>Test.java fájlt létrehozom -> egy korábbi teszt fájl alapján (time demo-ból vagy FibonacciTest.java -ból stb.)
+						- importok átmásol
+						- szükséges tesztek szerkezete átmásol
+	- feladat leírás alapján a funkcionális tesztek elkészítése
+		- funkcionális teszt fordít, futtat
+6) [Opcionális] összellenőrzésként a vonatkozó <név>TestSuite.java fordítása, futtatása
+7) Ha minden zöld [OK], akkor nagy eséllyel kész a feladat
+
+
+

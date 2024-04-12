@@ -22,5 +22,10 @@ namespace HF7
         {
             this.pin = p;
         }
+
+        public bool CheckPIN(string providedPin) 
+        {
+            return this.pin==providedPin;
+        }
     }
 }

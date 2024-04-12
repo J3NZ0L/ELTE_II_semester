@@ -1,12 +1,55 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jeney\\Documents\\ELTE (uj github rendszerhez, II. felevtol)\\2. szemeszter\\OEP\\Kodgyak\\Hazi\\04.14_hatarideju\\BASE HF7\\HF7\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Hazi\\04.14_hatarideju\\BASE HF7\\HF7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E280FCAE-9861-48A9-97D0-31482A2D6AD8}|HF7.csproj|c:\\users\\jeney\\documents\\elte\\ii. szemeszter\\oep\\kodgyak\\hazi\\04.14_hatarideju\\base hf7\\hf7\\center.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E280FCAE-9861-48A9-97D0-31482A2D6AD8}|HF7.csproj|solutionrelative:center.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E280FCAE-9861-48A9-97D0-31482A2D6AD8}|HF7.csproj|c:\\users\\jeney\\documents\\elte\\ii. szemeszter\\oep\\kodgyak\\hazi\\04.14_hatarideju\\base hf7\\hf7\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E280FCAE-9861-48A9-97D0-31482A2D6AD8}|HF7.csproj|solutionrelative:bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Center.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Hazi\\04.14_hatarideju\\BASE HF7\\HF7\\Center.cs",
+              "RelativeDocumentMoniker": "Center.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Hazi\\04.14_hatarideju\\BASE HF7\\HF7\\Center.cs",
+              "RelativeToolTip": "Center.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T18:29:20.48Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bank.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Hazi\\04.14_hatarideju\\BASE HF7\\HF7\\Bank.cs",
+              "RelativeDocumentMoniker": "Bank.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Hazi\\04.14_hatarideju\\BASE HF7\\HF7\\Bank.cs",
+              "RelativeToolTip": "Bank.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T18:29:34.348Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -9,7 +9,7 @@ namespace HF7
     internal class Customer
     {
         private string pin;
-        private int withdraw=atm.Process(this);
+        private int withdraw; //atm.Process(this)? inkabb withdrawalhoz talan
         private List<Account> accounts;
         public Customer(string pin, int _wihtdraw)
         {
@@ -19,7 +19,7 @@ namespace HF7
         }
         public void Withdrawal(ATM atm)
         {
-
+            atm.Process(this);
         }
 
         public Card ProvidesCard()

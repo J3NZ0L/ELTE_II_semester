@@ -3,3 +3,18 @@ C:\Users\jeney\Documents\ELTE (uj github rendszerhez, II. felevtol)\2. szemeszte
 C:\Users\jeney\Documents\ELTE (uj github rendszerhez, II. felevtol)\2. szemeszter\OEP\Kodgyak\Hazi\04.14_hatarideju\BASE HF7\HF7\obj\Debug\net8.0\HF7.AssemblyInfo.cs
 C:\Users\jeney\Documents\ELTE (uj github rendszerhez, II. felevtol)\2. szemeszter\OEP\Kodgyak\Hazi\04.14_hatarideju\BASE HF7\HF7\obj\Debug\net8.0\HF7.csproj.CoreCompileInputs.cache
 C:\Users\jeney\Documents\ELTE (uj github rendszerhez, II. felevtol)\2. szemeszter\OEP\Kodgyak\Hazi\04.14_hatarideju\BASE HF7\HF7\obj\Debug\net8.0\HF7.sourcelink.json
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\04.14_hatarideju\BASE HF7\HF7\obj\Debug\net8.0\HF7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\04.14_hatarideju\BASE HF7\HF7\obj\Debug\net8.0\HF7.AssemblyInfoInputs.cache
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\04.14_hatarideju\BASE HF7\HF7\obj\Debug\net8.0\HF7.AssemblyInfo.cs
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\04.14_hatarideju\BASE HF7\HF7\obj\Debug\net8.0\HF7.csproj.CoreCompileInputs.cache
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\04.14_hatarideju\BASE HF7\HF7\obj\Debug\net8.0\HF7.sourcelink.json
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\04.14_hatarideju\BASE HF7\HF7\bin\Debug\net8.0\HF7.exe
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\04.14_hatarideju\BASE HF7\HF7\bin\Debug\net8.0\HF7.deps.json
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\04.14_hatarideju\BASE HF7\HF7\bin\Debug\net8.0\HF7.runtimeconfig.json
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\04.14_hatarideju\BASE HF7\HF7\bin\Debug\net8.0\HF7.dll
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\04.14_hatarideju\BASE HF7\HF7\bin\Debug\net8.0\HF7.pdb
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\04.14_hatarideju\BASE HF7\HF7\obj\Debug\net8.0\HF7.dll
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\04.14_hatarideju\BASE HF7\HF7\obj\Debug\net8.0\refint\HF7.dll
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\04.14_hatarideju\BASE HF7\HF7\obj\Debug\net8.0\HF7.pdb
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\04.14_hatarideju\BASE HF7\HF7\obj\Debug\net8.0\HF7.genruntimeconfig.cache
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\04.14_hatarideju\BASE HF7\HF7\obj\Debug\net8.0\ref\HF7.dll

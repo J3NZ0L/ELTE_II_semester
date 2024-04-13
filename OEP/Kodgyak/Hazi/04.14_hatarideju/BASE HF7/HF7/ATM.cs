@@ -22,7 +22,7 @@ namespace HF7
             if (card.CheckPIN(c.ProvidesPIN()))
             {
                 a = c.RequestMoney();
-                if (center.getBalance(card.cNum) >= a)
+                if (center.GetBalance(card.cNum) >= a)
                 {
                     center.Transaction(card.cNum, -a); //takes money
                 }

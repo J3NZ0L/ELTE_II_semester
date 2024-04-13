@@ -20,14 +20,17 @@ namespace HF7
             c.AddAccount(a);
         }
 
-        public void ProvidesCard(Account a)
+        public void ProvidesCard(string cNum)
         {
+            (bool l, Account a) = this.FindAccount(cNum);
+            if (l) { 
             Card c = new Card(a.accNum, "1234");
             if (accounts.Contains(a))
             {
 
                 a.cards.Add(c);
-            } 
+            }
+            }
         }
 
         public int GetBalance(string cNum)

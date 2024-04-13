@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Hazi\\04.14_hatarideju\\BASE HF7\\HF7\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E280FCAE-9861-48A9-97D0-31482A2D6AD8}|HF7.csproj|c:\\users\\jeney\\documents\\elte\\ii. szemeszter\\oep\\kodgyak\\hazi\\04.14_hatarideju\\base hf7\\hf7\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E280FCAE-9861-48A9-97D0-31482A2D6AD8}|HF7.csproj|solutionrelative:bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E280FCAE-9861-48A9-97D0-31482A2D6AD8}|HF7.csproj|c:\\users\\jeney\\documents\\elte\\ii. szemeszter\\oep\\kodgyak\\hazi\\04.14_hatarideju\\base hf7\\hf7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E280FCAE-9861-48A9-97D0-31482A2D6AD8}|HF7.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E280FCAE-9861-48A9-97D0-31482A2D6AD8}|HF7.csproj|c:\\users\\jeney\\documents\\elte\\ii. szemeszter\\oep\\kodgyak\\hazi\\04.14_hatarideju\\base hf7\\hf7\\atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E280FCAE-9861-48A9-97D0-31482A2D6AD8}|HF7.csproj|solutionrelative:atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E280FCAE-9861-48A9-97D0-31482A2D6AD8}|HF7.csproj|c:\\users\\jeney\\documents\\elte\\ii. szemeszter\\oep\\kodgyak\\hazi\\04.14_hatarideju\\base hf7\\hf7\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E280FCAE-9861-48A9-97D0-31482A2D6AD8}|HF7.csproj|solutionrelative:account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ATM.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Hazi\\04.14_hatarideju\\BASE HF7\\HF7\\ATM.cs",
+              "RelativeDocumentMoniker": "ATM.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Hazi\\04.14_hatarideju\\BASE HF7\\HF7\\ATM.cs",
+              "RelativeToolTip": "ATM.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T20:24:27.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Hazi\\04.14_hatarideju\\BASE HF7\\HF7\\Account.cs",
+              "RelativeDocumentMoniker": "Account.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Hazi\\04.14_hatarideju\\BASE HF7\\HF7\\Account.cs",
+              "RelativeToolTip": "Account.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T20:24:14.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Hazi\\04.14_hatarideju\\BASE HF7\\HF7\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Hazi\\04.14_hatarideju\\BASE HF7\\HF7\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAEQBAAAAAAAAAAAlwFgBAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T19:45:17.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bank.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Hazi\\04.14_hatarideju\\BASE HF7\\HF7\\Bank.cs",
+              "RelativeDocumentMoniker": "Bank.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Hazi\\04.14_hatarideju\\BASE HF7\\HF7\\Bank.cs",
+              "RelativeToolTip": "Bank.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwC0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T19:43:51.997Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

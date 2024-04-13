@@ -15,15 +15,12 @@ namespace HF7
         }
         public void OpenAccount(string cNum, Customer c)
         {
-            (bool l,_) = this.FindAccount(cNum);
+             (bool l,_) = this.FindAccount(cNum);
             if (!l) { 
             Account a = new Account(cNum);
             accounts.Add(a);
             c.AddAccount(a);
-            } else
-            {
-                Console.WriteLine("-1");
-            }
+            } 
         }
 
         public void ProvidesCard(string cNum)
@@ -46,10 +43,7 @@ namespace HF7
             {
                 return account.GetBalance();
             }
-            else
-            {
-                return -1;
-            }
+            return -1;
         }
 
         public void Transaction(string cNum, int amount)
@@ -77,11 +71,11 @@ namespace HF7
         private (bool found, Account? a) FindAccount(string cNum)
         {
             int i = 0;
-            while (i <= accounts.Count && (accounts[i].accNum != cNum))
+            while (i < accounts.Count && (accounts[i].accNum != cNum))
             {
                 i++;
             }
-            if (i <= accounts.Count) {
+            if (i < accounts.Count) {
                 return (true,accounts[i]);
             }
             else

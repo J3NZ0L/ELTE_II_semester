@@ -19,6 +19,20 @@ h2, a, p {
     height: 200%;
 
 }
+#snatch_man{
+    background-image: url("../kepek/man-1282232.jpg");
+    height:300px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+  }
+
 .image{
 
 }

@@ -19,32 +19,25 @@ h2, a, p {
     height: 200%;
 
 }
-
-.main-image{
+.container_own {
     position: relative;
-    border: 2px solid red;
-}
-
-
-.text-overlay {
-    position:absolute;
-    z-index: 1;
+    text-align: center;
     color: white;
-    border:2px solid red;
-  }
-
-.oldalcim{
-    /*
-    top:1em;
-    left:3em;
-    */
 }
 
-#motto{
-    top:3em;
-    left:
+/* Centered text */
+.top-left {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
 }
-
-.absolute{
-    position:absolute;
+.centered{
+    position: absolute;
+        top: 17%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+.main-image{
+    border: 2px solid red;
 }

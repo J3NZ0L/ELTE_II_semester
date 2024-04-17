@@ -9,8 +9,8 @@ h2, a, p {
    text-align: left;
 }
 
-#mainimage{
-    background-image: url('../kepek/man-1282232.jpg')
+.main-image{
+    background-image: url('../kepek/man-1282232.jpg');
 }
 
 .backgroundimage{
@@ -19,20 +19,32 @@ h2, a, p {
     height: 200%;
 
 }
-#snatch_man{
-    background-image: url("../kepek/man-1282232.jpg");
-    height:300px;
+
+.main-image{
+    position: relative;
+    border: 2px solid red;
 }
 
+
 .text-overlay {
-    position: absolute;
-    top: 50vh;
-    left: 50vw;
-    transform: translate(-50%, -50%);
+    position:absolute;
     z-index: 1;
     color: white;
+    border:2px solid red;
   }
 
-.image{
+.oldalcim{
+    /*
+    top:1em;
+    left:3em;
+    */
+}
 
+#motto{
+    top:3em;
+    left:
+}
+
+.absolute{
+    position:absolute;
 }

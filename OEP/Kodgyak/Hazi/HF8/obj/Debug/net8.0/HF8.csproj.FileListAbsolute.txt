@@ -1,0 +1,15 @@
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\HF8\bin\Debug\net8.0\HF8.exe
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\HF8\bin\Debug\net8.0\HF8.deps.json
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\HF8\bin\Debug\net8.0\HF8.runtimeconfig.json
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\HF8\bin\Debug\net8.0\HF8.dll
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\HF8\bin\Debug\net8.0\HF8.pdb
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\HF8\obj\Debug\net8.0\HF8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\HF8\obj\Debug\net8.0\HF8.AssemblyInfoInputs.cache
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\HF8\obj\Debug\net8.0\HF8.AssemblyInfo.cs
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\HF8\obj\Debug\net8.0\HF8.csproj.CoreCompileInputs.cache
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\HF8\obj\Debug\net8.0\HF8.sourcelink.json
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\HF8\obj\Debug\net8.0\HF8.dll
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\HF8\obj\Debug\net8.0\refint\HF8.dll
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\HF8\obj\Debug\net8.0\HF8.pdb
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\HF8\obj\Debug\net8.0\HF8.genruntimeconfig.cache
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Hazi\HF8\obj\Debug\net8.0\ref\HF8.dll

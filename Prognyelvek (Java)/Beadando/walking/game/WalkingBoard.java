@@ -4,7 +4,7 @@ import walking.game.util.*;
 
 public class WalkingBoard{
     private int[][] tiles;
-    private int x;
+    private int x;  //ezeken a koordinatakon all a babu
     private int y;
     public static final int BASE_TILE_SCORE=3;
 
@@ -13,11 +13,23 @@ public class WalkingBoard{
     }
 
     public WalkingBoard(int size){
-
+        this.tiles= new int[size][size];
+        for ( int i=0; i<size;i++){
+            for (int j : tiles[i]){
+                tiles[i][j]=BASE_TILE_SCORE;
+            }
+        }
     }
 
     public WalkingBoard(int[][] tiles){
-
+        this.tiles=tiles;
+        for ( int i=0; i<size;i++){ //TODO: nem biztos h <size> a sorok hossza
+            for (int j : tiles[i]){
+                if (BASE_TILE_SCORE>tiles[i][j]){
+                tiles[i][j]=BASE_TILE_SCORE;
+                }
+            }
+        }
     }
 
     public int[] getPosition(){

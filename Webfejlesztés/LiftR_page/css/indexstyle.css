@@ -9,17 +9,8 @@ h2, a, p {
    text-align: left;
 }
 
-.main-image{
-    background-image: url('../kepek/man-1282232.jpg');
-}
 
-.backgroundimage{
-    
-    width: 50%;
-    height: 200%;
-
-}
-.container_own {
+.container-relative_position {
     position: relative;
     text-align: center;
     color: white;
@@ -38,6 +29,4 @@ h2, a, p {
         left: 50%;
         transform: translate(-50%, -50%);
 }
-.main-image{
-    border: 2px solid red;
-}
+

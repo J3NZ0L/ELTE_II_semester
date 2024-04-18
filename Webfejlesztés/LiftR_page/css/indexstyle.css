@@ -1,4 +1,5 @@
 
+
 #copyright, #motto {
     /* szöveg középre igazítása */
 	text-align:center;
@@ -30,3 +31,6 @@ h2, a, p {
         transform: translate(-50%, -50%);
 }
 
+.nav-link{
+    color: red !important;
+}

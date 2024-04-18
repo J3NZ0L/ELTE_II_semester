@@ -22,11 +22,11 @@ public class WalkingBoard{
     }
 
     public WalkingBoard(int[][] tiles){
-        this.tiles=tiles;
-        for ( int i=0; i<size;i++){ //TODO: nem biztos h <size> a sorok hossza
-            for (int j : tiles[i]){
-                if (BASE_TILE_SCORE>tiles[i][j]){
-                tiles[i][j]=BASE_TILE_SCORE;
+        this.tiles=myUtils.copyMatrix(tiles);
+        for ( int i=0; i<this.tiles.length;i++){
+            for (int j : this.tiles[i]){
+                if (BASE_TILE_SCORE>this.tiles[i][j]){
+                this.tiles[i][j]=BASE_TILE_SCORE;
                 }
             }
         }

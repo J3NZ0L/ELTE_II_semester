@@ -68,10 +68,28 @@ public class WalkingBoard{
     }
 
     public static int getYStep(Direction direction){
-        return 0;
+        switch(direction){
+            case direction.UP:
+                return -1; 
+            case direction.DOWN:
+                return 1; 
+            case direction.RIGHT:
+                return 0; 
+            case direction.LEFT:
+                return 0;
+            default: return -2;
+        }
     }
 
     public int moveAndSet(Direction direction, int steps){
-        return 0;
+        if(!isValidPosition(getXStep(direction),getYStep(direction))){
+            
+            return 0;
+        }
+        this.x+=getXStep(direction);
+        this.y+=getYStep(direction);
+        int toReturn=getTile(x,y);
+        this.tiles[x][y]=steps;
+        return toReturn;
     }
 }

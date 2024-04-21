@@ -1,0 +1,153 @@
+<div id="question_1994459_question_text" class="question_text user_content enhanced">
+          
+<header id="title-block-header">
+<h1 class="title">Programozási nyelvek Java 2023-24/2 Beadandó feladat</h1>
+</header>
+<h2 id="feltételek">Feltételek</h2>
+<ul>
+<li>A beadandó általános feltételei az előadás Canvasében, a Tematika oldalon olvashatók.
+<ul>
+<li>
+<strong>Csalni tilos.</strong> Aki mégis megteszi, és kiderül, elesik a tárgy teljesítésétől.</li>
+<li>További részletekért lásd a Tematika oldal megfelelő aloldalát.</li>
+</ul>
+</li>
+<li>A megoldás legyen a lehető legjobb minőségű.
+<ul>
+<li>A feladatban megadott neveket betűre pontosan úgy kell használni, ahogy meg vannak adva.</li>
+<li>A Java nyelv szokásos konvencióit követni kell.</li>
+<li>A kód szerkezete, a változók nevei legyenek megfelelők.</li>
+</ul>
+</li>
+<li>Beadás határideje.
+<ul>
+<li>
+<strong>Aki egyáltalán nem tölt fel legalább az alapfeladathoz megoldást, elesik a tárgy teljesítésétől.</strong>
+<ul>
+<li>A megoldás a határidőn belül <strong>többször is beadható</strong>.</li>
+<li>Az utoljára beadott megoldás kerül értékelésre.</li>
+</ul>
+</li>
+<li>
+<strong>A határidő éles.</strong>
+<ul>
+<li>Nem célszerű kicentizni az időt. Aki mégis megteszi, és lekésik akár pár perccel, csak magára vethet.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Beadás formátuma.
+<ul>
+<li>Az elkészített megoldást <strong>zip</strong> formátumba csomagolva kell feltölteni a Canvasbe.</li>
+<li>A <code>zip</code> csak a megoldás forrásfájljait tartalmazza, a megfelelő könyvtárszerkezetben.
+<ul>
+<li>Ha a megoldás működtetéséhez szükségesek további (pl. bemeneti) fájlok, azok a zip gyökerében legyenek.</li>
+<li>Más fájlokat (pl. <code>.class</code>) ne tartalmazzon a zip.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="alapfeladat-9-pont">Alapfeladat (9 pont)</h2>
+<p>A <code>WalkingBoardBasicTestSuite</code> fájl <a class="instructure_file_link" title="walkingboard-tests.zip" href="/courses/43982/files/2840171/download?wrap=1">tartalmazza az alapfeladat tesztjeit</a>. Ebből mindent meg kell valósítani, kezdve a strukturális tesztekkel.</p>
+<p>A <code>WalkingBoard</code> osztály egy olyan táblát ábrázol, amelyen egy bábu áll az <code>x,y</code> pozíción. Mindegyik mezőnek van egy értéke is.</p>
+<p>A táblát kétféle módon lehet inicializálni: vagy <code>size×size</code> mérete legyen, vagy pedig előre megadott méretekkel és értékekkel.</p>
+<ul>
+<li>Minden pozíció <code>BASE_TILE_SCORE</code> értékre legyen inicializálva, vagy a megadott értékre, ha az nagyobb.</li>
+<li>Az utóbbi esetben a sorok nem feltétlenül egyforma hosszúak.</li>
+<li>Az utóbbi esetben nem csak beemelni kell a paramétert, hanem a struktúra egy másolatát kell elkészíteni az adattagba.</li>
+</ul>
+<p>Műveletek.</p>
+<ul>
+<li>
+<code>getPosition</code>: adja vissza az <code>x</code> és <code>y</code> mezők értékét egy tömbben.</li>
+<li>
+<code>getTile</code>: adja vissza a tábla mezőjének az értékét.
+<ul>
+<li>Ha a pozíció érvénytelen, váltódjon ki <code>IllegalArgumentException</code> kivétel.
+<ul>
+<li>Ezt az <code>isValidPosition</code> segédfüggvény ellenőrizze.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<code>getTiles</code>: adja vissza a tábla összes mezőjének az értékét.
+<ul>
+<li>Itt nem szabad kiadni a belső állapotot: a struktúra egy másolatát kell elkészíteni és visszaadni.</li>
+</ul>
+</li>
+<li>
+<code>getXStep</code> és <code>getYStep</code>: segédfüggvények, megadják, hogy az adott irányba lépés mennyivel változtatja az <code>x</code> és <code>y</code> koordinátát.</li>
+<li>
+<code>moveAndSet</code>: mozgatja a bábut és megváltoztatja az értéket az új helyen.
+<ul>
+<li>A fenti segédfüggvényeket érdemes használni a megvalósításban.</li>
+<li>Ha a bábu kiérne a tábláról, visszavonjuk a lépést: a bábu maradjon, ahol volt, a játék állapota ne változzon meg, és a metódus térjen vissza a <code>0</code> értékkel.</li>
+<li>Különben a metódus térjen vissza az új mező régi értékével, és a mező értéke álljon át a második paraméterben megadottra.</li>
+<li style="position: absolute; left: -9999px;">
+<code>setAndMove</code>: működjön ugyanúgy, mint a <code>moveAndSet</code>, de ez a lépés előtt változtassa meg a mező értékét</li>
+</ul>
+</li>
+</ul>
+<p>JUnit 5 tesztek. Ahol meg vannak adva paraméterek, paraméterezett tesztelőt kell használni néhány értékkel.</p>
+<ul>
+<li>
+<code>testSimpleInit(size)</code>: az első konstruktor megfelelően működik.
+<ul>
+<li>A <code>getTiles</code> megfelelő méreteket mutat.</li>
+<li>A tábla szélei elérhetők, és a megfelelő értékeket (<code>BASE_TILE_SCORE</code>) tartalmazzák.</li>
+</ul>
+</li>
+<li>
+<code>testCustomInit(x, y, expected)</code>: a második konstruktor megfelelően működik.
+<ul>
+<li>Ha háromnál kisebb értéket adtunk át a tömbben, akkor is <code>BASE_TILE_SCORE</code> lesz a mező tartalma.</li>
+<li>Ha átadunk egy tömböt a konstruktornak, majd átírunk benne egy értéket, akkor is az eredetileg beállított tartalma marad meg a mezőnek.</li>
+<li>Ha átírjuk a <code>getTiles()</code> által visszaadott tömb egy értékét, akkor is az eredetileg beállított tartalma marad meg a mezőnek.</li>
+</ul>
+</li>
+<li>
+<code>testMoves()</code>: négy-öt lépést megtéve ellenőrizzük, hogy helyesen alakul a tábla tartalma.</li>
+<li style="position: absolute; left: -9999px;">Legyen a lépések között olyan, ahol az <code>Integer.MIN_VALUE</code> x-koordinátára és a <code>666</code> y-koordinátára lépünk.</li>
+<ul>
+<li>Legyen a lépések között olyan is, ahol kilépünk a tábláról. Ekkor ne változzon se a pozíció, se a tábla tartalma.</li>
+</ul>
+</ul>
+<h2 id="bővített-feladat-6-pont">Bővített feladat (6 pont)</h2>
+<p>Most játékosaink is lesznek. A szokásos módon először a strukturális teszteket (lásd <code>WalkingBoardExtendedTestSuite</code>) kell érvényessé tenni.</p>
+<p>Az osztálynak a szülőhöz hasonlóan működő két konstruktora lesz, amelyek a játékosokat az <code>initPlayers</code> meghívásával állítják be.</p>
+<ul>
+<li>Ha a játékosok száma kisebb, mint kettő, váltódjon ki <code>IllegalArgumentException</code>.</li>
+<li>Különben az első játékos legyen egy <code>MadlyRotatingBuccaneer</code>, a többi egyszerű <code>Player</code>.</li>
+</ul>
+<p>A <code>move</code> művelet a következőképpen működik.</p>
+<ul>
+<li>A játékosok sorban következnek lépésre. Ha az utolsó lépett, következőnek az első jön.</li>
+<li>A játékos a lépése megkezdésekor fordul egyet (<code>turn()</code>).
+<ul>
+<li>A fordulás során a <code>Direction</code> irányain haladunk körbe.</li>
+<li>A <code>MadlyRotatingBuccaneer</code> annyit fordul egyszerre, ahányszor sorra került.
+<ul>
+<li>Első alkalommal tehát egyáltalán nem fordul.</li>
+<li>Következőnek annyit fordul, mint egy átlagos <code>Player</code>.</li>
+<li>Aztán hátrafordul és így tovább.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Fordulás után abban az irányban, amerre áll, megtesz annyi lépést, amennyit a paraméter következő eleme előír.
+<ul>
+<li>A <code>moveAndSet</code> második paramétere az lesz, ahány lépést eddig összesen megtettünk ennek a <code>move</code> hívásnak a végrehajtása során, de legfeljebb <code>SCORE_EACH_STEP</code>.
+<ul>
+<li>Itt az is lépésnek számít, ha kiértünk volna vele a tábláról.</li>
+</ul>
+</li>
+<li>A tábláról felolvasott értékkel megnöveljük a játékos pontszámát.</li>
+</ul>
+</li>
+<li>A visszatérési érték a játékosok pontjait tartalmazza egy tömbben.</li>
+</ul>
+<p>JUnit 5 tesztek: <code>walk1</code> és <code>walk2</code> járjon be két, különböző játékosszámú táblát úgy, hogy minden játékos kerüljön sorra legalább háromszor. Mindkét tesztelő vizsgálja meg a tábla végső állapotát és a játékosok végső pontszámait.</p>
+
+      </div>

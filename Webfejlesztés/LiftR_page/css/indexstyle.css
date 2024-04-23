@@ -123,3 +123,22 @@ h2, a, p {
 .vh-20-container{
     height: 20vh;       /* 20% of the viewport height */
 }
+
+
+    /* review styles*/
+.review-container{
+    font-size: small;
+}
+
+.review-title{
+    font-size:medium;
+    font-style: italic;
+}
+
+.review-rating{
+    font-weight: bold;
+}
+
+.review-body{
+
+}

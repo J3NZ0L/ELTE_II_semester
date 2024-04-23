@@ -1,0 +1,15 @@
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.01\gyak03\gyak03\LowerTriangleMatrix_skel\LowerTriangleMatrix\LowerTriangleMatrix\obj\Debug\net7.0\LowerTriangleMatrix.csproj.AssemblyReference.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.01\gyak03\gyak03\LowerTriangleMatrix_skel\LowerTriangleMatrix\LowerTriangleMatrix\obj\Debug\net7.0\LowerTriangleMatrix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.01\gyak03\gyak03\LowerTriangleMatrix_skel\LowerTriangleMatrix\LowerTriangleMatrix\obj\Debug\net7.0\LowerTriangleMatrix.AssemblyInfoInputs.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.01\gyak03\gyak03\LowerTriangleMatrix_skel\LowerTriangleMatrix\LowerTriangleMatrix\obj\Debug\net7.0\LowerTriangleMatrix.AssemblyInfo.cs
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.01\gyak03\gyak03\LowerTriangleMatrix_skel\LowerTriangleMatrix\LowerTriangleMatrix\obj\Debug\net7.0\LowerTriangleMatrix.csproj.CoreCompileInputs.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.01\gyak03\gyak03\LowerTriangleMatrix_skel\LowerTriangleMatrix\LowerTriangleMatrix\bin\Debug\net7.0\LowerTriangleMatrix.exe
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.01\gyak03\gyak03\LowerTriangleMatrix_skel\LowerTriangleMatrix\LowerTriangleMatrix\bin\Debug\net7.0\LowerTriangleMatrix.deps.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.01\gyak03\gyak03\LowerTriangleMatrix_skel\LowerTriangleMatrix\LowerTriangleMatrix\bin\Debug\net7.0\LowerTriangleMatrix.runtimeconfig.json
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.01\gyak03\gyak03\LowerTriangleMatrix_skel\LowerTriangleMatrix\LowerTriangleMatrix\bin\Debug\net7.0\LowerTriangleMatrix.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.01\gyak03\gyak03\LowerTriangleMatrix_skel\LowerTriangleMatrix\LowerTriangleMatrix\bin\Debug\net7.0\LowerTriangleMatrix.pdb
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.01\gyak03\gyak03\LowerTriangleMatrix_skel\LowerTriangleMatrix\LowerTriangleMatrix\obj\Debug\net7.0\LowerTriangleMatrix.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.01\gyak03\gyak03\LowerTriangleMatrix_skel\LowerTriangleMatrix\LowerTriangleMatrix\obj\Debug\net7.0\refint\LowerTriangleMatrix.dll
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.01\gyak03\gyak03\LowerTriangleMatrix_skel\LowerTriangleMatrix\LowerTriangleMatrix\obj\Debug\net7.0\LowerTriangleMatrix.pdb
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.01\gyak03\gyak03\LowerTriangleMatrix_skel\LowerTriangleMatrix\LowerTriangleMatrix\obj\Debug\net7.0\LowerTriangleMatrix.genruntimeconfig.cache
+C:\Users\jeney\Documents\ELTE\2. szemeszter\OEP\Kodgyak\Ora\03.01\gyak03\gyak03\LowerTriangleMatrix_skel\LowerTriangleMatrix\LowerTriangleMatrix\obj\Debug\net7.0\ref\LowerTriangleMatrix.dll

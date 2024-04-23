@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Garden.csproj": {}
+    "C:\\Users\\jeney\\Documents\\ELTE (uj github rendszerhez, II. felevtol)\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Garden.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Garden.csproj": {
+    "C:\\Users\\jeney\\Documents\\ELTE (uj github rendszerhez, II. felevtol)\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Garden.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Garden.csproj",
+        "projectUniqueName": "C:\\Users\\jeney\\Documents\\ELTE (uj github rendszerhez, II. felevtol)\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Garden.csproj",
         "projectName": "Garden",
-        "projectPath": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Garden.csproj",
+        "projectPath": "C:\\Users\\jeney\\Documents\\ELTE (uj github rendszerhez, II. felevtol)\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\Garden.csproj",
         "packagesPath": "C:\\Users\\jeney\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\obj\\",
+        "outputPath": "C:\\Users\\jeney\\Documents\\ELTE (uj github rendszerhez, II. felevtol)\\2. szemeszter\\OEP\\Kodgyak\\Ora\\04.12\\gyak07\\gyak07\\Garden_skel\\Garden\\Garden\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jeney\\AppData\\Roaming\\NuGet\\NuGet.Config",

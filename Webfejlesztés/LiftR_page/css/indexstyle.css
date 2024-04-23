@@ -101,3 +101,25 @@ h2, a, p {
 .z-bottom{
     z-index: 0;
 }
+
+
+/* CSS of main: */
+.full-width-container {
+    width: 100%;         /* Full width of the viewport */
+   
+}
+.dark-grey-bg-container{
+    background-color: #424242;    /* Grey color */
+}
+
+.light-grey-bg-container{
+    background-color: #dbdbdb;    /* Grey color */
+}
+
+.vh-60-container{
+    height: 60vh;       /* 60% of the viewport height */
+}
+
+.vh-20-container{
+    height: 20vh;       /* 20% of the viewport height */
+}

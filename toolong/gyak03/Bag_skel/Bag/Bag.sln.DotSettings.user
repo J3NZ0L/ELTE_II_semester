@@ -1,7 +1,0 @@
-﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	
-	
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=59ad33f5_002D51b3_002D4598_002Da720_002Dc93a46d3b9ee/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;TestBag&amp;gt; #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;Project Location="/mnt/munka/ELTE/prog_okt/OEP_2324_2/base/lesson03/Bag/TestBag" Presentation="&amp;lt;TestBag&amp;gt;" /&gt;
-&lt;/SessionState&gt;</s:String>
-	</wpf:ResourceDictionary>

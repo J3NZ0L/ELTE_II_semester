@@ -74,9 +74,11 @@ public class WalkingBoardTest{
         assertEquals(0,pos[0]);
         assertEquals(1,pos[1]);
         
+
+        //kilepes a palyarol
         wb.moveAndSet(walking.game.util.Direction.LEFT,1);
         pos=wb.getPosition();
-        assertEquals(0,pos[0]);
+        assert(0,pos[0]);
         assertEquals(1,pos[1]); 
     }
 }

@@ -39,16 +39,14 @@ public class WalkingBoard{
 
     public boolean isValidPosition(int x, int y) throws IllegalArgumentException{
         if (this.x+x<0 || this.x+x>=tiles.length || this.y+y<0 || this.y+y>=tiles[this.x].length){
-            throw new IllegalArgumentException();
+            return false;
         }
         return true;
     }
 
     public int getTile(int x, int y){
-        try {
-            isValidPosition(x,y);           
-        } catch (IllegalArgumentException iae){
-            System.out.println("Illegalis pozicio");
+        if (!isValidPosition(x,y)){
+            throw new IllegalArgumentException();
         }
         return tiles[x][y];
     }

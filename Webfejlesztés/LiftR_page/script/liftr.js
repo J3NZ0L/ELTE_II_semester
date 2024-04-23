@@ -1,5 +1,4 @@
 window.addEventListener('load', adjustTriangle);
-window.addEventListener('resize', adjustTriangle);
 
 function adjustTriangle() {
     // Calculate the width of the scrollbar

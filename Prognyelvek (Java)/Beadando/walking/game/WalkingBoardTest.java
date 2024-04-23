@@ -1,4 +1,4 @@
-package walking.game.tests;
+package walking.game;
 
 //sajat importok:
 import walking.game.util.*;
@@ -78,7 +78,7 @@ public class WalkingBoardTest{
         //kilepes a palyarol
         wb.moveAndSet(walking.game.util.Direction.LEFT,1);
         pos=wb.getPosition();
-        assert(0,pos[0]);
+        assertEquals(0,pos[0]);
         assertEquals(1,pos[1]); 
     }
 }

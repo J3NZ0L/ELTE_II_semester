@@ -24,7 +24,7 @@ public class WalkingBoard{
     public WalkingBoard(int[][] tiles){
         this.tiles=myUtils.copyMatrix(tiles);
         for ( int i=0; i<this.tiles.length;i++){
-            for (int j : this.tiles[i]){
+            for (int j=0; j<this.tiles[i].length;j++){
                 if (BASE_TILE_SCORE>this.tiles[i][j]){
                 this.tiles[i][j]=BASE_TILE_SCORE;
                 }
@@ -38,7 +38,7 @@ public class WalkingBoard{
     }
 
     public boolean isValidPosition(int x, int y) throws IllegalArgumentException{
-        if (x<0 || x>=tiles.length || y<0 || y>=tiles[x].length){
+        if (this.x+x<0 || this.x+x>=tiles.length || this.y+y<0 || this.y+y>=tiles[this.x].length){
             throw new IllegalArgumentException();
         }
         return true;
@@ -63,7 +63,7 @@ public class WalkingBoard{
                 return 1; 
             case direction.LEFT:
                 return -1;
-            default: return -2;
+            default:return -2;
         }
     }
 
@@ -81,15 +81,14 @@ public class WalkingBoard{
         }
     }
 
-    public int moveAndSet(Direction direction, int steps){
+    public int moveAndSet(Direction direction, int value){
         if(!isValidPosition(getXStep(direction),getYStep(direction))){
-            
             return 0;
         }
         this.x+=getXStep(direction);
         this.y+=getYStep(direction);
         int toReturn=getTile(x,y);
-        this.tiles[x][y]=steps;
+        this.tiles[x][y]=value;
         return toReturn;
     }
 }

@@ -111,7 +111,7 @@ public class WalkingBoardStructureTest {
     @Test
     @DisabledIf(notApplicable)
     public void methodMoveAndSet() {
-        it.hasMethod("moveAndSet", withParams("direction: walking.game.util.Direction", "steps: int"))
+        it.hasMethod("moveAndSet", withParams("direction: walking.game.util.Direction", "value: int"))
           .thatIs(FULLY_IMPLEMENTED, INSTANCE_LEVEL, VISIBLE_TO_ALL)
           .thatReturns("int");
     }

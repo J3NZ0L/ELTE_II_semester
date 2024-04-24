@@ -12,11 +12,12 @@ body{
     margin-left: 1vw;
     margin-top:2vh ;
 }
+
+
 /* BS house icon */
 .bi-house-fill{
-    
+    color: #9D9D9D;
     font-size: 3rem;
-    color:white;
 }
 a{
     position:relative;

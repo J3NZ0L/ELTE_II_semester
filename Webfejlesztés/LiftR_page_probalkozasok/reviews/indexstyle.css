@@ -125,13 +125,7 @@ h2, a, p {
 }
 
 
-    /* review styles*/
-
-
-.review-container .row .col-4 .row:not(:first-child) { /*every inner row insdie the review container */
-    
-}
-    
+    /* review styles*/    
 
 .review-container{
     font-size: small;
@@ -146,6 +140,39 @@ h2, a, p {
     font-weight: bold;
 }
 
+/*
 .review-body{
 
 }
+*/
+
+/* Additional styles to increase the indent effect */
+@media (min-width: 992px) { /* Corresponds to Bootstrap's 'lg' breakpoint */
+    .row-indent-0 {margin-left: 0vw; margin-right: 8vw}
+    .row-indent-1 { margin-left: 4vw; margin-right:4vw}
+    .row-indent-2 { margin-left: 8vw; margin-right:0vw }
+}
+
+/* styles for carouselExampleIndicators element*/
+#carouselExampleIndicators .carousel-inner {
+    height: 300px; /* Fixed height for the carousel */
+}
+
+#carouselExampleIndicators .carousel-item {
+
+    /*TODO*/
+    display: flex;  /* ez okozza a gubancot!!!*/
+    /*TODO*/
+
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;     
+}
+/* Padding to prevent overlay with nav buttons 
+}
+/*
+#carouselExampleIndicators .carousel-control-prev,
+#carouselExampleIndicators .carousel-control-next {
+    width: 50px; /* Adjusted button width 
+}
+*/

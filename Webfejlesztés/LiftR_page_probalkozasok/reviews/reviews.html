@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Stair Layout and Carousel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="indexstyle.css">
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .carousel-inner {
+            height: 300px; /* Fixed height for the carousel */
+        }
+
+        .carousel-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%; /* Ensure each item fills the carousel */
+        }
+
+        /* Padding to prevent overlay with nav buttons */
+        .carousel-control-prev,
+        .carousel-control-next {
+            width: 50px; /* Adjusted button width */
+        }
+    </style>
+</head>
+<body>
+<div class="full-width-container light-grey-bg-container">
+    <!-- Carousel for smaller screens -->
+    <div class="container mt-4">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="p-3 bg-light">Item 1</div>
+                </div>
+                <div class="carousel-item">
+                    <div class="p-3 bg-light">Item 2</div>
+                </div>
+                <div class="carousel-item">
+                    <div class="p-3 bg-light">Item 3</div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    
+
+    <!-- Stair layout for larger screens -->
+    <div class="d-none d-lg-block">
+        <div class="pt-5 pb-3">
+            <h2 id="reviews">Reviews from users</h2>
+        </div>
+            <div class="pl-2">
+            <div class="row row-indent-0">
+                <div class="col-md-4">
+                    <div class="review-title">“Life-Changing Workouts!”</div>
+                    <div class="review-rating">Rating: 5/5</div>
+                    <div class="review-body">I stumbled upon LiftR when I was desperately seeking a fitness routine that would actually stick. Their personalized workout plans are spot-on! The trainers understand my goals and limitations, and the results have been incredible. Plus, the nutrition plans are delicious and sustainable. Highly recommend!</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="review-title">“LiftR Keeps Me Motivated”</div>
+                    <div class="review-rating">Rating: 4/5</div>
+                    <div class="review-body">As someone who struggles with consistency, LiftR has been a game-changer. The app’s user-friendly interface makes it easy to track my progress, and the workout plans are challenging but doable. The nutrition tips are a bonus—I’ve never felt better!</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="review-title">“LiftR: My Accountability Partner”</div>
+                    <div class="review-rating">Rating: 4.5/5</div>
+                    <div class="review-body">LiftR’s community support is fantastic. I love connecting with other users, sharing victories, and even commiserating during tough days. The workout plans are effective, and the nutrition advice is practical. It’s like having a personal trainer in my pocket!</div>
+                </div>
+            </div>
+            <div class="row row-indent-1 pt-4">
+                <div class="col-md-4">
+                    <div class="review-title">“Results in Record Time!”</div>
+                    <div class="review-rating">Rating: 5/5</div>
+                    <div class="review-body">LiftR’s science-backed workout plans have transformed my body. The combination of strength training, cardio, and targeted exercises is genius. And the nutrition guidance? A revelation! I’ve shed pounds and gained confidence. Thank you, LiftR!</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="review-title">“LiftR: A Holistic Approach”</div>
+                    <div class="review-rating">Rating: 4/5</div>
+                    <div class="review-body">What sets LiftR apart is its holistic approach. The workout plans consider not only physical fitness but also mental well-being. The nutrition plans are realistic and sustainable. It’s more than just a fitness app—it’s a lifestyle changer.</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="review-title">“LiftR’s Nutrition Made Easy”</div>
+                    <div class="review-rating">Rating: 4.5/5</div>
+                    <div class="review-body">I used to dread meal planning, but LiftR’s nutrition section has simplified everything. From grocery lists to tasty recipes, it’s all there. The workout plans are challenging but effective. I’m hooked!</div>
+                </div>
+            </div>
+            <div class="row row-indent-2 pt-4">
+                <div class="col-md-4">
+                    <div class="review-title">“LiftR: A Must-Try!”</div>
+                    <div class="review-rating">Rating: 4/5</div>
+                    <div class="review-body">If you’re serious about fitness, give LiftR a shot. The workout plans are tailored to your level, and the nutrition advice is practical. The app’s interface is sleek, and the community keeps you motivated. I’m a fan!</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="review-title">“LiftR: My Fitness BFF”</div>
+                    <div class="review-rating">Rating: 5/5</div>
+                    <div class="review-body">LiftR feels like a supportive friend. The workout plans adapt as I progress, and the nutrition tips are realistic. I’ve seen muscle gains and fat loss—all thanks to LiftR. It’s a keeper!</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="review-title">“LiftR: Where Goals Become Reality”</div>
+                    <div class="review-rating">Rating: 4.5/5</div>
+                    <div class="review-body">LiftR’s workout plans are like having a personal trainer. They push me without overwhelming me. The nutrition component is equally impressive—I’ve learned to fuel my body for optimal performance. If you’re serious about fitness, LiftR won’t disappoint!</div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- stair layout container -->
+
+</div> <!-- outer container -->
+
+<div class="full-width-container light-grey-bg-container vh-80-container">
+    
+    
+    <div class="container review-container">
+        
+        <div class="row">
+
+            <div class="col-4">
+                <div class="row pt-3">
+                    <div class="col-10">
+                        
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-1"></div>
+                </div>
+                <div class="row pt-3">
+                    <div class="col-1"></div>
+                    <div class="col-10">
+                        
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+                <div class="row pt-3">
+                    <div class="col-1"></div>
+                    <div class="col-1"></div>
+                    <div class="col-10">
+                        
+                    </div>
+                </div>
+            </div>  <!-- first big column -->
+            <div class="col-4">
+                <div class="row pt-3">
+                    <div class="col-10">
+                        
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-1"></div>
+                </div>
+                <div class="row pt-3">
+                    <div class="col-1"></div>
+                    <div class="col-10">
+                        
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+                <div class="row pt-3">
+                    <div class="col-1"></div>
+                    <div class="col-1"></div>
+                    <div class="col-10">
+                        
+                    </div>
+                </div>
+            </div>  <!-- second big column -->
+            <div class="col-4">
+                <div class="row pt-3">
+                    <div class="col-10">
+                        
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-1"></div>
+                </div>
+                <div class="row pt-3">
+                    <div class="col-1"></div>
+                    <div class="col-10">
+                        
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+                <div class="row pt-3">
+                    <div class="col-1"></div>
+                    <div class="col-1"></div>
+                    <div class="col-10">
+                        
+                    </div>
+                </div>
+            </div> <!-- third big column -->
+
+        </div> <!-- main row in reviews -->
+
+    </div> <!-- review container -->
+
+</div>   <!-- Reviews: grey-bg-container -->
+
+
+
+</body>
+</html>

@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LifR Home</title>
-    <!-- My css -->
-    <link rel="stylesheet" href=".\css\indexstyle.css">
+    <!-- CSS: -->
+    <!-- css for all of LiftR pages -->
+    <link rel="stylesheet" href="./css/common_styles.css">
+    <!-- specific css for index.html -->
+    <link rel="stylesheet" href="./css/indexstyle.css">
+    
+
     <!-- bootstrap  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> <!-- Bootstrap reference-->
     <!-- javascript for bootstrap navbar -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <!-- My javascript -->
-    <script src="./script/liftr.js"></script>
     <!-- Icon fonts stylesheet (bootstrap) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Javascript -->
+    <script src="./script/liftr.js"></script>
+    
 </head>
 <body class="bg-black">
 
@@ -22,10 +29,11 @@
  <header>
     <div class="container-fluid p-0">
 
+        <div id="outer-triangle"></div> <!-- outer triangle: black "border" for the white triangle -->
             <div class="triangle" id="triangle"></div> <!-- triangle -->
             
             
-                <div class="row g-0">             
+                <div class="row g-0 bg-black">             
 
                     <nav id="tartalomraugras">
                         <!-- legyen elrejtve a képernyőről -->
@@ -46,10 +54,10 @@
                         <nav class="navbar navbar-expand-lg bg-black rounded-custom py-0 mt-2 mx-auto">
                             <div class="container-fluid">
                                 <h2 class="d-block d-lg-none brand">LiftR</h2>
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topNav" aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="collapse navbar-collapse" id="navbarNav">
+                                <div class="collapse navbar-collapse" id ="topNav">
                                     <ul class="navbar-nav mx-auto">
                                         <li class="nav-item mx-auto">
                                             <a class="nav-link" href="workout_plans.html">Workout plans</a>
@@ -66,7 +74,7 @@
                         </nav> <!-- navbar -->
                     </div>  <!-- main nav -->
 
-                    <div class="col-4"> <!-- TODO: MEG NEM LATSZIK -->
+                    <div class="col-4 d-none"> <!-- TODO: MEG NEM LATSZIK -->
                         <nav id="styleswitch">
                             <label for="styleSwitcher">Stílus: </label>
                             <select id="styleSwitcher">
@@ -93,7 +101,7 @@
                             <div class="centered">
                                 <h2> LiftR: Step up your game with us!</h2>
                             </div>
-                <img class="img-fluid " src="./kepek/man-1282232.jpg"/>
+                <img class="img-fluid " src="./kepek/man-1282232.jpg"> <!-- dizajn celu kep -->
                 </div> <!-- motto container -->
             </div>
         </div>
@@ -286,7 +294,7 @@
         
     </div> <!-- outer container Of Reviews -->
 
-    <img class="img-fluid full-width"  src="./kepek/holgykondiba.jpg" alt="Woman working out in the gym"/>
+    <img class="img-fluid full-width"  src="./kepek/holgykondiba.jpg"> <!-- (dizajn celu kep) -->
                 
 </main>
     
@@ -294,28 +302,33 @@
     <div class="navbar-bottom">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-            <h2 class="navbar-brand">Navigate between pages:</h2>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="workout_plans.html">Workout plans</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="nutrition_guides.html">Nutrition</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact_us.html">Contact us</a>
-                </li>
-                </ul>
-                <div class="d-flex justify-content-lg-end justify-content-center w-100">
+                <h2 class="navbar-brand">Navigate between pages:</h2>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bottomNav" aria-controls="bottomNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="bottomNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="workout_plans.html">Workout plans</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nutrition_guides.html">Nutrition</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact_us.html">Contact us</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex d-lg-none justify-content-center">
+                        <span class="navbar-text">
+                            ©2024. All rights reserved.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-lg-flex d-none justify-content-lg-end w-50 pe-3">
                 <span class="navbar-text">
                     ©2024. All rights reserved.
                 </span>
-                </div>
-            </div>
             </div>
         </nav>
     </div>  

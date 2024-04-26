@@ -1,0 +1,95 @@
+/*start of common styles*/
+body{
+    margin:0;
+    padding: 0;
+}
+
+#housebuttoncontainer{
+    margin-left: 1vw;
+    margin-top:2vh ;
+}
+
+
+/* BS house icon */
+.bi-house-fill{
+    color: #9D9D9D;
+    font-size: 3rem;
+}
+
+a{
+    position:relative;
+    z-index:10 !important;
+
+}
+
+
+.brand{
+    color: #9D9D9D;
+}
+
+h2, a, p {
+   /* szöveg balra igazítása */
+   text-align: left;
+}
+
+    /*custom navbar */
+/*shape*/
+.navbar-top .rounded-custom, .navbar-top .navbar-toggler,.navbar-top .navbar-collapse{
+    border-radius: 1rem !important;
+}
+
+/*make navbar collapse on top of the other elements*/
+
+.navbar-top .navbar-collapse{
+    position:absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background-color: #000;
+    z-index: 100;
+}
+/* Centered text container */
+
+
+.navbar-top .nav-link{
+    font-weight: bold !important;
+    color: white !important;
+}
+    /*end of custom navbar styles*/
+
+    .tothetop{
+        z-index: 4 !important;
+    }
+
+
+    #outer-triangle {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        height: 0;
+    }
+
+    .triangle {
+        position: absolute;
+        z-index: 3;
+        width: 100%;
+        height: 0;
+    }
+    
+    .z-bottom{
+        z-index: 0;
+    }
+    /*footer styles*/
+    .navbar-bottom .nav-link {
+        display: inline-block;
+        }
+        
+        .navbar-bottom .navbar-nav {
+            flex-wrap: nowrap;
+        }
+          
+        .custom-flex-end {
+            justify-content: flex-end !important;
+        }
+    /*footer styles*/
+/*end of common styles*/

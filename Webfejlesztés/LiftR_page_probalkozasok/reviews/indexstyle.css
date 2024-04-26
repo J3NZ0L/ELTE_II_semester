@@ -149,12 +149,12 @@ h2, a, p {
     height: 30vh;
 }
   
-  .review-container{
-      position: absolute;
-      top: 0;
-      left: 0;
-      min-height: 30h;
-  }
+.review-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 30vh;
+}
 /* Additional styles to increase the indent effect */
 @media (min-width: 992px) { /* Corresponds to Bootstrap's 'lg' breakpoint */
     .row-indent-0 {margin-left: 0vw; margin-right: 8vw}

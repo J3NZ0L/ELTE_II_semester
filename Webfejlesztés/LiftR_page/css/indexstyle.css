@@ -52,7 +52,7 @@ h2, a, p {
     color: white;
 }
 
-/* Centered text */
+
 .top-left {
     position: absolute;
     top: 10%;
@@ -60,14 +60,15 @@ h2, a, p {
     transform: translate(-50%, -50%);
 }
 
-/*custom navbar shape*/
-.rounded-custom, .navbar-toggler, .navbar-collapse{
+    /*custom navbar */
+/*shape*/
+.navbar-top .rounded-custom, .navbar-top .navbar-toggler,.navbar-top .navbar-collapse{
     border-radius: 15px !important;
 }
 
 /*make navbar collapse on top of the other elements*/
 
-.navbar-collapse{
+.navbar-top .navbar-collapse{
     position:absolute;
     width: 100%;
     top: 100%;
@@ -75,17 +76,21 @@ h2, a, p {
     background-color: #000;
     z-index: 1000;
 }
+/* Centered text container */
+
+
+.navbar-top .nav-link{
+    font-weight: bold !important;
+    color: white !important;
+}
+    /*end of custom navbar styles*/
+
 
 .centered{
     position: absolute;
     top: 17%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.nav-link{
-    font-weight: bold !important;
-    color: white !important;
 }
 
 .tothetop{
@@ -129,24 +134,51 @@ h2, a, p {
     /* review styles*/
 
 
-.review-container .row .col-4 .row:not(:first-child) { /*every inner row insdie the review container */
+    .review-container{
+        font-size: small;
+    }
     
-}
+    .review-title{
+        font-size:medium;
+        font-style: italic;
+    }
     
+    .review-rating{
+        font-weight: bold;
+    }
+    
+    /*
+    .review-body{
+    
+    }
+    */
+    .carousel-item {
+        height: 30vh;
+    }
+      
+    .review-container{
+        position: absolute;
+        top: 10%;
+        left: 50%; /* to the center*/
+        transform: translate(-50%, 0%);
+        min-height: 30vh;
+    }
+    /* Additional styles to increase the indent effect */
+    @media (min-width: 992px) { /* Corresponds to Bootstrap's 'lg' breakpoint */
+        .row-indent-0 {margin-left: 0vw !important; margin-right: 8vw !important} 
+        .row-indent-1 { margin-left: 4vw !important; margin-right:4vw !important}
+        .row-indent-2 { margin-left: 8vw !important; margin-right:0vw !important}
+    }
 
-.review-container{
-    font-size: small;
-}
 
-.review-title{
-    font-size:medium;
-    font-style: italic;
-}
+    /* image styles*/
+    .full-width{
+        width: 100%;
+    }
 
-.review-rating{
-    font-weight: bold;
-}
-
-.review-body{
-
-}
+    @media (max-width: 992px) { /* When the viewport is 992px or less (Bootstrap's lg breakpoint) */
+        .navbar-text {
+          text-align: center; /* Center the text */
+        }
+      }
+      

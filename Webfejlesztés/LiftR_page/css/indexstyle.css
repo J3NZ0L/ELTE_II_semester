@@ -181,4 +181,13 @@ h2, a, p {
           text-align: center; /* Center the text */
         }
       }
+
+.navbar-bottom .nav-link {
+display: inline-block;
+}
+
+.navbar-bottom .navbar-nav {
+    flex-wrap: nowrap;
+}
+  
       

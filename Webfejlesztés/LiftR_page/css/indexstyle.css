@@ -1,26 +1,32 @@
 
 
 /* CSS of index main : */
-
-.container-relative_position {
-    position: relative;/*start of common styles*/
 body{
     margin:0;
     padding: 0;
 }
+/*
+.container-relative_position {
+    position: relative;
+}
+*/
 
-#housebuttoncontainer{
-    margin-left: 1vw;
-    margin-top:2vh ;
+
+#first_background_image {
+    background-image:url('../media/man-1282232.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh;
 }
 
-
-a{
-    position:relative;
-    z-index:10 !important;
-
+h1.home{
+    font-weight: bold !important; 
+    color:white !important;
 }
+h2.motto{
 
+    color: white !important;
+}
 
 .brand{
     color: #9D9D9D;
@@ -48,7 +54,6 @@ h2, a, p {
 
 .navbar-top .nav-link{
     font-weight: bold !important;
-    color: white !important;
 }
     /*end of custom navbar styles*/
 
@@ -88,9 +93,6 @@ h2, a, p {
         }
     /*footer styles*/
 /*end of common styles*/
-    text-align: center;
-    color: white;
-}
 
 
 .top-left {

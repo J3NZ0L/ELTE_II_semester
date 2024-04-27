@@ -1,0 +1,8 @@
+
+h6{
+    position: relative;
+    top: 0px; /* positions the .child 20px from the top edge of .parent */
+    left: 13rem; /* positions the .child 20px from the left edge of .parent */
+}
+
+  

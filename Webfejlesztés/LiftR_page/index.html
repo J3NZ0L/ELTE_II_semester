@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,330 +10,464 @@
     <link rel="stylesheet" href="./css/common_styles.css">
     <!-- specific css for index.html -->
     <link rel="stylesheet" href="./css/indexstyle.css">
-    
+
 
     <!-- bootstrap  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> <!-- Bootstrap reference-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap reference-->
     <!-- javascript for bootstrap navbar -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <!-- Icon fonts stylesheet (bootstrap) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <!-- Javascript -->
     <script src="./script/liftr.js"></script>
-    
+
 </head>
+
 <body class="bg-black">
 
 
 
- <header>
-    <div class="container-fluid p-0">
+    <header>
+        <div class="container-fluid p-0">
 
-        <div id="outer-triangle"></div> <!-- outer triangle: black "border" for the white triangle -->
+            <div id="outer-triangle"></div> <!-- outer triangle: black "border" for the white triangle -->
             <div class="triangle" id="triangle"></div> <!-- triangle -->
-            
-            
-                <div class="row g-0 bg-black">             
 
-                    <nav id="tartalomraugras">
-                        <!-- legyen elrejtve a képernyőről -->
-                        <h2 class="visually-hidden">Ugrás az oldalon belül</h2>
-                        <!-- legyen elrejtve a képernyőről, de amikor fókuszt kap, jelenjen meg -->						
-                        <a href="#tartalom" class="visually-hidden-focusable">Ugrás a tartalomra</a>
-                    </nav> <!-- tartalomugras nav -->
 
-                    <div class="col-4">
-                         <div id="housebuttoncontainer"> 
-                            <a href="index.html" role="button">
-                                <i class="bi bi-house-fill color-light-grey"></i>                            
-                            </a>
-                        </div>
-                    </div> <!-- home button -->
+            <div class="row g-0 bg-black">
 
-                    <div class="col-4 tothetop navbar-top">
-                        <nav class="navbar navbar-expand-lg bg-black rounded-custom py-0 mt-2 mx-auto">
-                            <div class="container-fluid">
-                                <h2 class="d-block d-lg-none brand">LiftR</h2>
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topNav" aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse" id ="topNav">
-                                    <ul class="navbar-nav mx-auto">
-                                        <li class="nav-item mx-auto">
-                                            <a class="nav-link" href="workout_plans.html">Workout plans</a>
-                                        </li>
-                                        <li class="nav-item mx-auto">
-                                            <a class="nav-link" href="nutrition_guides.html">Nutrition</a>
-                                        </li>
-                                        <li class="nav-item mx-auto">
-                                            <a class="nav-link" href="contact_us.html">Contact us</a>
-                                        </li>
-                                    </ul>
-                                </div>  <!-- collapse navbar elements -->
-                            </div> <!-- fluid container -->
-                        </nav> <!-- navbar -->
-                    </div>  <!-- main nav -->
+                <nav id="tartalomraugras">
+                    <!-- legyen elrejtve a képernyőről -->
+                    <h2 class="visually-hidden">Ugrás az oldalon belül</h2>
+                    <!-- legyen elrejtve a képernyőről, de amikor fókuszt kap, jelenjen meg -->
+                    <a href="#tartalom" class="visually-hidden-focusable">Ugrás a tartalomra</a>
+                </nav> <!-- tartalomugras nav -->
 
-                    <div class="col-4 d-none"> <!-- TODO: MEG NEM LATSZIK -->
-                        <nav id="styleswitch">
-                            <label for="styleSwitcher">Stílus: </label>
-                            <select id="styleSwitcher">
+                <div class="col-4">
+                    <div id="housebuttoncontainer">
+                        <a href="index.html" role="button">
+                            <i class="bi bi-house-fill color-light-grey"></i>
+                        </a>
+                    </div>
+                </div> <!-- home button -->
+
+                <div class="col-4 tothetop navbar-top">
+                    <nav class="navbar navbar-expand-lg bg-black rounded-custom py-0 mt-2 mx-auto">
+                        <div class="container-fluid">
+                            <h2 class="d-block d-lg-none brand">LiftR</h2>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#topNav" aria-controls="topNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="topNav">
+                                <ul class="navbar-nav mx-auto">
+                                    <li class="nav-item mx-auto">
+                                        <a class="nav-link" href="workout_plans.html">Workout plans</a>
+                                    </li>
+                                    <li class="nav-item mx-auto">
+                                        <a class="nav-link" href="nutrition_guides.html">Nutrition</a>
+                                    </li>
+                                    <li class="nav-item mx-auto">
+                                        <a class="nav-link" href="contact_us.html">Contact us</a>
+                                    </li>
+                                </ul>
+                            </div> <!-- collapse navbar elements -->
+                        </div> <!-- fluid container -->
+                    </nav> <!-- navbar -->
+                </div> <!-- main nav -->
+
+                <div class="col-4 d-none"> <!-- TODO: MEG NEM LATSZIK -->
+                    <nav id="styleswitch">
+                        <label for="styleSwitcher">Stílus: </label>
+                        <select id="styleSwitcher">
                             <option value="normal">Normál</option>
                             <option value="large">Nagy betűméret</option>
-                            </select>
-                        </nav>
-                    </div>     
+                        </select>
+                    </nav>
+                </div>
 
-                </div> <!-- row -->
+            </div> <!-- row -->
 
-    </div> <!-- header container -->
+        </div> <!-- header container -->
 
-</header>      
+    </header>
 
-<main id="#tartalom" >
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="container-relative_position z-bottom mt-2 " >
+    <main id="#tartalom">
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="container-relative_position z-bottom mt-2 ">
                             <div class="top-left">
-                                <h1 >Home</h1>
+                                <h1>Home</h1>
                             </div>
                             <div class="centered">
                                 <h2> LiftR: Step up your game with us!</h2>
                             </div>
-                <img class="img-fluid " src="./kepek/man-1282232.jpg"> <!-- dizajn celu kep -->
-                </div> <!-- motto container -->
-            </div>
-        </div>
-    </div> <!-- image and motto container -->
-    <div class="full-width-separator dark-grey-bg-container vh-20-container"></div>
-    <!-- <div class="full-width-container light-grey-bg-container vh-80-container"> -->
+                            <img class="img-fluid " src="./kepek/man-1282232.jpg"> <!-- dizajn celu kep -->
+                        </div> <!-- motto container -->
+                    </div>
+                </div>
+            </div> <!-- image and motto container -->
+        </section>
+
+        <div class="full-width-separator dark-grey-bg-container vh-20-container"></div>
+        <!-- <div class="full-width-container light-grey-bg-container vh-80-container"> -->
         <!--  .container.review-container>(.p-5+h2#reviews>{Reviews from users})+.row -->
-        <!--full emmet: (.col-4>(.row>((.col-10>.review-title+.review-rating+.review-body)+.col-1+.col-1))+(.row>.col-1+((.col-10>.review-title+.review-rating+.review-body)+.col-1))+(.row>.col-1+.col-1+((.col-10>.review-title+.review-rating+.review-body))))*3  -->
-        <!-- manual emmet: .col-4*3>.row*3>(.col-10>.review-title+.review-rating+.review-body)+.col-1+.col-1 -->
-        
+        <!--full emmet: (.col-4>(.row>((.col-10>.review-title+.review-rating+.review-content)+.col-1+.col-1))+(.row>.col-1+((.col-10>.review-title+.review-rating+.review-content)+.col-1))+(.row>.col-1+.col-1+((.col-10>.review-title+.review-rating+.review-content))))*3  -->
+        <!-- manual emmet: .col-4*3>.row*3>(.col-10>.review-title+.review-rating+.review-content)+.col-1+.col-1 -->
+
         <div class="full-width-container light-grey-bg-container">
             <!-- Carousel for smaller screens -->
-            
-        
-            <div id="reviewCarousel" class="carousel slide d-lg-none" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active custom-carousel-item-height ">
-                        <div class="container review-container ">
-                            <div class="row justify-content-center">
-                                <div class="col-9">
+
+            <section>
+                <div id="reviewCarousel" class="carousel slide d-lg-none" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active custom-carousel-item-height ">
+                            <div class="container review-container ">
+                                <div class="row justify-content-center">
+                                    <div class="col-9">
+                                        <article>
+                                            <div class="review-title">“Life-Changing Workouts!”</div>
+                                            <div class="review-rating">Rating: 5/5</div>
+                                            <div class="review-content">
+                                                I stumbled upon LiftR when I was desperately seeking a fitness routine
+                                                that
+                                                would actually stick. Their personalized workout plans are spot-on! The
+                                                trainers understand my goals and limitations, and the results have been
+                                                incredible. Plus, the nutrition plans are delicious and sustainable.
+                                                Highly
+                                                recommend!</div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item custom-carousel-item-height">
+                            <div class="container review-container">
+                                <div class="row justify-content-center">
+                                    <div class="col-9">
+                                        <article>
+                                            <div class="review-title">“LiftR Keeps Me Motivated”</div>
+                                            <div class="review-rating">Rating: 4/5</div>
+                                            <div class="review-content">As someone who struggles with consistency, LiftR
+                                                has
+                                                been a game-changer. The app’s user-friendly interface makes it easy to
+                                                track my progress, and the workout plans are challenging but doable. The
+                                                nutrition tips are a bonus—I’ve never felt better!</div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item custom-carousel-item-height">
+                            <div class="container review-container">
+                                <div class="row justify-content-center">
+                                    <div class="col-9">
+                                        <article>
+                                            <div class="review-title">“LiftR: My Accountability Partner”</div>
+                                            <div class="review-rating">Rating: 4.5/5</div>
+                                            <div class="review-content">LiftR’s community support is fantastic. I love
+                                                connecting with other users, sharing victories, and even commiserating
+                                                during tough days. The workout plans are effective, and the nutrition
+                                                advice
+                                                is practical. It’s like having a personal trainer in my pocket!</div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item custom-carousel-item-height">
+                            <div class="container review-container">
+                                <div class="row justify-content-center">
+                                    <div class="col-9">
+                                        <article>
+                                            <div class="review-title">“Results in Record Time!”</div>
+                                            <div class="review-rating">Rating: 5/5</div>
+                                            <div class="review-content">LiftR’s science-backed workout plans have
+                                                transformed my body. The combination of strength training, cardio, and
+                                                targeted exercises is genius. And the nutrition guidance? A revelation!
+                                                I’ve
+                                                shed pounds and gained confidence. Thank you, LiftR!</div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item custom-carousel-item-height">
+                            <div class="container review-container">
+                                <div class="row justify-content-center">
+                                    <div class="col-9">
+                                        <article>
+                                            <div class="review-title">“LiftR: A Holistic Approach”</div>
+                                            <div class="review-rating">Rating: 4/5</div>
+                                            <div class="review-content">What sets LiftR apart is its holistic approach.
+                                                The
+                                                workout plans consider not only physical fitness but also mental
+                                                well-being.
+                                                The nutrition plans are realistic and sustainable. It’s more than just a
+                                                fitness app—it’s a lifestyle changer.</div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item custom-carousel-item-height">
+                            <div class="container review-container">
+                                <div class="row justify-content-center">
+                                    <div class="col-9">
+                                        <article>
+                                            <div class="review-title">“LiftR’s Nutrition Made Easy”</div>
+                                            <div class="review-rating">Rating: 4.5/5</div>
+                                            <div class="review-content">I used to dread meal planning, but LiftR’s
+                                                nutrition
+                                                section has simplified everything. From grocery lists to tasty recipes,
+                                                it’s
+                                                all there. The workout plans are challenging but effective. I’m hooked!
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item custom-carousel-item-height">
+                            <div class="container review-container">
+                                <div class="row justify-content-center">
+                                    <div class="col-9">
+                                        <article>
+                                            <div class="review-title">“LiftR: A Must-Try!”</div>
+                                            <div class="review-rating">Rating: 4/5</div>
+                                            <div class="review-content">If you’re serious about fitness, give LiftR a
+                                                shot.
+                                                The workout plans are tailored to your level, and the nutrition advice
+                                                is
+                                                practical. The app’s interface is sleek, and the community keeps you
+                                                motivated. I’m a fan!</div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item custom-carousel-item-height">
+                            <div class="container review-container">
+                                <div class="row justify-content-center">
+                                    <div class="col-9">
+                                        <article>
+                                            <div class="review-title">“LiftR: My Fitness BFF”</div>
+                                            <div class="review-rating">Rating: 5/5</div>
+                                            <div class="review-content">LiftR feels like a supportive friend. The
+                                                workout
+                                                plans adapt as I progress, and the nutrition tips are realistic. I’ve
+                                                seen
+                                                muscle gains and fat loss—all thanks to LiftR. It’s a keeper!</div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item custom-carousel-item-height">
+                            <div class="container review-container">
+                                <div class="row justify-content-center">
+                                    <div class="col-9">
+                                        <article>
+                                            <div class="review-title">“LiftR: Where Goals Become Reality”</div>
+                                            <div class="review-rating">Rating: 4.5/5</div>
+                                            <div class="review-content">LiftR’s workout plans are like having a personal
+                                                trainer. They push me without overwhelming me. The nutrition component
+                                                is
+                                                equally impressive—I’ve learned to fuel my body for optimal performance.
+                                                If
+                                                you’re serious about fitness, LiftR won’t disappoint!</div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#reviewCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#reviewCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
+
+                <!-- Stair layout for larger screens -->
+                <div class="d-none d-lg-block">
+                    <div class="pt-5 pb-3 ps-5">
+                        <h2 id="reviews">Reviews from users</h2>
+                    </div>
+                    <div class="pl-2">
+                        <div class="row row-indent-0">
+                            <div class="col-md-4">
+                                <article>
                                     <div class="review-title">“Life-Changing Workouts!”</div>
                                     <div class="review-rating">Rating: 5/5</div>
-                                    <div class="review-body">
-                                    I stumbled upon LiftR when I was desperately seeking a fitness routine that would actually stick. Their personalized workout plans are spot-on! The trainers understand my goals and limitations, and the results have been incredible. Plus, the nutrition plans are delicious and sustainable. Highly recommend!</div>
-                                </div>
+                                    <div class="review-content">I stumbled upon LiftR when I was desperately seeking a
+                                        fitness routine that would actually stick. Their personalized workout plans are
+                                        spot-on! The trainers understand my goals and limitations, and the results have
+                                        been
+                                        incredible. Plus, the nutrition plans are delicious and sustainable. Highly
+                                        recommend!</div>
+                                </article>
                             </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item custom-carousel-item-height">
-                        <div class="container review-container">
-                            <div class="row justify-content-center">
-                                <div class="col-9">
+                            <div class="col-md-4">
+                                <article>
                                     <div class="review-title">“LiftR Keeps Me Motivated”</div>
-                                    <div class="review-rating">Rating:  4/5</div>
-                                    <div class="review-body">As someone who struggles with consistency, LiftR has been a game-changer. The app’s user-friendly interface makes it easy to track my progress, and the workout plans are challenging but doable. The nutrition tips are a bonus—I’ve never felt better!</div>
-                                </div>
+                                    <div class="review-rating">Rating: 4/5</div>
+                                    <div class="review-content">As someone who struggles with consistency, LiftR has
+                                        been a
+                                        game-changer. The app’s user-friendly interface makes it easy to track my
+                                        progress,
+                                        and the workout plans are challenging but doable. The nutrition tips are a
+                                        bonus—I’ve never felt better!</div>
+                                </article>
+                            </div>
+                            <div class="col-md-4">
+                                <article>
+                                    <div class="review-title">“LiftR: My Accountability Partner”</div>
+                                    <div class="review-rating">Rating: 4.5/5</div>
+                                    <div class="review-content">LiftR’s community support is fantastic. I love
+                                        connecting
+                                        with other users, sharing victories, and even commiserating during tough days.
+                                        The
+                                        workout plans are effective, and the nutrition advice is practical. It’s like
+                                        having
+                                        a personal trainer in my pocket!</div>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="row row-indent-1 pt-4">
+                            <div class="col-md-4">
+                                <article>
+                                    <div class="review-title">“Results in Record Time!”</div>
+                                    <div class="review-rating">Rating: 5/5</div>
+                                    <div class="review-content">LiftR’s science-backed workout plans have transformed my
+                                        body. The combination of strength training, cardio, and targeted exercises is
+                                        genius. And the nutrition guidance? A revelation! I’ve shed pounds and gained
+                                        confidence. Thank you, LiftR!</div>
+                                </article>
+                            </div>
+                            <div class="col-md-4">
+                                <article>
+                                    <div class="review-title">“LiftR: A Holistic Approach”</div>
+                                    <div class="review-rating">Rating: 4/5</div>
+                                    <div class="review-content">What sets LiftR apart is its holistic approach. The
+                                        workout
+                                        plans consider not only physical fitness but also mental well-being. The
+                                        nutrition
+                                        plans are realistic and sustainable. It’s more than just a fitness app—it’s a
+                                        lifestyle changer.</div>
+                                </article>
+                            </div>
+                            <div class="col-md-4">
+                                <article>
+                                    <div class="review-title">“LiftR’s Nutrition Made Easy”</div>
+                                    <div class="review-rating">Rating: 4.5/5</div>
+                                    <div class="review-content">I used to dread meal planning, but LiftR’s nutrition
+                                        section
+                                        has simplified everything. From grocery lists to tasty recipes, it’s all there.
+                                        The
+                                        workout plans are challenging but effective. I’m hooked!</div>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="row row-indent-2 pt-4">
+                            <div class="col-md-4">
+                                <article>
+                                    <div class="review-title">“LiftR: A Must-Try!”</div>
+                                    <div class="review-rating">Rating: 4/5</div>
+                                    <div class="review-content">If you’re serious about fitness, give LiftR a shot. The
+                                        workout plans are tailored to your level, and the nutrition advice is practical.
+                                        The
+                                        app’s interface is sleek, and the community keeps you motivated. I’m a fan!
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-md-4">
+                                <article>
+                                    <div class="review-title">“LiftR: My Fitness BFF”</div>
+                                    <div class="review-rating">Rating: 5/5</div>
+                                    <div class="review-content">LiftR feels like a supportive friend. The workout plans
+                                        adapt as I progress, and the nutrition tips are realistic. I’ve seen muscle
+                                        gains
+                                        and fat loss—all thanks to LiftR. It’s a keeper!</div>
+                                </article>
+                            </div>
+                            <div class="col-md-4">
+                                <article>
+                                    <div class="review-title">“LiftR: Where Goals Become Reality”</div>
+                                    <div class="review-rating">Rating: 4.5/5</div>
+                                    <div class="review-content">LiftR’s workout plans are like having a personal
+                                        trainer.
+                                        They push me without overwhelming me. The nutrition component is equally
+                                        impressive—I’ve learned to fuel my body for optimal performance. If you’re
+                                        serious
+                                        about fitness, LiftR won’t disappoint!</div>
+                                </article>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item custom-carousel-item-height">
-                        <div class="container review-container">
-                            <div class="row justify-content-center">
-                                <div class="col-9">
-                                <div class="review-title">“LiftR: My Accountability Partner”</div>
-                        <div class="review-rating">Rating: 4.5/5</div>
-                        <div class="review-body">LiftR’s community support is fantastic. I love connecting with other users, sharing victories, and even commiserating during tough days. The workout plans are effective, and the nutrition advice is practical. It’s like having a personal trainer in my pocket!</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item custom-carousel-item-height">
-                        <div class="container review-container">
-                            <div class="row justify-content-center">
-                                <div class="col-9">
-                                <div class="review-title">“Results in Record Time!”</div>
-                            <div class="review-rating">Rating: 5/5</div>
-                            <div class="review-body">LiftR’s science-backed workout plans have transformed my body. The combination of strength training, cardio, and targeted exercises is genius. And the nutrition guidance? A revelation! I’ve shed pounds and gained confidence. Thank you, LiftR!</div>
-                        </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item custom-carousel-item-height">
-                        <div class="container review-container">
-                            <div class="row justify-content-center">
-                                <div class="col-9">
-                                <div class="review-title">“LiftR: A Holistic Approach”</div>
-                            <div class="review-rating">Rating: 4/5</div>
-                            <div class="review-body">What sets LiftR apart is its holistic approach. The workout plans consider not only physical fitness but also mental well-being. The nutrition plans are realistic and sustainable. It’s more than just a fitness app—it’s a lifestyle changer.</div>
-                        </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item custom-carousel-item-height">
-                        <div class="container review-container">
-                            <div class="row justify-content-center">
-        
-                                <div class="col-9">
-                                <div class="review-title">“LiftR’s Nutrition Made Easy”</div>
-                            <div class="review-rating">Rating: 4.5/5</div>
-                            <div class="review-body">I used to dread meal planning, but LiftR’s nutrition section has simplified everything. From grocery lists to tasty recipes, it’s all there. The workout plans are challenging but effective. I’m hooked!</div>
-                        </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item custom-carousel-item-height">
-                        <div class="container review-container">
-                            <div class="row justify-content-center">
-                                <div class="col-9">
-                                <div class="review-title">“LiftR: A Must-Try!”</div>
-                            <div class="review-rating">Rating: 4/5</div>
-                            <div class="review-body">If you’re serious about fitness, give LiftR a shot. The workout plans are tailored to your level, and the nutrition advice is practical. The app’s interface is sleek, and the community keeps you motivated. I’m a fan!</div>
-                        </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item custom-carousel-item-height">
-                        <div class="container review-container">
-                            <div class="row justify-content-center">
-                                <div class="col-9">
-                                <div class="review-title">“LiftR: My Fitness BFF”</div>
-                            <div class="review-rating">Rating: 5/5</div>
-                            <div class="review-body">LiftR feels like a supportive friend. The workout plans adapt as I progress, and the nutrition tips are realistic. I’ve seen muscle gains and fat loss—all thanks to LiftR. It’s a keeper!</div>
-                        </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item custom-carousel-item-height">
-                        <div class="container review-container">
-                            <div class="row justify-content-center">
-                                <div class="col-9">
-                                <div class="review-title">“LiftR: Where Goals Become Reality”</div>
-                            <div class="review-rating">Rating: 4.5/5</div>
-                            <div class="review-body">LiftR’s workout plans are like having a personal trainer. They push me without overwhelming me. The nutrition component is equally impressive—I’ve learned to fuel my body for optimal performance. If you’re serious about fitness, LiftR won’t disappoint!</div>
-                        </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#reviewCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#reviewCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        
-            
-        
-            <!-- Stair layout for larger screens -->
-            <div class="d-none d-lg-block">
-                <div class="pt-5 pb-3 ps-5">
-                    <h2 id="reviews">Reviews from users</h2>
-                </div>
-                    <div class="pl-2">
-                    <div class="row row-indent-0">
-                        <div class="col-md-4">
-                            <div class="review-title">“Life-Changing Workouts!”</div>
-                            <div class="review-rating">Rating: 5/5</div>
-                            <div class="review-body">I stumbled upon LiftR when I was desperately seeking a fitness routine that would actually stick. Their personalized workout plans are spot-on! The trainers understand my goals and limitations, and the results have been incredible. Plus, the nutrition plans are delicious and sustainable. Highly recommend!</div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="review-title">“LiftR Keeps Me Motivated”</div>
-                            <div class="review-rating">Rating: 4/5</div>
-                            <div class="review-body">As someone who struggles with consistency, LiftR has been a game-changer. The app’s user-friendly interface makes it easy to track my progress, and the workout plans are challenging but doable. The nutrition tips are a bonus—I’ve never felt better!</div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="review-title">“LiftR: My Accountability Partner”</div>
-                            <div class="review-rating">Rating: 4.5/5</div>
-                            <div class="review-body">LiftR’s community support is fantastic. I love connecting with other users, sharing victories, and even commiserating during tough days. The workout plans are effective, and the nutrition advice is practical. It’s like having a personal trainer in my pocket!</div>
-                        </div>
-                    </div>
-                    <div class="row row-indent-1 pt-4">
-                        <div class="col-md-4">
-                            <div class="review-title">“Results in Record Time!”</div>
-                            <div class="review-rating">Rating: 5/5</div>
-                            <div class="review-body">LiftR’s science-backed workout plans have transformed my body. The combination of strength training, cardio, and targeted exercises is genius. And the nutrition guidance? A revelation! I’ve shed pounds and gained confidence. Thank you, LiftR!</div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="review-title">“LiftR: A Holistic Approach”</div>
-                            <div class="review-rating">Rating: 4/5</div>
-                            <div class="review-body">What sets LiftR apart is its holistic approach. The workout plans consider not only physical fitness but also mental well-being. The nutrition plans are realistic and sustainable. It’s more than just a fitness app—it’s a lifestyle changer.</div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="review-title">“LiftR’s Nutrition Made Easy”</div>
-                            <div class="review-rating">Rating: 4.5/5</div>
-                            <div class="review-body">I used to dread meal planning, but LiftR’s nutrition section has simplified everything. From grocery lists to tasty recipes, it’s all there. The workout plans are challenging but effective. I’m hooked!</div>
-                        </div>
-                    </div>
-                    <div class="row row-indent-2 pt-4">
-                        <div class="col-md-4">
-                            <div class="review-title">“LiftR: A Must-Try!”</div>
-                            <div class="review-rating">Rating: 4/5</div>
-                            <div class="review-body">If you’re serious about fitness, give LiftR a shot. The workout plans are tailored to your level, and the nutrition advice is practical. The app’s interface is sleek, and the community keeps you motivated. I’m a fan!</div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="review-title">“LiftR: My Fitness BFF”</div>
-                            <div class="review-rating">Rating: 5/5</div>
-                            <div class="review-body">LiftR feels like a supportive friend. The workout plans adapt as I progress, and the nutrition tips are realistic. I’ve seen muscle gains and fat loss—all thanks to LiftR. It’s a keeper!</div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="review-title">“LiftR: Where Goals Become Reality”</div>
-                            <div class="review-rating">Rating: 4.5/5</div>
-                            <div class="review-body">LiftR’s workout plans are like having a personal trainer. They push me without overwhelming me. The nutrition component is equally impressive—I’ve learned to fuel my body for optimal performance. If you’re serious about fitness, LiftR won’t disappoint!</div>
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- stair layout container -->
-        
-    </div> <!-- outer container Of Reviews -->
+                </div> <!-- stair layout container -->
+            </section>
+        </div> <!-- outer container Of Reviews -->
 
-    <img class="img-fluid full-width"  src="./kepek/holgykondiba.jpg"> <!-- (dizajn celu kep) -->
-                
-</main>
-    
-<footer>
-    <div class="navbar-bottom">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <h2 class="navbar-brand">Navigate between pages:</h2>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bottomNav" aria-controls="bottomNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse " id="bottomNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="workout_plans.html">Workout plans</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="nutrition_guides.html">Nutrition</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact_us.html">Contact us</a>
-                        </li>
-                    </ul>
-                    <div class="d-flex d-lg-none justify-content-center">
-                        <span class="navbar-text">
-                            ©2024. All rights reserved.
-                        </span>
+        <section>
+        <img class="img-fluid full-width" src="./kepek/holgykondiba.jpg"> <!-- (dizajn celu kep) -->
+        </section>    
+        
+    </main>
+
+    <footer>
+        <div class="navbar-bottom">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <h2 class="navbar-brand">Navigate between pages:</h2>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bottomNav"
+                        aria-controls="bottomNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="bottomNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="workout_plans.html">Workout plans</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="nutrition_guides.html">Nutrition</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact_us.html">Contact us</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex d-lg-none justify-content-center">
+                            <span class="navbar-text">
+                                ©2024. All rights reserved.
+                            </span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="d-lg-flex d-none justify-content-lg-end w-50 pe-3">
-                <span class="navbar-text">
-                    ©2024. All rights reserved.
-                </span>
-            </div>
-        </nav>
-    </div>  
-</footer>
+                <div class="d-lg-flex d-none justify-content-lg-end w-50 pe-3">
+                    <span class="navbar-text">
+                        ©2024. All rights reserved.
+                    </span>
+                </div>
+            </nav>
+        </div>
+    </footer>
 
 </body>
+
 </html>

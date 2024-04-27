@@ -5,4 +5,11 @@ h6{
     left: 13rem; /* positions the .child 20px from the left edge of .parent */
 }
 
+
+table caption {
+    caption-side: top; /* This positions the caption above the table */
+    size: 4rem;
+  }
+  
+
   

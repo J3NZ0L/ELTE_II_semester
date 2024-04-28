@@ -18,5 +18,9 @@ table caption {
     size: 4rem;
   }
   
-
+#transcription{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
   

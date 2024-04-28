@@ -1,0 +1,16 @@
+.title_container {
+    display: inline-block;
+  }
+  
+  #tartalom {
+    text-align: left;
+  }
+  #guarantee-aside-top h6 {
+    text-align: right;
+   /* Adjust this value as needed */
+  }
+
+  table caption {
+    caption-side: top; /* This positions the caption above the table */
+    size: 4rem;
+  }

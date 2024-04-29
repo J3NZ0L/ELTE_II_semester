@@ -25,6 +25,19 @@ public class Player{
     }
 
     public void turn() {
-        // TODO
+        switch (direction) {
+            case UP:
+                direction = Direction.RIGHT;
+                break;
+            case RIGHT:
+                direction = Direction.DOWN;
+                break;
+            case DOWN:
+                direction = Direction.LEFT;
+                break;
+            case LEFT:
+                direction = Direction.UP;
+                break;
+        }
     }
 }

@@ -79,7 +79,7 @@ public class WalkingBoard{
         }
     }
 
-    public int moveAndSet(Direction direction, int value){
+    public int moveAndSet(Direction direction, int value){  //a direction iranyba lepunk 1-et, es az uj mezon levo erteket value-re valtoztatjuk
         if(!isValidPosition(getXStep(direction),getYStep(direction))){
             return 0;
         }

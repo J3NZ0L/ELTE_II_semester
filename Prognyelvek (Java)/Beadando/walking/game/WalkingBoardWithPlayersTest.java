@@ -11,4 +11,8 @@ import org.junit.jupiter.api.extension.*;
 import org.junit.jupiter.params.*;
 import org.junit.jupiter.params.provider.*;
 import check.*;
-public 
+
+public class WalkingBoardWithPlayersTest{
+    
+
+}

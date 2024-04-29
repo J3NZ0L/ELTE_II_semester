@@ -1,39 +1,31 @@
+
+
+/* CSS of index main : */
 body{
     margin:0;
     padding: 0;
 }
-
-.container-maxwidth{
-    /*width: 100vw !important;*/
-    margin:0 !important;
-    padding: 0 !important;
+/*
+.container-relative_position {
+    position: relative;
 }
-#housebuttoncontainer{
-    margin-left: 1vw;
-    margin-top:2vh ;
-}
+*/
 
 
-/* BS house icon */
-.bi-house-fill{
-    color: #9D9D9D;
-    font-size: 3rem;
-}
-a{
-    position:relative;
-    z-index:3 !important;
-
+#first_background_image {
+    background-image:url('../media/man-1282232.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh;
 }
 
-.btn-icon-only {
-    background: none; /* Removes the background */
-    border: none;     /* Removes the border */
-    color: inherit;   /* Inherits the text color (useful for icon color) */
+h1.home{
+    font-weight: bold !important; 
+    color:white !important;
 }
+h2.motto{
 
-#copyright, #motto {
-    /* szöveg középre igazítása */
-	text-align:center;
+    color: white !important;
 }
 
 .brand{
@@ -45,35 +37,69 @@ h2, a, p {
    text-align: left;
 }
 
-
-.container-relative_position {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-/* Centered text */
-.top-left {
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    transform: translate(-50%, -50%);
-}
-
-/*custom navbar shape*/
-.rounded-custom, .navbar-toggler, .navbar-collapse{
-    border-radius: 15px !important;
-}
+    /*custom navbar */
 
 /*make navbar collapse on top of the other elements*/
 
-.navbar-collapse{
+.navbar-top .navbar-collapse{
     position:absolute;
     width: 100%;
     top: 100%;
     left: 0;
     background-color: #000;
-    z-index: 1000;
+    z-index: 100;
+}
+/* Centered text container */
+
+
+.navbar-top .nav-link{
+    font-weight: bold !important;
+}
+    /*end of custom navbar styles*/
+
+    .tothetop{
+        z-index: 4 !important;
+    }
+
+
+    #outer-triangle {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        height: 0;
+    }
+
+    .triangle {
+        position: absolute;
+        z-index: 3;
+        width: 100%;
+        height: 0;
+    }
+    
+    .z-bottom{
+        z-index: 0;
+    }
+    /*footer styles*/
+    .navbar-bottom .nav-link {
+        display: inline-block;
+        }
+        
+        .navbar-bottom .navbar-nav {
+            flex-wrap: nowrap;
+        }
+          
+        .custom-flex-end {
+            justify-content: flex-end !important;
+        }
+    /*footer styles*/
+/*end of common styles*/
+
+
+.top-left {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
 }
 
 .centered{
@@ -83,28 +109,7 @@ h2, a, p {
     transform: translate(-50%, -50%);
 }
 
-.nav-link{
-    font-weight: bold !important;
-    color: white !important;
-}
 
-.tothetop{
-    z-index: 2 !important;
-}
-
-.triangle {
-    position: absolute;
-    z-index: 2;
-    width: 100%;
-    height: 0;
-}
-
-.z-bottom{
-    z-index: 0;
-}
-
-
-/* CSS of main: */
 .full-width-container {
     width: 100%;         /* Full width of the viewport */
    
@@ -117,29 +122,61 @@ h2, a, p {
     background-color: #dbdbdb;    /* Grey color */
 }
 
-.vh-60-container{
-    height: 60vh;       /* 60% of the viewport height */
-}
-
 .vh-20-container{
     height: 20vh;       /* 20% of the viewport height */
 }
 
 
     /* review styles*/
-.review-container{
-    font-size: small;
-}
 
-.review-title{
-    font-size:medium;
-    font-style: italic;
-}
 
-.review-rating{
-    font-weight: bold;
-}
+    .review-container{
+        font-size: small;
+    }
+    
+    .review-title{
+        font-size:medium;
+        font-style: italic;
+    }
+    
+    .review-rating{
+        font-weight: bold;
+    }
+    
+    /*
+    .review-body{
+    
+    }
+    */
+    .carousel-item {
+        height: 30vh;
+    }
+      
+    .review-container{
+        position: absolute;
+        top: 10%;
+        left: 50%; /* to the center*/
+        transform: translate(-50%, 0%);
+        min-height: 30vh;
+    }
+    /* Additional styles to increase the indent effect */
+    @media (min-width: 992px) { /* Corresponds to Bootstrap's 'lg' breakpoint */
+        .row-indent-0 {margin-left: 0vw !important; margin-right: 8vw !important} 
+        .row-indent-1 { margin-left: 4vw !important; margin-right:4vw !important}
+        .row-indent-2 { margin-left: 8vw !important; margin-right:0vw !important}
+    }
 
-.review-body{
 
-}
+    /* image styles*/
+    .full-width{
+        width: 100%;
+    }
+
+    @media (max-width: 992px) { /* When the viewport is 992px or less (Bootstrap's lg breakpoint) */
+        .navbar-text {
+          text-align: center; /* Center the text */
+        }
+      }
+
+
+        

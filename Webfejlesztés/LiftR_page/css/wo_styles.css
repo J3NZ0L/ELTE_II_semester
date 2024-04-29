@@ -1,0 +1,26 @@
+.title_container {
+  display: inline-block;
+}
+
+#tartalom {
+  text-align: left;
+}
+#guarantee-aside-top h6 {
+  text-align: right;
+ /* Adjust this value as needed */
+}
+
+/* Example media query for screens smaller than 600px */
+
+
+table caption {
+    caption-side: top; /* This positions the caption above the table */
+    size: 4rem;
+  }
+  
+#transcription{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+  

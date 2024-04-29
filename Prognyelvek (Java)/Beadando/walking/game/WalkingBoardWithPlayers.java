@@ -29,9 +29,17 @@ public class WalkingBoardWithPlayers extends WalkingBoard{
     }
 
     public int[] walk(int... stepCounts) {
+        int overall_steps=0;
+        int[] scores = new int[players.length];
         for (int i=0; i<players.length; i++) {
             players[i].turn();
+            overall_steps+=stepCounts[i];
+            for(int j=0; j<stepCounts[i]; j++) {
+                moveAndSet(players[i].getDirection(),Math.min(overall_steps,SCORE_EACH_STEP));
+            }
+            players[i].addToScore(getTile(x,y));
+            scores[i]=players[i].getScore();
         }
-        
+        return scores;
     }
 }

@@ -7,21 +7,19 @@ public class Player{
     protected Direction direction = Direction.UP;
 
     public int getScore() {
-        // TODO
         return this.score;
     }
 
     public Direction getDirection() {
-        // TODO
         return this.direction;
     }
 
     public Player() {
-        // TODO
+        score = 0;
     }
 
     public void addToScore(int score) {
-        // TODO
+        this.score += score;
     }
 
     public void turn() {

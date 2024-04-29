@@ -1,6 +1,8 @@
 
 //./check.cmd .\_03_05_JUnit_unit_testing\famous\sequence\FibonacciTestSuite.java _03_05_JUnit_unit_testing.famous.sequence.FibonacciTestSuite
 
+Linuxon javac-vel forditasnal classpathok megadasa ';' (windows) helyett ':'-vel !!! javac -cp ".:checkthat.jar:junit5all.jar" ./path_to_file
+
 Preparation.
     Download from: https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.10.2/junit-platform-console-standalone-1.10.2.jar
     Rename it to : junit5all.jar

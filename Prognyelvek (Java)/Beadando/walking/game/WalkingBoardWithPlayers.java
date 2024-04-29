@@ -10,12 +10,12 @@ public class WalkingBoardWithPlayers extends WalkingBoard{
 
     public WalkingBoardWithPlayers(int[][] board, int playerCount) {
         super(board);
-        players=new Player[playerCount];
+        initPlayers(playerCount);
     }
 
     public WalkingBoardWithPlayers(int size, int playerCount) {
         super(size);
-        players=new Player[playerCount];
+        initPlayers(playerCount);
     }
 
     private void initPlayers(int playerCount) {
@@ -27,8 +27,22 @@ public class WalkingBoardWithPlayers extends WalkingBoard{
             players[i] = new Player();
         }
     }
+    public int[] walk(int... stepCounts){
+        int overall_steps=0;
+        int[] scores = new int[players.length];
+        for (int i=0; i<stepCounts.length; i++) {
+            players[i%players.length].turn();
+            for(int j=0; j<stepCounts[i]; j++) { 
+                moveAndSet(players[i].getDirection(),Math.min(overall_steps,SCORE_EACH_STEP));
+                overall_steps++;
+            }
+            players[i].addToScore(getTile(getPosition()[0],getPosition()[1]));
+            scores[i]=players[i].getScore();
+        }
+    }
 
-    public int[] walk(int... stepCounts) {
+
+   /* public int[] walk(int... stepCounts) {
         int overall_steps=0;
         int[] scores = new int[players.length];
         for (int i=0; i<players.length; i++) {
@@ -37,9 +51,9 @@ public class WalkingBoardWithPlayers extends WalkingBoard{
             for(int j=0; j<stepCounts[i]; j++) {
                 moveAndSet(players[i].getDirection(),Math.min(overall_steps,SCORE_EACH_STEP));
             }
-            players[i].addToScore(getTile(x,y));
+            players[i].addToScore(getTile(getPosition()[0],getPosition()[1]));
             scores[i]=players[i].getScore();
         }
         return scores;
-    }
+    } */
 }

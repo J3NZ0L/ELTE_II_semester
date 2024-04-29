@@ -23,11 +23,11 @@ namespace HF9
                 return (false, null);
             }
             
-            Starship maxship = null;
+            Starship? maxship = null;
             
             (_, double max, maxship) = planets[0].MaxFireP();
             double currmax;
-            Starship currship = null;
+            Starship? currship = null;
             bool l = false;
             foreach (Planet e in planets)
             {

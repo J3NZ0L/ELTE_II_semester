@@ -14,7 +14,7 @@ namespace HF9
         protected int armor;
         protected int guardian;
 
-        private Planet planet;
+        private Planet? planet;
 
         public Starship(string name, int shield, int armor, int guardian)
         {

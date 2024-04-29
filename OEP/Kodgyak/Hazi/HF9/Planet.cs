@@ -49,14 +49,14 @@ namespace HF9
             return sum;
         }
 
-        public (bool, double, Starship) MaxFireP()
+        public (bool, double, Starship?) MaxFireP()
         {
             if (ships.Count == 0)
             {
                 return (false, 0.0, null);
             }
             double max =  0;
-            Starship maxe = null;
+            Starship? maxe = null;
             bool l = false;
             foreach(Starship e in ships)
             {

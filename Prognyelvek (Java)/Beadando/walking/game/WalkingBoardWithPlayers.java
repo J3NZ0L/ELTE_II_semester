@@ -37,7 +37,6 @@ public class WalkingBoardWithPlayers extends WalkingBoard{
                 players[i%players.length].addToScore(moveAndSet(players[i%players.length].getDirection(),Math.min(overall_steps,SCORE_EACH_STEP)));
                 overall_steps++;
             }
-            //players[i%players.length].addToScore(getTile(getPosition()[0],getPosition()[1]));            
         }
         for (int i=0; i<players.length; i++) {
             scores[i]=players[i].getScore();

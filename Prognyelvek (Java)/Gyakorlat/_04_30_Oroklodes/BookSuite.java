@@ -1,3 +1,5 @@
+package _04_30_Oroklodes;
+
 import org.junit.platform.suite.api.SelectClasses;
 import org.junit.platform.suite.api.Suite;
 

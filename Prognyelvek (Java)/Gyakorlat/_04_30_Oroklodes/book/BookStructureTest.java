@@ -1,4 +1,4 @@
-package book;
+package _04_30_Oroklodes.book;
 
 import static check.CheckThat.*;
 import static check.CheckThat.Condition.*;
@@ -11,7 +11,7 @@ import check.CheckThat;
 public class BookStructureTest {
     @BeforeAll
     public static void init() {
-        CheckThat.theClass("printed.material.Book")
+        CheckThat.theClass("_04_30_Oroklodes.printed.material.Book")
             .thatIs(FULLY_IMPLEMENTED, INSTANCE_LEVEL, VISIBLE_TO_ALL);
     }
 

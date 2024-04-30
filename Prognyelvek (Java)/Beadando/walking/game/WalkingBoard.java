@@ -24,7 +24,7 @@ public class WalkingBoard{
     public WalkingBoard(int[][] tiles){
         this.tiles=myUtils.copyMatrix(tiles);
         for ( int row=0; row<this.tiles.length;row++){
-            for (int col=0; col<this.tiles[col].length;col++){
+            for (int col=0; col<this.tiles[row].length;col++){
                 if (BASE_TILE_SCORE>this.tiles[row][col]){
                 this.tiles[row][col]=BASE_TILE_SCORE;
                 }

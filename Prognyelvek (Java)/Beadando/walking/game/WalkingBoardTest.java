@@ -31,7 +31,7 @@ public class WalkingBoardTest{
         2, 3, 3
         2, 2, 9
     """)
-    public void testCustomInit(int x, int y, int expected){        
+    public void testCustomInit(int y, int x, int expected){        
         //3-nal kisebb atadott ertek
         int[][] test_tiles={{1,2,3,4},{4,5,6,7},{7,8,9,2},{7,8,9,2}};
         walking.game.WalkingBoard wb=new walking.game.WalkingBoard(test_tiles);

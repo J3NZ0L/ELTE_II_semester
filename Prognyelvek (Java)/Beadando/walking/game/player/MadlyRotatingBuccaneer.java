@@ -1,15 +1,13 @@
 package walking.game.player;
 
 import walking.game.player.Player;
-import walking.game.util.Direction;
 
 public class MadlyRotatingBuccaneer extends Player{
     private int turnCount;
 
-    public MadlyRotatingBuccaneer() {
+    public MadlyRotatingBuccaneer(){
         super();
-        this.turnCount=0;
-        
+        this.turnCount=0;        
     }
 
     public void turn() {        

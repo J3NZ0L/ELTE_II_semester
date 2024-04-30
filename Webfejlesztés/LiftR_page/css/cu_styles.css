@@ -5,3 +5,7 @@
 #tartalom {
     text-align: left;
 }
+
+figcaption {
+    text-align: center !important;
+}

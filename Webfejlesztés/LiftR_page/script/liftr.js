@@ -1,3 +1,5 @@
+//JS for navbar triangle design
+
 window.addEventListener('load', adjustTriangle);
 
 function adjustTriangle() {
@@ -20,4 +22,11 @@ function adjustTriangle() {
         outerTriangle.style.borderRight = `calc(50vw - ${scrollbarWidth / 2}px) solid transparent`;
         outerTriangle.style.borderTop = '13vh solid #000';
     }
+}
+
+//JS for same width figure-figurecaption
+function adjustCaptionWidth() {
+    var img = document.getElementById('myImage');
+    var caption = document.getElementById('myCaption');
+    caption.style.width = img.offsetWidth + 'px';
 }

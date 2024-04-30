@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LifR Home</title>
+    <title>LifR Contact us</title>
     <!-- CSS: -->
     <!-- css for all of LiftR pages -->
     <link rel="stylesheet" href="./css/common_styles.css">
@@ -29,12 +29,10 @@
 
 <body class="bg-black">
 
-
-
     <header>
         <div class="container-fluid p-0">
 
-            <div id="outer-triangle"></div> <!-- outer triangle: black "border" for the white triangle -->
+            <div id="outer-triangle" class="mt-1"></div> <!-- outer triangle: black "border" for the white triangle -->
             <div class="triangle" id="triangle"></div> <!-- triangle -->
 
 
@@ -50,7 +48,7 @@
                 <div class="col-4">
                     <div id="housebuttoncontainer">
                         <a href="index.html" role="button">
-                            <i class="bi bi-house-fill color-light-grey"></i>
+                            <i class="bi bi-house-fill color-white"></i>
                         </a>
                     </div>
                 </div> <!-- home button -->
@@ -58,7 +56,7 @@
                 <div class="col-4 tothetop navbar-top">
                     <nav class="navbar navbar-expand-lg bg-black rounded-custom py-0 mt-2 mx-auto">
                         <div class="container-fluid">
-                            <h2 class="d-block d-lg-none brand">LiftR</h2>
+                            <h2 class="d-block d-lg-none color-light-grey">LiftR</h2>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#topNav" aria-controls="topNav" aria-expanded="false"
                                 aria-label="Toggle navigation">
@@ -73,7 +71,7 @@
                                         <a class="nav-link text-white" href="nutrition_guides.html">Nutrition</a>
                                     </li>
                                     <li class="nav-item mx-auto">
-                                        <a class="nav-link text-secondary" href="contact_us.html">Contact us</a>
+                                        <a class="nav-link color-light-grey" href="contact_us.html">Contact us</a>
                                     </li>
                                 </ul>
                             </div> <!-- collapse navbar elements -->
@@ -97,66 +95,92 @@
 
     </header>
 
-
     <main class="bg-white">
+
         <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6 col-md-7 col-12 ms-lg-5 ms-md-3 ms-0 mt-5">
-                    <div class="title_container">
-                        <h1 id="tartalom"><b>Feel free to contact us!</b></h1>
-
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- form -->
-            <form action="mailto:db7ztc@inf.elte.hu" method="post" enctype="text/plain">
+            <section>
                 <div class="row">
-                    <div class="col-12 col-md-6">
-                        <fieldset>
-                            <label for="nev"><strong>Tell us your name:</strong></label><br>
-                            <input class="w-100" type="text" name="name" id="name" size="60"><br>
-                            <label for="email"><strong>Your email address:</strong></label><br>
-                            <input class="w-100" type="email" name="email" id="email" size="60"><br>
-
-                            <label for="message"><strong>Write your message here:</strong></label><br>
-                            <textarea class="w-100" cols="60" rows="10" name="message" id="message"
-                                placeholder="Your message"></textarea>
-                        </fieldset>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <fieldset>
-                            <p>
-                                <input type="radio" name="problem_type" id="p1" value="report_problem">
-                                <label for="p1">Report problem</label>
-                                <input type="radio" name="problem_type" id="p2" value="state_a_question">
-                                <label for="p2">State a question</label>
-                                <input type="radio" name="problem_type" id="p3" value="request_assistance">
-                                <label for="p3">Request assistance</label>
-                                <input type="radio" name="problem_type" id="p4" value="Other">
-                                <label for="p4">Other</label>
-                            </p>
-                        </fieldset>
-
-                        <fieldset>
-
-                            <input type="checkbox" name="newsletter" id="newsletter" value="yes">
-                            <label for="newsletter">I want to reveive emails about new features, plans, etc.</label>
-
-                        </fieldset>
-                        <fieldset>
-
-                            <input type="submit" value="Submit"
-                                class="btn btn-light rounded-pill border border-dark border-3 rounded-pill">
-                            <input type="reset" value="Reset form"
-                                class="btn btn-secondary border border-dark border-3 rounded-0 ms-4">
-
-                        </fieldset>
+                    <div class="col-lg-6 col-md-7 col-12 ms-lg-5 ms-md-3 ms-0 mt-5">
+                        <div class="title_container">
+                            <h1 id="tartalom"><b>Feel free to contact us!</b></h1>
+                        </div>
                     </div>
                 </div>
-            </form>
+            </section>
+            <section>
+                <div class="row mt-3">
+                    <div class="col-12 col-lg-3 just">
+                        <form action="mailto:db7ztc@inf.elte.hu" method="post" enctype="text/plain"><!-- form -->
+
+                            <fieldset> <!-- TODO: megcsinalni a w osztalyt kulonbozo kepernyokre mint colt -->
+
+                                <label for="name" class="mt-2 h5">Tell us your name:</label><br>
+                                <input class="w-100 mt-2" type="text" name="name" id="name" size="60" maxlength="70"><br>
+
+                                <label for="email" class="mt-2 h5">Your email address:</label><br>
+                                <input class="w-100 mt-2" type="email" name="email" id="email" size="60" maxlength="150"
+                                    placeholder="youremail@mail.com"><br>
+
+                                <label for="message" class="mt-2 h5">Write your message here:</label><br>
+                                <textarea class="w-100 mt-2" cols="60" rows="10" name="message" id="message" maxlength="300"
+                                    placeholder="Your message"></textarea>
+
+                            </fieldset>
+                            <fieldset class="mt-2">
+
+                                <div>
+                                    <input type="radio" name="problem_type" id="p1" value="report_problem" checked>
+                                    <label for="p1">Report problem</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="problem_type" id="p2" value="state_a_question">
+                                    <label for="p2">State a question</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="problem_type" id="p3" value="request_assistance">
+                                    <label for="p3">Request assistance</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="problem_type" id="p4" value="other">
+                                    <label for="p4">Other</label>
+                                </div>
+
+                            </fieldset>
+                            <fieldset class="mt-2">
+
+                                <input type="checkbox" name="newsletter" id="newsletter" value="yes" checked>
+                                <label for="newsletter">I want to receive emails about new features, plans, etc.</label>
+
+                            </fieldset>
+                            <fieldset class="mt-2">
+
+                                <input type="submit" value="Submit"
+                                    class="btn btn-light rounded-pill border border-dark border-3 rounded-pill">
+                                <input type="reset" value="Reset form"
+                                    class="btn btn-secondary border border-dark border-3 rounded-0 ms-4">
+
+                            </fieldset>
+                        </form><!-- form -->
+                    </div>
+                    <div class="d-none d-lg-block col-lg-3"></div>
+
+                    <div class="col-12 col-lg-6 mt-lg-0 mt-5">
+                        <figure id="myFigure">
+                            <figcaption class="mb-2 mx-auto" id="myCaption">
+                                Have a question or need assistance? Or maybe you have found a problem with our services
+                                and
+                                would like to report it to us? Our friendly team is here to help! Reach out via our
+                                contact
+                                form, and we’ll be with you in a jiffy.
+                            </figcaption>
+                            <a href="./media/contact.jpg" class="thumbnail">
+                                <img src="./media/contact-thumbnail.jpg" alt="Seemingly helpful and nice gym employee"
+                                    class="img-fluid mx-auto d-block" id="myImage" onload="adjustCaptionWidth()">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </section>
         </div>
         <!-- form vege -->
     </main>
@@ -173,13 +197,13 @@
                     <div class="collapse navbar-collapse " id="bottomNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
+                                <a class="nav-link" href="index.html">LiftR Home</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="workout_plans.html">Workout plans</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="nutrition_guides.html">Nutrition</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact_us.html">Contact us</a>
                             </li>
                         </ul>
                         <div class="d-flex d-lg-none justify-content-center">

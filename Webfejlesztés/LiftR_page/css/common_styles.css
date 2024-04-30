@@ -22,7 +22,7 @@ a{
 }
 
 .color-light-grey{
-    color: #9D9D9D;
+    color: #757575 !important;
 }
 
 .color-white{
@@ -35,10 +35,6 @@ a{
 
 }
 
-
-.brand{
-    color: #9D9D9D;
-}
 
 h2, a, p {
    /* szöveg balra igazítása */

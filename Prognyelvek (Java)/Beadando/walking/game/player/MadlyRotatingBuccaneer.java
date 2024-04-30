@@ -7,15 +7,16 @@ public class MadlyRotatingBuccaneer extends Player{
     private int turnCount;
 
     public MadlyRotatingBuccaneer() {
-        this.turnCount=0;
         super();
+        this.turnCount=0;
+        
     }
 
-    public void turn() {
-        turnCount++;
+    public void turn() {        
         for (int i=0; i<turnCount; i++) {
             super.turn();
         }
+        turnCount++;
     }
 
 }

@@ -13,7 +13,7 @@ import walking.game.WalkingBoardWithPlayersTest;
     @SelectClasses({
           WalkingBoardWithPlayersStructureTest.class
         , PlayerStructureTest.class
-        , MadlyRotatingBuccaneerStructureTest.java
+        , MadlyRotatingBuccaneerStructureTest.class
     })
     @Suite public static class StructuralTests {}
 

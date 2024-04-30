@@ -22,6 +22,7 @@ public class WalkingBoardWithPlayers extends WalkingBoard{
         if (playerCount < 2) {
             throw new IllegalArgumentException("Player count must be at least 2");
         }
+        players = new Player[playerCount];
         players[0]=new MadlyRotatingBuccaneer();
         for (int i = 1; i < playerCount; i++) {
             players[i] = new Player();
@@ -33,27 +34,14 @@ public class WalkingBoardWithPlayers extends WalkingBoard{
         for (int i=0; i<stepCounts.length; i++) {
             players[i%players.length].turn();
             for(int j=0; j<stepCounts[i]; j++) { 
-                moveAndSet(players[i].getDirection(),Math.min(overall_steps,SCORE_EACH_STEP));
+                players[i%players.length].addToScore(moveAndSet(players[i%players.length].getDirection(),Math.min(overall_steps,SCORE_EACH_STEP)));
                 overall_steps++;
             }
-            players[i].addToScore(getTile(getPosition()[0],getPosition()[1]));
-            scores[i]=players[i].getScore();
+            //players[i%players.length].addToScore(getTile(getPosition()[0],getPosition()[1]));            
         }
-    }
-
-
-   /* public int[] walk(int... stepCounts) {
-        int overall_steps=0;
-        int[] scores = new int[players.length];
         for (int i=0; i<players.length; i++) {
-            players[i].turn();
-            overall_steps+=stepCounts[i];
-            for(int j=0; j<stepCounts[i]; j++) {
-                moveAndSet(players[i].getDirection(),Math.min(overall_steps,SCORE_EACH_STEP));
-            }
-            players[i].addToScore(getTile(getPosition()[0],getPosition()[1]));
             scores[i]=players[i].getScore();
         }
         return scores;
-    } */
+    }
 }

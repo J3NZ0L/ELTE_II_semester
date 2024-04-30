@@ -11,6 +11,5 @@
   }
 
   table caption {
-    caption-side: top; /* This positions the caption above the table */
-    size: 4rem;
+    caption-side:top; /* This positions the caption above the table */
   }

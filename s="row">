@@ -1,0 +1,217 @@
+[33mcommit 938fd833b409c031127a07ff63e758259967faf5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Tue Apr 23 14:05:35 2024 +0200
+
+    reviews szerkezete megvan elv, tesztelni kene szovegekkel
+
+[33mcommit 51cc793567c02f65c5f622c083defe28d20a0d35[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Tue Apr 23 13:19:39 2024 +0200
+
+    navbar stabil v1 kesz
+
+[33mcommit 1c0fa06f0af412e59d9d3061e03908f518db1c47[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Tue Apr 23 10:57:36 2024 +0200
+
+    sync
+
+[33mcommit a2572178f26d1379beda1e8e7ea7a6fd843e3200[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Tue Apr 23 10:56:15 2024 +0200
+
+    sync
+
+[33mcommit 1bd7900eac9c2e6e6d330b75e3ace71175fe6adc[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Mon Apr 22 22:19:59 2024 +0200
+
+    fixed the navbar and triangle, next task is adjusting the height of the image
+
+[33mcommit feb5e96d87d0714fe37886d7203d8d00506c853e[m
+Merge: fb786f3 c194505
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Mon Apr 22 10:38:03 2024 +0200
+
+    Merge branch 'master' of https://github.com/J3NZ0L/ELTE_II_semester
+
+[33mcommit c1945053a605dd03dbfb943fdc24e4dff10adbe6[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Mon Apr 22 08:30:50 2024 +0200
+
+    testCustomInit kovetkezik, addig full
+
+[33mcommit 8bdf707cc96942c9b47dce3faa6d207285bf76cf[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Sun Apr 21 16:41:04 2024 +0200
+
+    nincs leforditva a test, meg kell nezni winen mert problemas volt a testforditas
+
+[33mcommit ae3ba3011ac25bc0e96d3812bcc0a54ae0e0aa6f[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Sun Apr 21 16:16:28 2024 +0200
+
+    gitignore configured, math folders are excluded
+
+[33mcommit 0011baea79297723987b9ecd5aaf0ca42c0ca5d1[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Sun Apr 21 15:49:38 2024 +0200
+
+    more specification done in gitignore
+
+[33mcommit 5a8de7ac1f6081b634d5d037fc0b5bd41a287dda[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Sun Apr 21 15:47:22 2024 +0200
+
+    gitignore update: ignore math folders
+
+[33mcommit fb786f3076bdb8f276f035547181a3e9685ecc3b[m
+Merge: d21d152 8bdf707
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Sun Apr 21 14:43:22 2024 +0200
+
+    Merge branch 'master' of https://github.com/J3NZ0L/ELTE_II_semester
+
+[33mcommit 2099f0960fdaaf1cba376b3b7670e88c9c377a44[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Sat Apr 20 21:31:19 2024 +0200
+
+    getYstep jon
+
+[33mcommit d21d15272eff77d2eb0ff5eac2c1639cdc5eaebc[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Sat Apr 20 09:38:05 2024 +0200
+
+    kiserletezes haromszog kontenerre varazslasaval
+
+[33mcommit 465510e3455ae9b4821222fcf96b220ce251642c[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Sat Apr 20 09:03:13 2024 +0200
+
+    navbar egesz jo
+    
+    lehetne reszponzivan ugyanolyan szeles mint a benne szereplo elemek
+
+[33mcommit 9d1cdac3a0d8caa22f121a99d04caedc3cb999fc[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Fri Apr 19 18:48:27 2024 +0200
+
+    haromszog nagyjabol kesz
+    
+    nincsenek z indexen helyen meg a dolgok a haromszog korul
+
+[33mcommit dc697b3bf08f48cfa244533c439889cb9f7535f4[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Fri Apr 19 13:31:26 2024 +0200
+
+    Majdnem jo a triangle js-el
+    
+    annyit kell kikuszobolni hogy az elso megnyitasnal is jo legyen resize nelkul
+
+[33mcommit a3e1e953bd1ef1fa4f93a28e7e4eada8a860c766[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Thu Apr 18 21:26:46 2024 +0200
+
+    haromszog elkezdve, TODO still
+
+[33mcommit a29dafbefe79fb4b42d05a360cbb6072468d1a49[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Thu Apr 18 20:37:58 2024 +0200
+
+    WalkingBoard 2. konstruktoraig megvan
+
+[33mcommit 560ee7157b835490a9fa103bb2947588a7c388f9[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Thu Apr 18 18:21:54 2024 +0200
+
+    konstruktorok meg nincsenek kesz WalkingBoard.java-ban
+
+[33mcommit 719fd2f166392d00db2ac1013bdb244415ca2b90[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Thu Apr 18 18:00:35 2024 +0200
+
+    WalkingBoardStructureTest-ig megvan
+
+[33mcommit 7301c26924ad52600bdd9e65a932bbd14862ff4c[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Thu Apr 18 13:13:20 2024 +0200
+
+    getsize registration szummazassal
+
+[33mcommit 669462bc85742469a7f0496973f8813975b2143f[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Thu Apr 18 12:24:34 2024 +0200
+
+    feher header haromszog elkezdve
+
+[33mcommit 4035d451a2a82d117f86182669fca223296154a5[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Thu Apr 18 13:22:32 2024 +0200
+
+    navbar elkezdve
+
+[33mcommit 154a76b7401ef5688c15cec791861004cc193748[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Thu Apr 18 12:44:39 2024 +0200
+
+    kiszedve a felesleges css classok
+
+[33mcommit d45054912f3e7a81d768a041d30d219e08106940[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Wed Apr 17 21:33:25 2024 +0200
+
+    kepen belul szoveg jol elhelyezve
+
+[33mcommit 943fc7e97a22cca82bb69552dd4f9b1aef0f55db[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Wed Apr 17 20:59:59 2024 +0200
+
+    text-overlayyel
+
+[33mcommit cf93fab51957e04b1052d8cfb0227cffcf5db85e[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Tue Apr 16 18:25:54 2024 +0200
+
+    Elso kep+cim nagyjabol
+
+[33mcommit 1a72a11b4cd095c3772a2bf3adf9556503526f15[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Tue Apr 16 16:45:35 2024 +0200
+
+    Ora vegeig
+
+[33mcommit 864816d1a5069213ffa90caba3ccbb6c8d87e071[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Sat Apr 13 22:35:53 2024 +0200
+
+    allgreen tests
+
+[33mcommit b3b7d645719f7cd0373bfeecab34c17c3a3b651d[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Sat Apr 13 21:58:14 2024 +0200
+
+    OpenAccountnal plusz elokereses
+
+[33mcommit 95d7d61ede600902366ee6c6ef0044fb57ef2ab9[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Sat Apr 13 18:41:04 2024 +0200
+
+    Elso teszteles elott, de osszes class kesz
+
+[33mcommit 2f18c376f4488bedf1fcbb45e28c4d2e8ba1e20d[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Fri Apr 12 20:33:04 2024 +0200
+
+    Bankig kesz
+
+[33mcommit 75f0be8dc35116e1396e53750726296665187738[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Fri Apr 12 17:09:33 2024 +0200
+
+    Accountig megvan
+
+[33mcommit 8e183565408c65ccfff0f2fa075326ace8e4b150[m
+Author: J3NZ0L <jeneyzoltan2@gmail.com>
+Date:   Fri Apr 12 16:49:05 2024 +0200
+
+    Elso commit II. felevben

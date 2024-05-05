@@ -23,8 +23,12 @@
     <!-- specific css for index.html -->
     <link rel="stylesheet" href="./css/wo_styles.css">
 
+    <!-- css rules for printing -->
+    <link rel="stylesheet" href="./css/print.css">
+
     <!-- Javascript -->
     <script src="./script/liftr.js"></script>
+    <script src="./script/styleswitch.js"></script>
 
 </head>
 
@@ -82,14 +86,14 @@
                     </nav> <!-- navbar -->
                 </div> <!-- main nav -->
 
-                <div class="col-4 d-none"> <!-- TODO: MEG NEM LATSZIK -->
+                <div class="col-4 tothetop"> 
                     <nav id="styleswitch">
-                        <label for="styleSwitcher">Stílus: </label>
-                        <select id="styleSwitcher">
-                            <option value="normal">Normál</option>
-                            <option value="large">Nagy betűméret</option>
-                        </select>
-                    </nav>
+						<label for="styleSwitcher">Stílus: </label>
+						<select id="styleSwitcher">
+						<option value="normal">Normál</option>
+						<option value="large">Nagy betűméret</option>
+						</select>
+					</nav>  
                 </div>
 
             </div> <!-- row -->
@@ -152,7 +156,7 @@
                 <div class="table-responsive">
                     <table class="table table-hover table-bordered">
                         <caption class="ms-4">
-                            <strong class="h5">Example plan:</strong>
+                            <h5><strong>Example plan:</strong></h5>
                             <details>
                                 <summary>Help</summary>
                                 <p>In the table you can find an example of a workout plan, with detailed exercises for
@@ -242,45 +246,6 @@
             </div>
         </section>
     </main>
-
-
-
-    <footer>
-        <div class="navbar-bottom">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <h2 class="navbar-brand">Navigate between pages:</h2>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bottomNav"
-                        aria-controls="bottomNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse " id="bottomNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">LiftR Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="nutrition_guides.html">Nutrition</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact_us.html">Contact us</a>
-                            </li>
-                        </ul>
-                        <div class="d-flex d-lg-none justify-content-center">
-                            <span class="navbar-text">
-                                ©LiftR. All <a target="_blank" href="https://www.copyright.gov/what-is-copyright/">rights</a> reserved.
-                            </span>
-                        </div>
-                    </div>
-                    <div class="d-lg-flex d-none justify-content-lg-end custom-flex-end">
-                        <span class="navbar-text">
-                            ©LiftR. All <a target="_blank" href="https://www.copyright.gov/what-is-copyright/">rights</a> reserved.
-                        </span>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </footer>
 
 </body>
 

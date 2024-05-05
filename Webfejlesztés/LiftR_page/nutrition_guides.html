@@ -23,8 +23,12 @@
     <!-- specific css for index.html -->
     <link rel="stylesheet" href="./css/ng_styles.css">
 
+    <!-- css rules for printing -->
+    <link rel="stylesheet" href="./css/print.css">
+
     <!-- Javascript -->
     <script src="./script/liftr.js"></script>
+    <script src="./script/styleswitch.js"></script>
 
 </head>
 
@@ -80,14 +84,14 @@
                     </nav> <!-- navbar -->
                 </div> <!-- main nav -->
 
-                <div class="col-4 d-none"> <!-- TODO: MEG NEM LATSZIK -->
+                <div class="col-4 tothetop">         
                     <nav id="styleswitch">
-                        <label for="styleSwitcher">Stílus: </label>
-                        <select id="styleSwitcher">
-                            <option value="normal">Normál</option>
-                            <option value="large">Nagy betűméret</option>
-                        </select>
-                    </nav>
+						<label for="styleSwitcher">Stílus: </label>
+						<select id="styleSwitcher">
+						<option value="normal">Normál</option>
+						<option value="large">Nagy betűméret</option>
+						</select>
+					</nav>            
                 </div>
 
             </div> <!-- row -->
@@ -102,20 +106,20 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-7 col-12 ms-lg-5 ms-md-3 ms-0 mt-5">
                         <div class="title_container">
-                        <h1 id="tartalom">LiftR Nutrition guides</h1>
-                        <aside id="guarantee-aside-top">
-                            <h6>Guaranteed success!*</h6>
-                        </aside>
+                            <h1 id="tartalom">LiftR Nutrition guides</h1>
+                            <aside id="guarantee-aside-top">
+                                <h6>Guaranteed success!*</h6>
+                            </aside>
                         </div>
-                        
+
                     </div>
                 </div>
                 <div class="row">
                     <!-- (.col-lg-4.col-sm-12>figure>figcaption+img.fluid)*3 -->
                     <div class="col-lg-4 col-md-6 col-12 mx-auto">
-                        <figure >
+                        <figure>
                             <figcaption class="mb-2 ms-2 h5">Weight loss guide</figcaption>
-                            <a target="_blank"  href="./media/ng-full/ng1.jpg" class="thumbnail">
+                            <a target="_blank" href="./media/ng-full/ng1.jpg" class="thumbnail">
                                 <img src="./media/ng-thumbnails/ng1.jpg" alt="Toned, athletic woman inside gym"
                                     class="img-fluid mx-auto d-block">
                             </a>
@@ -144,13 +148,13 @@
             </div>
 
         </section> <!-- guides -->
-        
+
         <section> <!-- example guide -->
             <div class="container">
                 <div class="table-responsive">
                     <table class="table table-hover table-bordered">
                         <caption class="ms-4">
-                            <strong class="h5">Example guide:</strong>
+                            <h5><strong>Example guide:</strong></h5>
                             <details>
                                 <summary>Help</summary>
                                 <p>In the table you can find an example of a nutrition guide, with detailed meals for
@@ -158,118 +162,93 @@
                                     not necessarily fit your body type, goals and needs)</p>
                             </details>
                         </caption>
-                            <thead class="table-secondary">
-                                <tr>
-                                    <th>Weight loss guide</th>
-                                    <th>Breakfast</th>
-                                    <th>Lunch</th>
-                                    <th>Mid-day snack</th>
-                                    <th>Dinner</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Monday</td>
-                                    <td>Banana Tahini Toast 723 Calories</td>
-                                    <td>Coconut Milk Protein Shake 720 Calories</td>
-                                    <td>Cucumber & Hummus 117 Calories</td>
-                                    <td>Sausage on a Bed of Quinoa 710 Calories</td>
-                                </tr>
-                                <tr>
-                                    <td>Tuesday</td>
-                                    <td>Greek Yogurt Parfait 723 Calories</td>
-                                    <td>Quinoa Salad And Mixed Greens Salad 837 Calories</td>
-                                    <td></td>
-                                    <td>Baked Salmon 710 Calories</td>
-                                </tr>
-                                <tr>
-                                    <td>Wednesday</td>
-                                    <td>Oatmeal with Almond Butter 723 Calories</td>
-                                    <td>Chickpea Salad 720 Calories</td>
-                                    <td>Carrot Sticks 117 Calories</td>
-                                    <td>Stir-Fried Tofu 710 Calories</td>
-                                </tr>
-                                <tr>
-                                    <td>Thursday</td>
-                                    <td>Smoothie Bowl 723 Calories</td>
-                                    <td>Turkey and Avocado Wrap 720 Calories</td>
-                                    <td>Side of Snap Peas 117 Calories</td>
-                                    <td>Grilled Shrimp 710 Calories</td>
-                                </tr>
-                                <tr>
-                                    <td>Friday</td>
-                                    <td>Chia Seed Pudding 723 Calories</td>
-                                    <td>Black Bean Salad 720 Calories</td>
-                                    <td>Sliced Bell Peppers 117 Calories</td>
-                                    <td>Baked Chicken Breast 710 Calories</td>
-                                </tr>
-                                <tr>
-                                    <td>Saturday</td>
-                                    <td>Avocado Toast 723 Calories</td>
-                                    <td>Lentil Soup with Side of Steamed Green Beans 837 Calories</td>
-                                    <td></td>
-                                    <td>Baked Cod 710 Calories</td>
-                                </tr>
-                                <tr>
-                                    <td>Sunday</td>
-                                    <td>Dark Chocolate Oatmeal 700 Calories</td>
-                                    <td>Watermelon, Feta, & Mint Salad 600 Calories</td>
-                                    <td>Greek Yogurt with Berries 400 Calories</td>
-                                    <td>Sweet Potato and Chili Soup 700 Calories</td>
-                                </tr>
-                            </tbody>
+                        <thead class="table-secondary">
+                            <tr>
+                                <th>Weight loss guide</th>
+                                <th>Breakfast</th>
+                                <th>Lunch</th>
+                                <th>Mid-day snack</th>
+                                <th>Dinner</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Monday</td>
+                                <td>Banana Tahini Toast 723 Calories</td>
+                                <td>Coconut Milk Protein Shake 720 Calories</td>
+                                <td>Cucumber & Hummus 117 Calories</td>
+                                <td>Sausage on a Bed of Quinoa 710 Calories</td>
+                            </tr>
+                            <tr>
+                                <td>Tuesday</td>
+                                <td>Greek Yogurt Parfait 723 Calories</td>
+                                <td>Quinoa Salad And Mixed Greens Salad 837 Calories</td>
+                                <td></td>
+                                <td>Baked Salmon 710 Calories</td>
+                            </tr>
+                            <tr>
+                                <td>Wednesday</td>
+                                <td>Oatmeal with Almond Butter 723 Calories</td>
+                                <td>Chickpea Salad 720 Calories</td>
+                                <td>Carrot Sticks 117 Calories</td>
+                                <td>Stir-Fried Tofu 710 Calories</td>
+                            </tr>
+                            <tr>
+                                <td>Thursday</td>
+                                <td>Smoothie Bowl 723 Calories</td>
+                                <td>Turkey and Avocado Wrap 720 Calories</td>
+                                <td>Side of Snap Peas 117 Calories</td>
+                                <td>Grilled Shrimp 710 Calories</td>
+                            </tr>
+                            <tr>
+                                <td>Friday</td>
+                                <td>Chia Seed Pudding 723 Calories</td>
+                                <td>Black Bean Salad 720 Calories</td>
+                                <td>Sliced Bell Peppers 117 Calories</td>
+                                <td>Baked Chicken Breast 710 Calories</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday</td>
+                                <td>Avocado Toast 723 Calories</td>
+                                <td>Lentil Soup with Side of Steamed Green Beans 837 Calories</td>
+                                <td></td>
+                                <td>Baked Cod 710 Calories</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td>Dark Chocolate Oatmeal 700 Calories</td>
+                                <td>Watermelon, Feta, & Mint Salad 600 Calories</td>
+                                <td>Greek Yogurt with Berries 400 Calories</td>
+                                <td>Sweet Potato and Chili Soup 700 Calories</td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
                 <div>
                     <aside class="mt-3 mb-5">
-                        <p>
-                        We also recommend checking out these two websites for delicious healthy recipes: 
-                        <a target="_blank" href="https://www.eatingwell.com/recipes/18045/weight-loss-diet/">www.eatingwell.com/recipes</a> <a target="_blank" href="https://www.muscleandstrength.com/recipes">www.muscleandstrength.com/recipes</a>
-                        </p>
+                        <h6>
+                            We also recommend checking out these websites for delicious healthy recipes:
+                        </h6>
+                        <ul>
+                            <li>
+                                <a target="_blank"
+                                    href="https://www.eatingwell.com/recipes/18045/weight-loss-diet/">www.eatingwell.com/recipes</a>
+                            </li>
+                            <li>
+                                <a target="_blank"
+                                    href="https://www.muscleandstrength.com/recipes">www.muscleandstrength.com/recipes</a>
+                            </li>
+                            <li>
+                                <a target="_blank"
+                                    href="https://dinewithdrinks.com/best-bulking-recipes">dinewithdrinks.com/best-bulking-recipes
+                                </a>
+                            </li>
+                        </ul>
                     </aside>
                 </div>
             </div>
         </section> <!-- example guide -->
     </main>
-
-
-
-    <footer>
-        <div class="navbar-bottom">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <h2 class="navbar-brand">Navigate between pages:</h2>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bottomNav"
-                        aria-controls="bottomNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse " id="bottomNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">LiftR Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="workout_plans.html">Workout Plans</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact_us.html">Contact us</a>
-                            </li>
-                        </ul>
-                        <div class="d-flex d-lg-none justify-content-center">
-                            <span class="navbar-text">
-                                ©LiftR. All <a target="_blank" href="https://www.copyright.gov/what-is-copyright/">rights</a> reserved.
-                            </span>
-                        </div>
-                    </div>
-                    <div class="d-lg-flex d-none justify-content-lg-end custom-flex-end">
-                        <span class="navbar-text">
-                            ©LiftR. All <a target="_blank" href="https://www.copyright.gov/what-is-copyright/">rights</a> reserved.
-                        </span>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </footer>
 
 </body>
 

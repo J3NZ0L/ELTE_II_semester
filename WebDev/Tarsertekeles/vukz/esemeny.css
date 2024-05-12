@@ -1,0 +1,142 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body{
+  background-color: black;
+  color: #ebe0c5;
+  font-family: Helvetica, sans-serif;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+
+.header{
+  border-radius: 0px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  padding-top: 100px;
+}
+
+.pagetitle{
+  float: left;
+  margin-left: 30px;
+  padding-top: 25px;
+  color: #e7ae89;
+}
+
+  /* NAVBAR */
+  nav{
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  
+  .nav-item{
+    font-size: 125%;
+  }
+  
+  .navbartitle{
+    background-color: black;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    z-index: 1000;
+    height: 100px;
+    border-bottom: 0.2px solid #ebe0c5;
+  }
+  
+  .nav-link, .dropdown-item{
+    color: #ebe0c5;
+  }
+  
+  .nav-link:hover, .nav-link:active, .dropdown-toggle.show, .dropdown-toggle:focus{
+    color: #e7ae89;
+  }
+  
+  .dropdown-menu{
+    background-color: black;
+  }
+  
+  .dropdown-item:hover{
+    background-color: #e7ae89;
+    color: black;
+  }  
+
+.card{
+    background-color: black;
+    border: solid gray 0.02em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-title{
+    color: #e7ae89;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.card-body{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.10em;
+}
+
+.btn{
+    background-color: #e7ae89;
+    border: none;
+    color: black;
+}
+
+.row{
+    align-items: center;
+}
+
+.btn:hover, .btn:active, .btn:visited{
+    background-color: #e7ae89;
+    border: none;
+    color: black;
+}
+
+
+
+@media (max-width: 767px) {
+  .card-body .row .col {
+      flex: 0 0 100%; 
+      max-width: 100%; 
+  }
+
+  .nav .nav-pills {
+      flex-direction: column; 
+  }
+
+  .nav .nav-pills .nav-item {
+      width: 100%;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .card-body .row .col {
+      flex: 0 0 50%; 
+      max-width: 50%; 
+  }
+
+  .nav .nav-pills .nav-item {
+      width: auto;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .card-body .row .col {
+      flex: 0 0 25%; 
+      max-width: 25%; 
+  }
+
+  .nav .nav-pills .nav-item {
+      width: auto; 
+  }
+}
+
+#ugras{
+  visibility: hidden;
+}
+
+

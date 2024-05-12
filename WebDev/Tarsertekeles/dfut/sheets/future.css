@@ -1,0 +1,26 @@
+header, main {
+  text-align: center;
+}
+main {
+  width: 70%;
+  margin: 80px auto;
+}
+main > h1 {
+  margin: 40px 0;
+}
+.option-1, .option-2 {
+  margin: 100px 20px 40px 20px;
+}
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main img {
+  width: 400px;
+  max-width: 100%;
+  border: 1px solid #000;
+  border-radius: 1px;
+  margin: 10px;
+}

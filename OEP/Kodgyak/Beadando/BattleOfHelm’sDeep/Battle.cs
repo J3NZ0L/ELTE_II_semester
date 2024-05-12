@@ -18,7 +18,7 @@ namespace BattleOfHelm_sDeep
             orcgroup = og;
         }
 
-        private void StillAlive()
+        public void StillAlive() //TODO!! atirni privatera
         {
             foreach (Elf e in elfgroup.elves)
             {

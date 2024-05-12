@@ -126,7 +126,7 @@ public class TextFileReader : IDisposable
 
     public IEnumerable<string> ReadAllLines()
     {
-        while (ReadLine(out line))
+        while (ReadLine(out string line))
         {
             yield return line;
         }

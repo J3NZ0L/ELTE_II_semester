@@ -10,11 +10,12 @@ namespace BattleOfHelm_sDeep.OrcTypes
 {
     public class Ferocious : Orc
     {
-        public Ferocious(string name)
+        public Ferocious(string name, uint treasure)
         {
             this.name = name;
             this.maxHealth = 100;
             this.health = maxHealth;
+            this.treasure= treasure;
         }
 
         public override string GetType()

@@ -10,10 +10,10 @@ namespace BattleOfHelm_sDeep.OrcTypes
 {
     public class Careful : Orc
     {
-        public Careful(string name)
+        public Careful(string name, uint treasure)
         {
             this.name = name;
-            this.treasure = 0;
+            this.treasure = treasure;
             this.maxHealth = 80;
             this.health = maxHealth;
         }

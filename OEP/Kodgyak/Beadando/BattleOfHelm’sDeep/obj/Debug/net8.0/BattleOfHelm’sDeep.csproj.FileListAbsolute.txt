@@ -1,0 +1,15 @@
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm’sDeep\bin\Debug\net8.0\BattleOfHelm’sDeep.exe
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm’sDeep\bin\Debug\net8.0\BattleOfHelm’sDeep.deps.json
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm’sDeep\bin\Debug\net8.0\BattleOfHelm’sDeep.runtimeconfig.json
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm’sDeep\bin\Debug\net8.0\BattleOfHelm’sDeep.dll
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm’sDeep\bin\Debug\net8.0\BattleOfHelm’sDeep.pdb
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm’sDeep\obj\Debug\net8.0\BattleOfHelm’sDeep.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm’sDeep\obj\Debug\net8.0\BattleOfHelm’sDeep.AssemblyInfoInputs.cache
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm’sDeep\obj\Debug\net8.0\BattleOfHelm’sDeep.AssemblyInfo.cs
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm’sDeep\obj\Debug\net8.0\BattleOfHelm’sDeep.csproj.CoreCompileInputs.cache
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm’sDeep\obj\Debug\net8.0\BattleOfHelm’sDeep.sourcelink.json
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm’sDeep\obj\Debug\net8.0\BattleOfHelm’sDeep.dll
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm’sDeep\obj\Debug\net8.0\refint\BattleOfHelm’sDeep.dll
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm’sDeep\obj\Debug\net8.0\BattleOfHelm’sDeep.pdb
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm’sDeep\obj\Debug\net8.0\BattleOfHelm’sDeep.genruntimeconfig.cache
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm’sDeep\obj\Debug\net8.0\ref\BattleOfHelm’sDeep.dll

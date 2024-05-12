@@ -10,12 +10,13 @@ namespace BattleOfHelm_sDeep.OrcTypes
 {
     public class Cunning : Orc
     {
-        public Cunning(string name)
+        public Cunning(string name,uint treasure)
         {
             this.name = name;
-            this.treasure = 0;
+            this.treasure = treasure;
             this.maxHealth = 90;
             this.health = maxHealth;
+
         }
 
         public override string GetType()

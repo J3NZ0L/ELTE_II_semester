@@ -40,7 +40,7 @@ namespace BattleOfHelm_sDeep
                 throw new ArgumentException("The given amount is more than the current amount of elixir");
             }
             elixir = elixir - amount;
-            SetHealth(GetHealth() + amount);
+            SetHealth(GetHealth() + (int)amount);
         }
 
         protected void AddToElixir(uint amount)
@@ -59,7 +59,7 @@ namespace BattleOfHelm_sDeep
             {
                 if (GetElixir() + GetHealth() > toHP)
                 {
-                    UseElixir(toHP - GetHealth());
+                    UseElixir(toHP - (uint)GetHealth());
                 }
                 else
                 {

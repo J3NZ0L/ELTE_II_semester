@@ -40,16 +40,16 @@ namespace BattleOfHelm_sDeep.ElfTypes
 
         public override void AcceptDamage(Cunning cu)
         {
-            cu.SufferDamage(0);
+            SufferDamage(0);
         }
 
         public override void AcceptDamage(Careful ca)
         {
-            ca.SufferDamage(0);
+            SufferDamage(0);
         }
         public override void AcceptDamage(Ferocious fe)
         {
-            fe.SufferDamage(10);
+            SufferDamage(10);
         }
 
         public override void DealDamage(Orc o)
@@ -59,7 +59,7 @@ namespace BattleOfHelm_sDeep.ElfTypes
 
         public override string PrintCreature()
         {
-            return this.GetName() + " " + this.GetHealth() + " " + this.GetElixir() + " " + this.GetTreasure();
+            return this.GetName() + " "+ this.GetType()+" " + this.GetHealth() + " " + this.GetElixir() + " " + this.GetTreasure();
             //a nevük, fajtájuk, életerejük, elixírjük és kincsük kiírásával!
         }
 

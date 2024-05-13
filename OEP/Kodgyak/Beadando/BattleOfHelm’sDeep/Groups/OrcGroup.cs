@@ -17,18 +17,25 @@ namespace BattleOfHelm_sDeep.Groups
 
         public override bool AllDead()
         {
-            return orcs == null;
+            return orcs.Count==0;
         }
 
         public override void LeaveDead()
         {
-            foreach(Orc orc in orcs)
+            UniqueList<Orc> orcsToBury=new UniqueList<Orc>();
+            foreach (Orc orc in orcs)
             {
                 if (!orc.IsAlive())
                 {
-                    orcs.Remove(orc);
+                    orcsToBury.Add(orc);
                 }
             }
+
+            foreach(Orc orc in orcsToBury)
+            {
+                orcs.Remove(orc);
+            }
         }
+
     }
 }

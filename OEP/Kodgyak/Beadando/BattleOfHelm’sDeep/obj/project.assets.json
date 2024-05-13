@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm’sDeep\\BattleOfHelm’sDeep.csproj",
-      "projectName": "BattleOfHelm’sDeep",
-      "projectPath": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm’sDeep\\BattleOfHelm’sDeep.csproj",
+      "projectUniqueName": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm’sDeep\\BattleOfHelm_sDeep.csproj",
+      "projectName": "BattleOfHelm_sDeep",
+      "projectPath": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm’sDeep\\BattleOfHelm_sDeep.csproj",
       "packagesPath": "C:\\Users\\jeney\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm’sDeep\\obj\\",
       "projectStyle": "PackageReference",

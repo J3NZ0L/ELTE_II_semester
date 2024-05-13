@@ -14,7 +14,7 @@ namespace BattleOfHelm_sDeep.OrcTypes
         {
             this.name = name;
             this.maxHealth = 100;
-            this.health = maxHealth;
+            this.health = (int)maxHealth;
             this.treasure= treasure;
         }
 
@@ -45,7 +45,7 @@ namespace BattleOfHelm_sDeep.OrcTypes
 
         public override string PrintCreature()
         {
-            return this.GetName() + " " + this.GetHealth() + " " + this.GetTreasure();
+            return this.GetName() + " " + this.GetType() + " " + this.GetHealth() + " " + this.GetTreasure();
         }
     }
 }

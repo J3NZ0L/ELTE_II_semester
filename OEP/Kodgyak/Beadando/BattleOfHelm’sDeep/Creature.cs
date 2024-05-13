@@ -9,7 +9,7 @@ namespace BattleOfHelm_sDeep
     public abstract class Creature
     {
         protected string? name;
-        protected uint health;
+        protected int health;
         protected uint treasure;
         protected uint maxHealth;
         protected uint damage;
@@ -20,12 +20,12 @@ namespace BattleOfHelm_sDeep
             return name;
         }
 
-        public uint GetHealth()
+        public int GetHealth()
         {
             return health;
         }
 
-        public void SetHealth(uint value)
+        public void SetHealth(int value)
         {
             health = value;
         }
@@ -67,7 +67,7 @@ namespace BattleOfHelm_sDeep
 
         public void SufferDamage(uint damage)
         {
-            this.SetHealth(Math.Max(GetHealth() - damage, 0));
+            this.SetHealth(Math.Max(GetHealth() - (int)damage, 0));            
         }
 
         public void GatherEnemyTreasure(Creature creature)

@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BattleOfHelm’sDeep\BattleOfHelm_sDeep.csproj" />
+    <ProjectReference Include="..\BattleOfHelm_sDeep\BattleOfHelm_sDeep.csproj" />
   </ItemGroup>
 
   <ItemGroup>

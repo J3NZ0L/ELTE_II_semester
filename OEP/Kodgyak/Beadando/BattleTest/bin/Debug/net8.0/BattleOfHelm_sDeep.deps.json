@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BattleOfHelm_sDeep/1.0.0": {
+        "runtime": {
+          "BattleOfHelm_sDeep.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BattleOfHelm_sDeep/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

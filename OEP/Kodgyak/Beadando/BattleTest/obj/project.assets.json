@@ -999,8 +999,8 @@
     },
     "BattleOfHelm_sDeep/1.0.0": {
       "type": "project",
-      "path": "../BattleOfHelm’sDeep/BattleOfHelm_sDeep.csproj",
-      "msbuildProject": "../BattleOfHelm’sDeep/BattleOfHelm_sDeep.csproj"
+      "path": "../BattleOfHelm_sDeep/BattleOfHelm_sDeep.csproj",
+      "msbuildProject": "../BattleOfHelm_sDeep/BattleOfHelm_sDeep.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1039,8 +1039,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm’sDeep\\BattleOfHelm_sDeep.csproj": {
-              "projectPath": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm’sDeep\\BattleOfHelm_sDeep.csproj"
+            "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\BattleOfHelm_sDeep.csproj": {
+              "projectPath": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\BattleOfHelm_sDeep.csproj"
             }
           }
         }

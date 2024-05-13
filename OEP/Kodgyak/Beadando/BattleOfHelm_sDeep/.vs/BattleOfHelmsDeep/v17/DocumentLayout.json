@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E579CABC-1898-4D27-AE74-5AE803FFAF4F}|BattleOfHelm_sDeep.csproj|c:\\users\\jeney\\documents\\elte\\ii. szemeszter\\oep\\kodgyak\\beadando\\battleofhelm_sdeep\\elftypes\\reckless.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E579CABC-1898-4D27-AE74-5AE803FFAF4F}|BattleOfHelm_sDeep.csproj|solutionrelative:elftypes\\reckless.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E579CABC-1898-4D27-AE74-5AE803FFAF4F}|BattleOfHelm_sDeep.csproj|c:\\users\\jeney\\documents\\elte\\ii. szemeszter\\oep\\kodgyak\\beadando\\battleofhelm_sdeep\\elftypes\\wise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E579CABC-1898-4D27-AE74-5AE803FFAF4F}|BattleOfHelm_sDeep.csproj|solutionrelative:elftypes\\wise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E579CABC-1898-4D27-AE74-5AE803FFAF4F}|BattleOfHelm_sDeep.csproj|c:\\users\\jeney\\documents\\elte\\ii. szemeszter\\oep\\kodgyak\\beadando\\battleofhelm_sdeep\\orctypes\\careful.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E579CABC-1898-4D27-AE74-5AE803FFAF4F}|BattleOfHelm_sDeep.csproj|solutionrelative:orctypes\\careful.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E579CABC-1898-4D27-AE74-5AE803FFAF4F}|BattleOfHelm_sDeep.csproj|c:\\users\\jeney\\documents\\elte\\ii. szemeszter\\oep\\kodgyak\\beadando\\battleofhelm_sdeep\\orctypes\\cunning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E579CABC-1898-4D27-AE74-5AE803FFAF4F}|BattleOfHelm_sDeep.csproj|solutionrelative:orctypes\\cunning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E579CABC-1898-4D27-AE74-5AE803FFAF4F}|BattleOfHelm_sDeep.csproj|c:\\users\\jeney\\documents\\elte\\ii. szemeszter\\oep\\kodgyak\\beadando\\battleofhelm_sdeep\\orctypes\\ferocious.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E579CABC-1898-4D27-AE74-5AE803FFAF4F}|BattleOfHelm_sDeep.csproj|solutionrelative:orctypes\\ferocious.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E579CABC-1898-4D27-AE74-5AE803FFAF4F}|BattleOfHelm_sDeep.csproj|c:\\users\\jeney\\documents\\elte\\ii. szemeszter\\oep\\kodgyak\\beadando\\battleofhelm_sdeep\\orc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E579CABC-1898-4D27-AE74-5AE803FFAF4F}|BattleOfHelm_sDeep.csproj|solutionrelative:orc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E579CABC-1898-4D27-AE74-5AE803FFAF4F}|BattleOfHelm_sDeep.csproj|c:\\users\\jeney\\documents\\elte\\ii. szemeszter\\oep\\kodgyak\\beadando\\battleofhelm_sdeep\\elf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E579CABC-1898-4D27-AE74-5AE803FFAF4F}|BattleOfHelm_sDeep.csproj|solutionrelative:elf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E579CABC-1898-4D27-AE74-5AE803FFAF4F}|BattleOfHelm_sDeep.csproj|c:\\users\\jeney\\documents\\elte\\ii. szemeszter\\oep\\kodgyak\\beadando\\battleofhelm_sdeep\\elftypes\\dexterous.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E579CABC-1898-4D27-AE74-5AE803FFAF4F}|BattleOfHelm_sDeep.csproj|solutionrelative:elftypes\\dexterous.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E579CABC-1898-4D27-AE74-5AE803FFAF4F}|BattleOfHelm_sDeep.csproj|c:\\users\\jeney\\documents\\elte\\ii. szemeszter\\oep\\kodgyak\\beadando\\battleofhelm_sdeep\\creature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E579CABC-1898-4D27-AE74-5AE803FFAF4F}|BattleOfHelm_sDeep.csproj|solutionrelative:creature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E579CABC-1898-4D27-AE74-5AE803FFAF4F}|BattleOfHelm_sDeep.csproj|c:\\users\\jeney\\documents\\elte\\ii. szemeszter\\oep\\kodgyak\\beadando\\battleofhelm_sdeep\\battle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E579CABC-1898-4D27-AE74-5AE803FFAF4F}|BattleOfHelm_sDeep.csproj|solutionrelative:battle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E579CABC-1898-4D27-AE74-5AE803FFAF4F}|BattleOfHelm_sDeep.csproj|c:\\users\\jeney\\documents\\elte\\ii. szemeszter\\oep\\kodgyak\\beadando\\battleofhelm_sdeep\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E579CABC-1898-4D27-AE74-5AE803FFAF4F}|BattleOfHelm_sDeep.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ferocious.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\OrcTypes\\Ferocious.cs",
+              "RelativeDocumentMoniker": "OrcTypes\\Ferocious.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\OrcTypes\\Ferocious.cs",
+              "RelativeToolTip": "OrcTypes\\Ferocious.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAswBQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:32:45.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cunning.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\OrcTypes\\Cunning.cs",
+              "RelativeDocumentMoniker": "OrcTypes\\Cunning.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\OrcTypes\\Cunning.cs",
+              "RelativeToolTip": "OrcTypes\\Cunning.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAA9wDAAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:32:40.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Careful.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\OrcTypes\\Careful.cs",
+              "RelativeDocumentMoniker": "OrcTypes\\Careful.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\OrcTypes\\Careful.cs",
+              "RelativeToolTip": "OrcTypes\\Careful.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAswBQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:32:37.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Wise.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\ElfTypes\\Wise.cs",
+              "RelativeDocumentMoniker": "ElfTypes\\Wise.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\ElfTypes\\Wise.cs",
+              "RelativeToolTip": "ElfTypes\\Wise.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAA9wD0AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:32:33.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Reckless.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\ElfTypes\\Reckless.cs",
+              "RelativeDocumentMoniker": "ElfTypes\\Reckless.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\ElfTypes\\Reckless.cs",
+              "RelativeToolTip": "ElfTypes\\Reckless.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAA9wD8AAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:32:28.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dexterous.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\ElfTypes\\Dexterous.cs",
+              "RelativeDocumentMoniker": "ElfTypes\\Dexterous.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\ElfTypes\\Dexterous.cs",
+              "RelativeToolTip": "ElfTypes\\Dexterous.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAswCMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:32:15.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Creature.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\Creature.cs",
+              "RelativeDocumentMoniker": "Creature.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\Creature.cs",
+              "RelativeToolTip": "Creature.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAowFMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:26:49.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Orc.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\Orc.cs",
+              "RelativeDocumentMoniker": "Orc.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\Orc.cs",
+              "RelativeToolTip": "Orc.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAswBEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:25:24.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Battle.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\Battle.cs",
+              "RelativeDocumentMoniker": "Battle.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\Battle.cs",
+              "RelativeToolTip": "Battle.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwB4AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:18:10.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwB0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:17:44.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Elf.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\Elf.cs",
+              "RelativeDocumentMoniker": "Elf.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\Elf.cs",
+              "RelativeToolTip": "Elf.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA9wC0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:13:22.045Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

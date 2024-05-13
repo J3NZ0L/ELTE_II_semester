@@ -4,14 +4,14 @@
     "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleTest\\BattleTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm’sDeep\\BattleOfHelm_sDeep.csproj": {
+    "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\BattleOfHelm_sDeep.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm’sDeep\\BattleOfHelm_sDeep.csproj",
+        "projectUniqueName": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\BattleOfHelm_sDeep.csproj",
         "projectName": "BattleOfHelm_sDeep",
-        "projectPath": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm’sDeep\\BattleOfHelm_sDeep.csproj",
+        "projectPath": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\BattleOfHelm_sDeep.csproj",
         "packagesPath": "C:\\Users\\jeney\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm’sDeep\\obj\\",
+        "outputPath": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jeney\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,8 +88,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm’sDeep\\BattleOfHelm_sDeep.csproj": {
-                "projectPath": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm’sDeep\\BattleOfHelm_sDeep.csproj"
+              "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\BattleOfHelm_sDeep.csproj": {
+                "projectPath": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Beadando\\BattleOfHelm_sDeep\\BattleOfHelm_sDeep.csproj"
               }
             }
           }

@@ -1,8 +1,5 @@
 C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\bin\Debug\net8.0\CoverletSourceRootsMapping_BattleTest
 C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\bin\Debug\net8.0\testhost.dll
-C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\bin\Debug\net8.0\BattleOfHelm’sDeep.deps.json
-C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\bin\Debug\net8.0\BattleOfHelm’sDeep.runtimeconfig.json
-C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\bin\Debug\net8.0\BattleOfHelm’sDeep.exe
 C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\bin\Debug\net8.0\testhost.exe
 C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -100,9 +97,7 @@ C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\bin
 C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
 C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
 C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
-C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\bin\Debug\net8.0\BattleOfHelm’sDeep.dll
 C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
-C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\bin\Debug\net8.0\BattleOfHelm’sDeep.pdb
 C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\obj\Debug\net8.0\BattleTest.csproj.AssemblyReference.cache
 C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\obj\Debug\net8.0\BattleTest.GeneratedMSBuildEditorConfig.editorconfig
@@ -116,3 +111,8 @@ C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\obj
 C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\obj\Debug\net8.0\BattleTest.pdb
 C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\obj\Debug\net8.0\BattleTest.genruntimeconfig.cache
 C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\obj\Debug\net8.0\ref\BattleTest.dll
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\bin\Debug\net8.0\BattleOfHelm_sDeep.deps.json
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\bin\Debug\net8.0\BattleOfHelm_sDeep.runtimeconfig.json
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\bin\Debug\net8.0\BattleOfHelm_sDeep.exe
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\bin\Debug\net8.0\BattleOfHelm_sDeep.dll
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleTest\bin\Debug\net8.0\BattleOfHelm_sDeep.pdb

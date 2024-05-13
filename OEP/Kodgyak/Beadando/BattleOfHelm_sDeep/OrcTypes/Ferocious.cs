@@ -18,7 +18,7 @@ namespace BattleOfHelm_sDeep.OrcTypes
             this.treasure= treasure;
         }
 
-        public override string GetType()
+        public new string GetType()
         {
             return "Ferocious";
         }

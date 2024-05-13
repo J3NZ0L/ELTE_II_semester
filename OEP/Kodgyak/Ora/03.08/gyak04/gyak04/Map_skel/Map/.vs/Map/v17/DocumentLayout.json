@@ -1,9 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\03.08\\gyak04\\gyak04\\Map_skel\\Map\\",
+  "WorkspaceRootPath": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Ora\\03.08\\gyak04\\gyak04\\Map_skel\\Map\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{67D93141-8B06-472E-B18E-5CCBCE376D25}|Map\\Map.csproj|c:\\users\\jeney\\documents\\elte\\2. szemeszter\\oep\\kodgyak\\ora\\03.08\\gyak04\\gyak04\\map_skel\\map\\map\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF39130F-E9C8-4686-9ACD-E1C91949BFB8}|TestMap\\TestMap.csproj|c:\\users\\jeney\\documents\\elte\\ii. szemeszter\\oep\\kodgyak\\ora\\03.08\\gyak04\\gyak04\\map_skel\\map\\testmap\\unittestmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF39130F-E9C8-4686-9ACD-E1C91949BFB8}|TestMap\\TestMap.csproj|solutionrelative:testmap\\unittestmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF39130F-E9C8-4686-9ACD-E1C91949BFB8}|TestMap\\TestMap.csproj|c:\\users\\jeney\\documents\\elte\\ii. szemeszter\\oep\\kodgyak\\ora\\03.08\\gyak04\\gyak04\\map_skel\\map\\testmap\\testmap.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CF39130F-E9C8-4686-9ACD-E1C91949BFB8}|TestMap\\TestMap.csproj|solutionrelative:testmap\\testmap.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67D93141-8B06-472E-B18E-5CCBCE376D25}|Map\\Map.csproj|c:\\users\\jeney\\documents\\elte\\ii. szemeszter\\oep\\kodgyak\\ora\\03.08\\gyak04\\gyak04\\map_skel\\map\\map\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{67D93141-8B06-472E-B18E-5CCBCE376D25}|Map\\Map.csproj|solutionrelative:map\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,12 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UnitTestMap.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Ora\\03.08\\gyak04\\gyak04\\Map_skel\\Map\\TestMap\\UnitTestMap.cs",
+              "RelativeDocumentMoniker": "TestMap\\UnitTestMap.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Ora\\03.08\\gyak04\\gyak04\\Map_skel\\Map\\TestMap\\UnitTestMap.cs",
+              "RelativeToolTip": "TestMap\\UnitTestMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T09:38:33.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestMap",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Ora\\03.08\\gyak04\\gyak04\\Map_skel\\Map\\TestMap\\TestMap.csproj",
+              "RelativeDocumentMoniker": "TestMap\\TestMap.csproj",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Ora\\03.08\\gyak04\\gyak04\\Map_skel\\Map\\TestMap\\TestMap.csproj",
+              "RelativeToolTip": "TestMap\\TestMap.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-13T09:38:30.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Map.cs",
-              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\03.08\\gyak04\\gyak04\\Map_skel\\Map\\Map\\Map.cs",
+              "DocumentMoniker": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Ora\\03.08\\gyak04\\gyak04\\Map_skel\\Map\\Map\\Map.cs",
               "RelativeDocumentMoniker": "Map\\Map.cs",
-              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\03.08\\gyak04\\gyak04\\Map_skel\\Map\\Map\\Map.cs",
+              "ToolTip": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Ora\\03.08\\gyak04\\gyak04\\Map_skel\\Map\\Map\\Map.cs",
               "RelativeToolTip": "Map\\Map.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAFAAAA",
+              "ViewState": "AQIAAE8AAAAAAAAAAADwvxkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-08T11:32:37.5Z",
               "EditorCaption": ""

@@ -13,3 +13,8 @@ C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm_s
 C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm_sDeep\obj\Debug\net8.0\BattleOfHelm_sDeep.pdb
 C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm_sDeep\obj\Debug\net8.0\BattleOfHelm_sDeep.genruntimeconfig.cache
 C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm_sDeep\obj\Debug\net8.0\ref\BattleOfHelm_sDeep.dll
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm_sDeep\bin\Debug\net8.0\test1 - Copy.txt
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm_sDeep\bin\Debug\net8.0\test1.txt
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm_sDeep\bin\Debug\net8.0\test110518_endlessfight_cunnings_vs_dexterouses.txt
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm_sDeep\bin\Debug\net8.0\test110518_without_endlessness.txt
+C:\Users\jeney\Documents\ELTE\II. szemeszter\OEP\Kodgyak\Beadando\BattleOfHelm_sDeep\bin\Debug\net8.0\test1v1noelix.txt

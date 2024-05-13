@@ -81,8 +81,6 @@ namespace BattleOfHelm_sDeep
 
         public abstract string PrintCreature();
 
-        public abstract string GetType();
-
         public abstract void Attack(Creature creature);
     }
 }

@@ -34,7 +34,7 @@ namespace BattleOfHelm_sDeep.ElfTypes
             return 30;
         }
 
-        public override string GetType()
+        public new string GetType()
         {
             return "Reckless";
         }

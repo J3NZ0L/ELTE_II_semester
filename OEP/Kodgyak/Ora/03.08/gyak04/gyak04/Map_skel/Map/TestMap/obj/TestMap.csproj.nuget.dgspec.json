@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\03.08\\gyak04\\gyak04\\Map_skel\\Map\\TestMap\\TestMap.csproj": {}
+    "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Ora\\03.08\\gyak04\\gyak04\\Map_skel\\Map\\TestMap\\TestMap.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\03.08\\gyak04\\gyak04\\Map_skel\\Map\\TestMap\\TestMap.csproj": {
+    "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Ora\\03.08\\gyak04\\gyak04\\Map_skel\\Map\\TestMap\\TestMap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\03.08\\gyak04\\gyak04\\Map_skel\\Map\\TestMap\\TestMap.csproj",
+        "projectUniqueName": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Ora\\03.08\\gyak04\\gyak04\\Map_skel\\Map\\TestMap\\TestMap.csproj",
         "projectName": "TestMap",
-        "projectPath": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\03.08\\gyak04\\gyak04\\Map_skel\\Map\\TestMap\\TestMap.csproj",
+        "projectPath": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Ora\\03.08\\gyak04\\gyak04\\Map_skel\\Map\\TestMap\\TestMap.csproj",
         "packagesPath": "C:\\Users\\jeney\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\03.08\\gyak04\\gyak04\\Map_skel\\Map\\TestMap\\obj\\",
+        "outputPath": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Ora\\03.08\\gyak04\\gyak04\\Map_skel\\Map\\TestMap\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jeney\\AppData\\Roaming\\NuGet\\NuGet.Config",

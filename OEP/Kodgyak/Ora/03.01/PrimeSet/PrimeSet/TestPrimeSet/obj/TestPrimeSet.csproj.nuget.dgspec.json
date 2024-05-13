@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\03.01\\PrimeSet\\PrimeSet\\TestPrimeSet\\TestPrimeSet.csproj": {}
+    "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Ora\\03.01\\PrimeSet\\PrimeSet\\TestPrimeSet\\TestPrimeSet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\03.01\\PrimeSet\\PrimeSet\\PrimeSet\\PrimeSet.csproj": {
+    "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Ora\\03.01\\PrimeSet\\PrimeSet\\PrimeSet\\PrimeSet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\03.01\\PrimeSet\\PrimeSet\\PrimeSet\\PrimeSet.csproj",
+        "projectUniqueName": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Ora\\03.01\\PrimeSet\\PrimeSet\\PrimeSet\\PrimeSet.csproj",
         "projectName": "PrimeSet",
-        "projectPath": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\03.01\\PrimeSet\\PrimeSet\\PrimeSet\\PrimeSet.csproj",
+        "projectPath": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Ora\\03.01\\PrimeSet\\PrimeSet\\PrimeSet\\PrimeSet.csproj",
         "packagesPath": "C:\\Users\\jeney\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\03.01\\PrimeSet\\PrimeSet\\PrimeSet\\obj\\",
+        "outputPath": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Ora\\03.01\\PrimeSet\\PrimeSet\\PrimeSet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jeney\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,18 +60,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\03.01\\PrimeSet\\PrimeSet\\TestPrimeSet\\TestPrimeSet.csproj": {
+    "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Ora\\03.01\\PrimeSet\\PrimeSet\\TestPrimeSet\\TestPrimeSet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\03.01\\PrimeSet\\PrimeSet\\TestPrimeSet\\TestPrimeSet.csproj",
+        "projectUniqueName": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Ora\\03.01\\PrimeSet\\PrimeSet\\TestPrimeSet\\TestPrimeSet.csproj",
         "projectName": "TestPrimeSet",
-        "projectPath": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\03.01\\PrimeSet\\PrimeSet\\TestPrimeSet\\TestPrimeSet.csproj",
+        "projectPath": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Ora\\03.01\\PrimeSet\\PrimeSet\\TestPrimeSet\\TestPrimeSet.csproj",
         "packagesPath": "C:\\Users\\jeney\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\03.01\\PrimeSet\\PrimeSet\\TestPrimeSet\\obj\\",
+        "outputPath": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Ora\\03.01\\PrimeSet\\PrimeSet\\TestPrimeSet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jeney\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +88,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\03.01\\PrimeSet\\PrimeSet\\PrimeSet\\PrimeSet.csproj": {
-                "projectPath": "C:\\Users\\jeney\\Documents\\ELTE\\2. szemeszter\\OEP\\Kodgyak\\Ora\\03.01\\PrimeSet\\PrimeSet\\PrimeSet\\PrimeSet.csproj"
+              "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Ora\\03.01\\PrimeSet\\PrimeSet\\PrimeSet\\PrimeSet.csproj": {
+                "projectPath": "C:\\Users\\jeney\\Documents\\ELTE\\II. szemeszter\\OEP\\Kodgyak\\Ora\\03.01\\PrimeSet\\PrimeSet\\PrimeSet\\PrimeSet.csproj"
               }
             }
           }
@@ -93,6 +98,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -132,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

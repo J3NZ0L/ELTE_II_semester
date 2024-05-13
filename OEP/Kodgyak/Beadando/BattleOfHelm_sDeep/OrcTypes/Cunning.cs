@@ -19,7 +19,7 @@ namespace BattleOfHelm_sDeep.OrcTypes
 
         }
 
-        public override string GetType()
+        public new string GetType()
         {
             return "Cunning";
         }

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe13a067-9e0f-47a4-9e2d-b8418ae4c7f0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/WalkingBoard$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/WalkingBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/WalkingBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/Beadando/walking/game/WalkingBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/WalkingBoardTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/WalkingBoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Beadando/walking/game/WalkingBoardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/WalkingBoardWithPlayers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/WalkingBoardWithPlayers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Beadando/walking/game/WalkingBoardWithPlayers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/WalkingBoardWithPlayersTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/WalkingBoardWithPlayersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Beadando/walking/game/WalkingBoardWithPlayersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/player/MadlyRotatingBuccaneer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/player/MadlyRotatingBuccaneer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Beadando/walking/game/player/MadlyRotatingBuccaneer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/player/Player$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/player/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/tests/DirectionStructureTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/tests/DirectionStructureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Beadando/walking/game/tests/DirectionStructureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/tests/MadlyRotatingBuccaneerStructureTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/tests/PlayerStructureTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/tests/WalkingBoardBasicTestSuite$FunctionalTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/tests/WalkingBoardBasicTestSuite$StructuralTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/tests/WalkingBoardBasicTestSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/tests/WalkingBoardExtendedTestSuite$FunctionalTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/tests/WalkingBoardExtendedTestSuite$StructuralTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/tests/WalkingBoardExtendedTestSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/tests/WalkingBoardStructureTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/tests/WalkingBoardWithPlayersStructureTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/util/Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walking/game/util/myUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walkingboard-tests/DirectionStructureTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walkingboard-tests/PlayerStructureTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walkingboard-tests/WalkingBoardBasicTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walkingboard-tests/WalkingBoardExtendedTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walkingboard-tests/WalkingBoardFullTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walkingboard-tests/WalkingBoardStructureTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beadando/walkingboard-tests/WalkingBoardWithPlayersStructureTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2fodcP8CMPSliwpsfuJkAHSfsqU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe13a067-9e0f-47a4-9e2d-b8418ae4c7f0" name="Changes" comment="" />
+      <created>1714471444979</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714471444979</updated>
+      <workItem from="1714471448115" duration="31000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

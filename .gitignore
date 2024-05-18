@@ -3,3 +3,13 @@
 /Algoritmusok es adatszerkezetek/
 /Analizis I/
 OEP/Kodgyak/Beadando/Beadandozip/
+*.aux
+*.log
+*.gz
+*.xsim
+*.dtx
+*.toc
+.idea
+.vs
+.vscode
+*.out

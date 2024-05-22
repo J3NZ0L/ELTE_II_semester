@@ -92,7 +92,5 @@ namespace BattleOfHelm_sDeep
         public abstract void AcceptDamage(Careful ca);
 
         public abstract void AcceptDamage(Ferocious fe);
-
-        //DealDamage kellhet abstract metoduskent szuloben?
     }
 }

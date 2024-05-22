@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BattleOfHelm_sDeep")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63756def9219e3fd4a5620d3cf1f37aceb90afaf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f100e228f814b4413db1e17a276eff12a9482e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("BattleOfHelm_sDeep")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BattleOfHelm_sDeep")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

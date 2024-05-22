@@ -18,7 +18,7 @@ namespace BattleOfHelm_sDeep.OrcTypes
             this.health = (int)maxHealth;
         }
 
-        public new string GetType()
+        public override string GetType()
         {
             return "Careful";
         }

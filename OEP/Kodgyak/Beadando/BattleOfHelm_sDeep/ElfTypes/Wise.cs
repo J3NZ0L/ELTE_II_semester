@@ -33,7 +33,7 @@ namespace BattleOfHelm_sDeep.ElfTypes
             return this.maxHealth;
         }
 
-        public new string GetType()
+        public override string GetType()
         {
             return "Wise";
         }

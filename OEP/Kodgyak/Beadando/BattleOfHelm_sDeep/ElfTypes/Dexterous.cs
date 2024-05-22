@@ -33,7 +33,7 @@ namespace BattleOfHelm_sDeep.ElfTypes
             return 50;
         }
 
-        public new string GetType()
+        public override string GetType()
         {
             return "Dexterous";
         }
